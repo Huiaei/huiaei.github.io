@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://huiaei.github.io/</id>
+    <title>Huiaei&apos;s Notebook</title>
+    <updated>2020-01-13T15:44:18.887Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://huiaei.github.io/"/>
+    <link rel="self" href="https://huiaei.github.io/atom.xml"/>
+    <subtitle>好记性不如烂笔头</subtitle>
+    <logo>https://huiaei.github.io/images/avatar.png</logo>
+    <icon>https://huiaei.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[Gridea 检查远程连接失败的一个解决方法]]></title>
+        <id>https://huiaei.github.io/post/gridea-jian-cha-yuan-cheng-lian-jie-shi-bai-de-yi-ge-jie-jue-fang-fa</id>
+        <link href="https://huiaei.github.io/post/gridea-jian-cha-yuan-cheng-lian-jie-shi-bai-de-yi-ge-jie-jue-fang-fa">
+        </link>
+        <updated>2020-01-13T15:25:00.000Z</updated>
+        <content type="html"><![CDATA[<p>首先我使用的是 Windows 版本，Gridea 版本是 0.9.1 。当时键入了配置完成后，保存，检查远程连接，发现提示我 <strong>远程连接失败，请检查仓库、用户名和 Token 设置</strong>。在其<strong>开发者工具</strong>中提示</p>
+<pre><code>    message: &quot;fatal: No such remote 'origin'↵&quot;
+    success: false
+</code></pre>
+<p>之后我向 Gridea 提出 issue 。在 <a href="https://github.com/yz0812">yz0812</a> 提示了 Gridea 其保存目录的 .git/config 文件中 url 格式应为</p>
+<pre><code>https://username:token@github.com/**.github.io.git
+</code></pre>
+<p>样式后，我打开所在文件，发现没有类似格式。</p>
+<hr>
+<p>受其提示，突发奇想。将项目使用 git 给 clone 下来，完成后，打开项目文件夹，打开其 .git/config 文件，将包括上面 url 格式的那一段，复制到 Gridea 的 .git/config 中，保存文件。然后再检查连接，成功。</p>
+]]></content>
+    </entry>
+</feed>
