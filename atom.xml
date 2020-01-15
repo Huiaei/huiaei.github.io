@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-01-13T15:47:49.049Z</updated>
+    <updated>2020-01-15T04:28:52.936Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[Origin （烂橘子）主程序离线安装包下载连接]]></title>
+        <id>https://huiaei.github.io/post/40cBsb6rL</id>
+        <link href="https://huiaei.github.io/post/40cBsb6rL">
+        </link>
+        <updated>2020-01-15T04:22:13.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="离线包下载link">离线包下载LINK</h1>
+<p><a href="https://download.dm.origin.com/origin/live/OriginSetup.exe">https://download.dm.origin.com/origin/live/OriginSetup.exe</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 检查远程连接失败的一个解决方法]]></title>
         <id>https://huiaei.github.io/post/gridea-jian-cha-yuan-cheng-lian-jie-shi-bai-de-yi-ge-jie-jue-fang-fa</id>
