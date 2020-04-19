@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-02-15T05:06:39.311Z</updated>
+    <updated>2020-04-19T07:13:46.943Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -12,11 +12,11 @@
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
     <entry>
         <title type="html"><![CDATA[Git 命令使用代理]]></title>
-        <id>https://huiaei.github.io/post/n4cMAnDxT</id>
-        <link href="https://huiaei.github.io/post/n4cMAnDxT">
+        <id>https://huiaei.github.io/post/n4cMAnDxT/</id>
+        <link href="https://huiaei.github.io/post/n4cMAnDxT/">
         </link>
         <updated>2020-02-15T03:45:36.000Z</updated>
-        <content type="html"><![CDATA[<p>假设代理目标为 socks5://127.0.0.1:10808</p>
+        <content type="html"><![CDATA[<p>假设代理到目标 socks5://127.0.0.1:10808</p>
 <ol>
 <li>全局代理<br>
 git config --global http.proxy socks5://127.0.0.1:10808<br>
@@ -33,8 +33,8 @@ https://blog.gobyte.cn/post/1a22163b.html</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Origin （烂橘子）主程序离线安装包下载连接]]></title>
-        <id>https://huiaei.github.io/post/40cBsb6rL</id>
-        <link href="https://huiaei.github.io/post/40cBsb6rL">
+        <id>https://huiaei.github.io/post/40cBsb6rL/</id>
+        <link href="https://huiaei.github.io/post/40cBsb6rL/">
         </link>
         <updated>2020-01-15T04:22:13.000Z</updated>
         <content type="html"><![CDATA[<h1 id="离线包下载link">离线包下载LINK</h1>
@@ -43,20 +43,21 @@ https://blog.gobyte.cn/post/1a22163b.html</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gridea 检查远程连接失败的一个解决方法]]></title>
-        <id>https://huiaei.github.io/post/skL8FHq7NQt7UAib</id>
-        <link href="https://huiaei.github.io/post/skL8FHq7NQt7UAib">
+        <id>https://huiaei.github.io/post/skL8FHq7NQt7UAib/</id>
+        <link href="https://huiaei.github.io/post/skL8FHq7NQt7UAib/">
         </link>
         <updated>2020-01-13T15:25:00.000Z</updated>
-        <content type="html"><![CDATA[<p>首先我使用的是 Windows 版本，Gridea 版本是 0.9.1 。当时键入了配置完成后，保存，检查远程连接，发现提示我 <strong>远程连接失败，请检查仓库、用户名和 Token 设置</strong>。在其<strong>开发者工具</strong>中提示</p>
+        <content type="html"><![CDATA[<p>我使用的是 Windows 版本，Gridea 版本是 0.9.1 。<br>
+当时键入了配置完成；保存；检查远程连接。发现提示 <strong>远程连接失败，请检查仓库、用户名和 Token 设置</strong>，在其<strong>开发者工具</strong>中提示</p>
 <pre><code>    message: &quot;fatal: No such remote 'origin'↵&quot;
     success: false
 </code></pre>
-<p>之后我向 Gridea 提出 issue 。在 <a href="https://github.com/yz0812">yz0812</a> 提示了 Gridea 其保存目录的 .git/config 文件中 url 格式应为</p>
+<p>之后我向 Gridea 提出 issue 。 <a href="https://github.com/yz0812">yz0812</a> 提示了 Gridea 其保存目录的 .git/config 文件中 url 格式应为</p>
 <pre><code>https://username:token@github.com/**.github.io.git
 </code></pre>
-<p>样式后，我打开所在文件，发现没有类似格式。</p>
+<p>后，我打开所在文件，并没有发现有类似格式。</p>
 <hr>
-<p>受其提示，突发奇想。将项目使用 git 给 clone 下来，完成后，打开项目文件夹，打开其 .git/config 文件，将包括上面 url 格式的那一段，复制到 Gridea 的 .git/config 中，保存文件。然后再检查连接，成功。</p>
+<p>也受其提示，突发奇想。先将 Page 项目使用 git 给 clone 下来；完成后，打开项目文件夹，打开其 .git/config 文件，将包括上面 url 格式的那一段，复制到 Gridea 的 .git/config 中，保存文件。之后再检查连接，成功。</p>
 ]]></content>
     </entry>
 </feed>
