@@ -7,7 +7,7 @@
 <meta name="keywords" content="Gridea静态个人博客">
 <meta name="description" content="好记性不如烂笔头">
 <meta name="theme-color" content="#000">
-<title>Git 命令使用/取消代理 | Huiaei&#39;s Notebook</title>
+<title>SMR硬盘列表 | Huiaei&#39;s Notebook</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1587869106152">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -27,8 +27,8 @@
 
 
 
-    <meta name="description" content="Git 命令使用/取消代理" />
-    <meta name="keywords" content="网络,经验,Git" />
+    <meta name="description" content="SMR硬盘列表" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div class="head-top-line"></div>
@@ -152,7 +152,8 @@
       <div class="sidebar-body pisces" id="sidebar_body">
         
           
-            
+            <div class="post-side-meta" id="post_side_meta">
+              
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -196,6 +197,193 @@
 
 
 </div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number auto" id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E8%A5%BF%E9%83%A8%E6%95%B0%E6%8D%AE">西部数据</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1; 
+let active = 'active-show', activeClass = 'active-current';
+let tocWrapper = document.querySelector('#toc_wrapper');
+let tocContent = tocWrapper.children[0];
+let autoNumber = tocWrapper&&tocWrapper.classList.contains('auto-number');
+
+function addTocNumber(elem, deep) {
+  if (!elem) {
+    return;
+  }
+  let prop = elem.__proto__;
+
+  if (prop === HTMLUListElement.prototype) {
+    for (let i = 0; i < elem.children.length; i++) {
+      addTocNumber(elem.children[i], deep + (i + 1) + '.');
+    }
+  } else if (prop === HTMLLIElement.prototype) {
+    // 保存li元素
+    if (elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+      lList.push(elem);
+    }
+    for (let i = 0; i < elem.children.length; i++) {
+      let cur = elem.children[i];
+      if (cur.__proto__ === HTMLAnchorElement.prototype) {
+        if (autoNumber) {
+          cur.text =  deep + ' ' + cur.text;
+        }
+      } else if (cur.__proto__ === HTMLUListElement.prototype) {
+        addTocNumber(cur, deep);
+      }
+    }
+  }
+}
+
+function removeParentActiveClass() {
+  let parents = tocContent.querySelectorAll('.'+active)
+  parents.forEach(function(elem) {
+    elem.classList.remove(active);
+  });
+}
+
+function addActiveClass(index) {
+  if (index >= 0 && index < hList.length) {
+    lList[index].classList.add(activeClass);
+  }
+}
+
+function removeActiveClass(index) {
+  if (index >= 0 && index < hList.length) {
+    lList[index].classList.remove(activeClass);
+  }
+}
+
+function addActiveLiElemment(elem, parent) {
+  if (!elem || elem === parent) {
+    return;
+  } else {
+    if (elem.__proto__ === HTMLLIElement.prototype) {
+      elem.classList.add(active);
+    }
+    addActiveLiElemment(elem.parentElement, parent);
+  }
+}
+
+function showToc() {
+  if (tocWrapper) {
+    postBody = document.querySelector('#post_body');
+    for (let i = 0; i < postBody.children.length; i++) {
+      if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+        hList.push(postBody.children[i]);
+      }
+    }
+    if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+    } else if (tocWrapper.classList.contains('no_compress')){
+      tocContent.classList.add('expanded');
+    } else {
+      if (hList.length > 10) {
+        active = 'active-hidden'
+        tocContent.classList.add('closed');
+      } else {
+        tocContent.classList.add('expanded');
+      }
+    }
+  }
+}
+
+(function() {
+  // 处理不是从#一级标题开始目录
+  if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+    let con = tocContent.children[0].children[0];
+    tocContent.innerHTML = con.innerHTML;
+  }
+  let markdownItTOC = document.querySelector('.markdownIt-TOC');
+  let innerHeight = window.innerHeight;
+  markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+  addTocNumber(tocContent, '');
+})();
+
+document.addEventListener('scroll', function(e) {
+  if (lList.length <= 0) {
+    return;
+  }
+  let scrollTop = document.scrollingElement.scrollTop + 10;
+  let dir;
+
+  if (lastTop - scrollTop > 0) {
+    dir = 'up';
+  } else {
+    dir = 'down';
+  }
+
+  lastTop = scrollTop;
+  if (scrollTop <= 0) {
+    if (lastIndex >= 0 && lastIndex < hList.length) {
+      lList[lastIndex].classList.remove(activeClass);
+    }
+    return;
+  }
+
+  let current = 0, hasFind = false;
+  for (let i = 0; i < hList.length; i++) {
+    if (hList[i].offsetTop > scrollTop) {
+      current = i;
+      hasFind = true;
+      break;
+    }
+  }
+  if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+    current = hList.length - 1;
+  } else {
+    current--;
+  }
+  if (dir === 'down') {
+    if (current > lastIndex) {
+      addActiveClass(current);
+      removeActiveClass(lastIndex) 
+      lastIndex = current;
+      removeParentActiveClass();
+      lList[current] && addActiveLiElemment(lList[current].parentElement,tocContent);
+    }
+  } else {
+    if (current < lastIndex) {
+      addActiveClass(current);
+      removeActiveClass(lastIndex);
+      lastIndex = current;
+      removeParentActiveClass();
+      lList[current] && addActiveLiElemment(lList[current].parentElement,tocContent);
+    }
+  }
+});
+
+window.addEventListener('load', function() {
+  showToc();
+  document.querySelector('#sidebar').style='display: block;';
+  tocWrapper.classList.add('toc-active');
+  setTimeout(function() {
+    if ("createEvent" in document) {
+      let evt = document.createEvent("HTMLEvents");
+      evt.initEvent("scroll", false, true);
+      document.dispatchEvent(evt);
+    }
+    else {
+      document.fireEvent("scroll");
+    }
+  }, 500)
+})
+
+</script>
+            </div>
           
         
       </div>
@@ -283,8 +471,8 @@
             <div class="section bg-color post post-page">
               <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://huiaei.github.io/post/n4cMAnDxT/">
-      Git 命令使用/取消代理
+    <a class="post-title-link" href="https://huiaei.github.io/post/0UgoEBfdb/">
+      SMR硬盘列表
     </a>
   </h1>
   <div class="post-meta">
@@ -292,34 +480,9 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2020-02-15</span>
+      <span>2020-04-26</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
-    
-      <span class="meta-item">
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://huiaei.github.io/tag/wang-luo/">
-              <span>网络</span>
-            </a>、
-          
-        
-          
-            <a href="https://huiaei.github.io/tag/jing-yan/">
-              <span>经验</span>
-            </a>、
-          
-        
-          
-            <a href="https://huiaei.github.io/tag/git/">
-              <span>Git</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
@@ -328,29 +491,80 @@
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>105<span class="pc-show">字数</span></span>
+      <span>75<span class="pc-show">字数</span></span>
     </span>
     
   </div>
 </header>
               <div class="post-body next-md-body" id="post_body">
-                <p>假设代理到目标 socks5://127.0.0.1:10808</p>
-<ol>
-<li>全局代理<br>
-git config --global http.proxy socks5://127.0.0.1:10808<br>
-git config --global https.proxy socks5://127.0.0.1:10808</li>
-<li>部分代理<br>
-git config --global http.https://github.com.proxy socks5://127.0.0.1:10808<br>
-git config --global https.https://github.com.proxy socks5://127.0.0.1:10808</li>
-<li>取消代理<br>
-git config --global --unset http.proxy<br>
-git config --global --unset https.proxy</li>
-</ol>
-<blockquote>
-<p>参考自:<br>
-https://blog.gobyte.cn/post/1a22163b.html<br>
-https://blog.csdn.net/tanningzhong/article/details/52817399</p>
-</blockquote>
+                <h2 id="西部数据">西部数据</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">尺寸</th>
+<th style="text-align:center">系列</th>
+<th style="text-align:center">容量</th>
+<th style="text-align:center">型号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">1TB</td>
+<td style="text-align:center">WD10SPZX</td>
+</tr>
+<tr>
+<td style="text-align:center">2.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">WD20SPZX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">WD20EZAZ</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">6TB</td>
+<td style="text-align:center">WD60EZAZ</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">黑盘</td>
+<td style="text-align:center">1TB</td>
+<td style="text-align:center">WD10SPSX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">WD20EFAX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">3TB</td>
+<td style="text-align:center">WD30EFAX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">4TB</td>
+<td style="text-align:center">WD40EFAX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">6TB</td>
+<td style="text-align:center">WD60EFAX</td>
+</tr>
+</tbody>
+</table>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200426104433.png" alt="" loading="lazy"></figure>
 
               </div>
               <div class="post-footer">
@@ -361,7 +575,7 @@ https://blog.csdn.net/tanningzhong/article/details/52817399</p>
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://huiaei.github.io/post/n4cMAnDxT/" title="Git 命令使用/取消代理">Git 命令使用/取消代理</a>
+      <a href="https://huiaei.github.io/post/0UgoEBfdb/" title="SMR硬盘列表">SMR硬盘列表</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -370,25 +584,15 @@ https://blog.csdn.net/tanningzhong/article/details/52817399</p>
   </ul>
   <div class="tags">
     
-      <a href="https://huiaei.github.io/tag/wang-luo/"># 网络</a>
-    
-      <a href="https://huiaei.github.io/tag/jing-yan/"># 经验</a>
-    
-      <a href="https://huiaei.github.io/tag/git/"># Git</a>
-    
   </div>
   <div class="nav">
     <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="SMR硬盘列表" href="https://huiaei.github.io/post/0UgoEBfdb/">SMR硬盘列表</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="SMR硬盘列表" href="https://huiaei.github.io/post/0UgoEBfdb/">上一篇</a>
-      
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="Origin （EA游戏平台）主程序离线安装包下载连接" href="https://huiaei.github.io/post/40cBsb6rL/">Origin （EA游戏平台）主程序离线安装包下载连接</a>
-        <a class="nav-mobile-next" title="Origin （EA游戏平台）主程序离线安装包下载连接" href="https://huiaei.github.io/post/40cBsb6rL/">下一篇</a>
+        <a class="nav-pc-next" title="Git 命令使用/取消代理" href="https://huiaei.github.io/post/n4cMAnDxT/">Git 命令使用/取消代理</a>
+        <a class="nav-mobile-next" title="Git 命令使用/取消代理" href="https://huiaei.github.io/post/n4cMAnDxT/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>

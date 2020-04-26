@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-04-25T09:26:34.475Z</updated>
+    <updated>2020-04-26T02:45:12.266Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,82 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[SMR硬盘列表]]></title>
+        <id>https://huiaei.github.io/post/0UgoEBfdb/</id>
+        <link href="https://huiaei.github.io/post/0UgoEBfdb/">
+        </link>
+        <updated>2020-04-26T01:48:05.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="西部数据">西部数据</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">尺寸</th>
+<th style="text-align:center">系列</th>
+<th style="text-align:center">容量</th>
+<th style="text-align:center">型号</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">2.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">1TB</td>
+<td style="text-align:center">WD10SPZX</td>
+</tr>
+<tr>
+<td style="text-align:center">2.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">WD20SPZX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">WD20EZAZ</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">蓝盘</td>
+<td style="text-align:center">6TB</td>
+<td style="text-align:center">WD60EZAZ</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">黑盘</td>
+<td style="text-align:center">1TB</td>
+<td style="text-align:center">WD10SPSX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">WD20EFAX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">3TB</td>
+<td style="text-align:center">WD30EFAX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">4TB</td>
+<td style="text-align:center">WD40EFAX</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">红盘</td>
+<td style="text-align:center">6TB</td>
+<td style="text-align:center">WD60EFAX</td>
+</tr>
+</tbody>
+</table>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200426104433.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Git 命令使用/取消代理]]></title>
         <id>https://huiaei.github.io/post/n4cMAnDxT/</id>
