@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-04-26T09:17:51.304Z</updated>
+    <updated>2020-04-30T03:19:08.628Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[站长平台]]></title>
+        <id>https://huiaei.github.io/post/DI9Fv6jWm/</id>
+        <link href="https://huiaei.github.io/post/DI9Fv6jWm/">
+        </link>
+        <updated>2020-04-30T03:09:19.000Z</updated>
+        <content type="html"><![CDATA[<p>谷歌站长：http://www.google.com/webmasters/sitemaps/<br>
+百度站长：https://ziyuan.baidu.com/<br>
+必应站长：https://www.bing.com/toolbox/webmaster/<br>
+搜狗站长：http://zhanzhang.sogou.com/  （实行的邀请制）<br>
+360站长：http://zhanzhang.so.com/</p>
+<hr>
+<blockquote>
+<p>Copy From<br>
+https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SMR硬盘列表]]></title>
         <id>https://huiaei.github.io/post/0UgoEBfdb/</id>
