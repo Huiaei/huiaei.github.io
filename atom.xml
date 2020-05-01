@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-04-30T03:22:19.268Z</updated>
+    <updated>2020-05-01T00:31:21.652Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -29,12 +29,14 @@ https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMR硬盘列表]]></title>
+        <title type="html"><![CDATA[官方公布使用 SMR 技术硬盘列表]]></title>
         <id>https://huiaei.github.io/post/0UgoEBfdb/</id>
         <link href="https://huiaei.github.io/post/0UgoEBfdb/">
         </link>
         <updated>2020-04-26T01:48:05.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="西部数据">西部数据</h2>
+        <content type="html"><![CDATA[<h2 id="西部数据western-digital">西部数据Western Digital</h2>
+<pre><code>（截至于2020.04.22）
+</code></pre>
 <table>
 <thead>
 <tr>
@@ -101,7 +103,67 @@ https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
 </tr>
 </tbody>
 </table>
-<figure data-type="image" tabindex="1"><img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200426104433.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200501080242.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p><a href="https://blog.westerndigital.com/wp-content/uploads/2020/04/2020_04_22_WD_SMR_SKUs_1Slide.pdf">https://blog.westerndigital.com/wp-content/uploads/2020/04/2020_04_22_WD_SMR_SKUs_1Slide.pdf</a></p>
+</blockquote>
+<hr>
+<h2 id="东芝toshiba">东芝TOSHIBA</h2>
+<pre><code>（截止于2020.04.28）  
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">型号</th>
+<th style="text-align:left">容量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">P300</td>
+<td style="text-align:left">6TB</td>
+</tr>
+<tr>
+<td style="text-align:center">P300</td>
+<td style="text-align:left">4TB</td>
+</tr>
+<tr>
+<td style="text-align:center">DT02</td>
+<td style="text-align:left">6TB</td>
+</tr>
+<tr>
+<td style="text-align:center">DT02</td>
+<td style="text-align:left">4TB</td>
+</tr>
+<tr>
+<td style="text-align:center">DT02-V</td>
+<td style="text-align:left">6TB</td>
+</tr>
+<tr>
+<td style="text-align:center">DT02-V</td>
+<td style="text-align:left">4TB</td>
+</tr>
+<tr>
+<td style="text-align:center">L200</td>
+<td style="text-align:left">2TB</td>
+</tr>
+<tr>
+<td style="text-align:center">L200</td>
+<td style="text-align:left">1TB</td>
+</tr>
+<tr>
+<td style="text-align:center">MQ04</td>
+<td style="text-align:left">2TB</td>
+</tr>
+<tr>
+<td style="text-align:center">MQ04</td>
+<td style="text-align:left">1TB</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><a href="https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html">https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html</a></p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
