@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-05-01T00:36:22.899Z</updated>
+    <updated>2020-05-02T02:19:54.976Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -29,7 +29,7 @@ https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[官方公布使用 SMR 技术的硬盘列表]]></title>
+        <title type="html"><![CDATA[使用 SMR 技术的硬盘列表]]></title>
         <id>https://huiaei.github.io/post/0UgoEBfdb/</id>
         <link href="https://huiaei.github.io/post/0UgoEBfdb/">
         </link>
@@ -174,6 +174,83 @@ https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
 </table>
 <blockquote>
 <p><a href="https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html">https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html</a></p>
+</blockquote>
+<hr>
+<h2 id="希捷seagate未找到官方说明来源第三方">希捷Seagate（未找到官方说明，来源第三方）</h2>
+<pre><code>(截止于2020.04.16）
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">尺寸</th>
+<th style="text-align:center">系列</th>
+<th style="text-align:center">容量</th>
+<th style="text-align:center">型号</th>
+<th style="text-align:center">转数</th>
+<th style="text-align:center">接口</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Barracuda</td>
+<td style="text-align:center">2TB</td>
+<td style="text-align:center">ST2000DM008</td>
+<td style="text-align:center">7200rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Barracuda</td>
+<td style="text-align:center">4TB</td>
+<td style="text-align:center">ST4000DM004</td>
+<td style="text-align:center">5400rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Barracuda</td>
+<td style="text-align:center">8TB</td>
+<td style="text-align:center">ST8000DM004</td>
+<td style="text-align:center">5400rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Desktop HDD</td>
+<td style="text-align:center">5TB</td>
+<td style="text-align:center">ST5000DM000</td>
+<td style="text-align:center">5900rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Exos</td>
+<td style="text-align:center">8TB</td>
+<td style="text-align:center">ST8000AS0003</td>
+<td style="text-align:center">5900rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Archive v2</td>
+<td style="text-align:center">6TB</td>
+<td style="text-align:center">ST6000AS0002</td>
+<td style="text-align:center">5900rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+<tr>
+<td style="text-align:center">3.5寸</td>
+<td style="text-align:center">Archive v2</td>
+<td style="text-align:center">8TB</td>
+<td style="text-align:center">ST8000AS0002</td>
+<td style="text-align:center">5900rpm</td>
+<td style="text-align:center">SATA 6gig</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><a href="https://www.cnbeta.com/articles/tech/968325.htm">https://www.cnbeta.com/articles/tech/968325.htm</a></p>
 </blockquote>
 ]]></content>
     </entry>
