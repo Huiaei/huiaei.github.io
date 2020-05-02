@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-05-02T02:19:54.976Z</updated>
+    <updated>2020-05-02T02:29:18.530Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -16,15 +16,39 @@
         <link href="https://huiaei.github.io/post/DI9Fv6jWm/">
         </link>
         <updated>2020-04-30T03:09:19.000Z</updated>
-        <content type="html"><![CDATA[<p>谷歌站长：http://www.google.com/webmasters/sitemaps/<br>
-百度站长：https://ziyuan.baidu.com/<br>
-必应站长：https://www.bing.com/toolbox/webmaster/<br>
-搜狗站长：http://zhanzhang.sogou.com/  （实行的邀请制）<br>
-360站长：http://zhanzhang.so.com/</p>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th style="text-align:center">提供商</th>
+<th style="text-align:left">链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">谷歌</td>
+<td style="text-align:left"><a href="http://www.google.com/webmasters/sitemaps/">http://www.google.com/webmasters/sitemaps/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">百度</td>
+<td style="text-align:left"><a href="https://ziyuan.baidu.com/">https://ziyuan.baidu.com/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">必应</td>
+<td style="text-align:left"><a href="https://www.bing.com/toolbox/webmaster/">https://www.bing.com/toolbox/webmaster/</a></td>
+</tr>
+<tr>
+<td style="text-align:center">搜狗</td>
+<td style="text-align:left"><a href="http://zhanzhang.sogou.com/">http://zhanzhang.sogou.com/</a>（实行的邀请制）</td>
+</tr>
+<tr>
+<td style="text-align:center">360</td>
+<td style="text-align:left"><a href="http://zhanzhang.so.com">http://zhanzhang.so.com</a></td>
+</tr>
+</tbody>
+</table>
 <hr>
 <blockquote>
-<p>Copy From<br>
-https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
+<p><a href="https://blog.csdn.net/DZRYWYBL/java/article/details/83963291">https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</a></p>
 </blockquote>
 ]]></content>
     </entry>
@@ -187,7 +211,7 @@ https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</p>
 <th style="text-align:center">容量</th>
 <th style="text-align:center">型号</th>
 <th style="text-align:center">转数</th>
-<th style="text-align:center">接口</th>
+<th style="text-align:center">接口速率</th>
 </tr>
 </thead>
 <tbody>
