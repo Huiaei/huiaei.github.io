@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-05-07T08:02:05.185Z</updated>
+    <updated>2020-06-09T23:50:45.619Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,57 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[CCleaner断网激活大法]]></title>
+        <id>https://huiaei.github.io/post/JJvgQcsHT/</id>
+        <link href="https://huiaei.github.io/post/JJvgQcsHT/">
+        </link>
+        <updated>2020-06-09T23:44:50.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>断开所有网络</li>
+<li>输入以下任意一种到注册栏中注册激活</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">名称</th>
+<th style="text-align:center">密钥</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Registered User</td>
+<td style="text-align:center">CBB4-FJN4-EPC6-G5P6-QT4C</td>
+</tr>
+<tr>
+<td style="text-align:center">任意</td>
+<td style="text-align:center">C2YW-XZT7-A4SE-UD89-YZPC</td>
+</tr>
+</tbody>
+</table>
+<ol start="3">
+<li>激活完后即可恢复网络</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[程序列表]]></title>
+        <id>https://huiaei.github.io/post/noVdhTBJQ/</id>
+        <link href="https://huiaei.github.io/post/noVdhTBJQ/">
+        </link>
+        <updated>2020-05-07T10:16:24.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="futuremark-systeminfo">Futuremark Systeminfo</h1>
+<ul>
+<li>Futuremark SystemInfo是Futuremark公司发行的一个检测系统的工具</li>
+<li>Futuremark SystemInfo系统硬件测试工具是一款是简单易用的系统硬件测试应用程序，电脑硬件配得好不好，需要用工具来测试，Futuremark SystemInf旨在百对各种过程和您计算机上的度硬件诊断分析。该工具可以作为基准组件与支持的应用程序用于确定您的系统和其他身份信息的版本.</li>
+<li>软件说明用于识别系统硬件的一个组件，广泛用在我们的多个基准测试中。它知不收集任何个人身份识别信息。系统信息更新不会影响基准测试分数，但可能需要最新版道本才能获取有效分数。</li>
+<li>不是电脑运行的必要程序，删版掉对系统的功能运行没有任何影响。</li>
+</ul>
+<blockquote>
+<p>https://zhidao.baidu.com/question/328772329.html</p>
+</blockquote>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[站长平台]]></title>
         <id>https://huiaei.github.io/post/DI9Fv6jWm/</id>
