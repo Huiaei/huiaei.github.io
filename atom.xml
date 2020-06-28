@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-06-28T11:57:47.236Z</updated>
+    <updated>2020-06-28T11:58:04.394Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -125,7 +125,7 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[使用 SMR 技术的硬盘列表]]></title>
+        <title type="html"><![CDATA[使用 SMR 技术的硬盘型号列表]]></title>
         <id>https://huiaei.github.io/post/0UgoEBfdb/</id>
         <link href="https://huiaei.github.io/post/0UgoEBfdb/">
         </link>
