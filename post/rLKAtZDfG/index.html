@@ -7,7 +7,7 @@
 <meta name="keywords" content="huiaei">
 <meta name="description" content="好记性不如烂笔头">
 <meta name="theme-color" content="#000">
-<title>Onedrive设置多线程传输 | Huiaei&#39;s Notebook</title>
+<title>WSL 工具 LxRunOffline 相关参数 | Huiaei&#39;s Notebook</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1602164247576">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -27,8 +27,8 @@
 
 
 
-    <meta name="description" content="Onedrive设置多线程传输" />
-    <meta name="keywords" content="Onedrive,技巧" />
+    <meta name="description" content="WSL 工具 LxRunOffline 相关参数" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div class="head-top-line"></div>
@@ -299,8 +299,8 @@
             <div class="section bg-color post post-page">
               <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://huiaei.github.io/post/aA4WAGuHG/">
-      Onedrive设置多线程传输
+    <a class="post-title-link" href="https://huiaei.github.io/post/rLKAtZDfG/">
+      WSL 工具 LxRunOffline 相关参数
     </a>
   </h1>
   <div class="post-meta">
@@ -308,44 +308,25 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2020-06-28</span>
+      <span>2020-10-08</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
-      <span class="meta-item">
-        <i class="fa fa-folder-o"></i>
-        <span class="pc-show">分类于</span>
-        
-          
-            <a href="https://huiaei.github.io/tag/onedrive/">
-              <span>Onedrive</span>
-            </a>、
-          
-        
-          
-            <a href="https://huiaei.github.io/tag/ji-qiao/">
-              <span>技巧</span>
-            </a>
-          
-        
-      </span>
-      <span class="post-meta-divider">|</span>
-    
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>1分钟</span>
+      <span>2分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>90<span class="pc-show">字数</span></span>
+      <span>447<span class="pc-show">字数</span></span>
     </span>
     
       
       
         
       
-      <span id="/post/aA4WAGuHG/" data-flag-title="Onedrive设置多线程传输" class="meta-item pc-show leancloud_visitors">
+      <span id="/post/rLKAtZDfG/" data-flag-title="WSL 工具 LxRunOffline 相关参数" class="meta-item pc-show leancloud_visitors">
         <span class="post-meta-divider">|</span>
         <i class="fa fa-eye"></i>
         <span>浏览量：<span class="leancloud-visitors-count" ></span></span>
@@ -354,19 +335,162 @@
   </div>
 </header>
               <div class="post-body next-md-body" id="post_body">
-                <p>修改文件：<br>
-&quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quot;<br>
-向第一行加入：<br>
-numberOfConcurrentUploads=3</p>
-<blockquote>
-<p>PS：数值项即为线程数，最小值为1，最大值为3，根据实际需要选择即可</p>
+                <blockquote>
+<p>基于版本3.5.0<br>
+项目地址：<a href="https://github.com/DDoSolitary/LxRunOffline">https://github.com/DDoSolitary/LxRunOffline</a></p>
 </blockquote>
-<p>可通过<code>Windows</code>+<code>R</code>运行，或cmd里运行下面直接打开修改：<br>
-notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quot;</p>
-<hr>
-<blockquote>
-<p><a href="https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/">https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/</a></p>
-</blockquote>
+<p>支持的操作有：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">简写参数</th>
+<th style="text-align:left">完整参数</th>
+<th style="text-align:left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">l</td>
+<td style="text-align:left">list</td>
+<td style="text-align:left">列出所有已安装的发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">gd</td>
+<td style="text-align:left">get-default</td>
+<td style="text-align:left">获取默认分发，由bash.exe使用</td>
+</tr>
+<tr>
+<td style="text-align:right">sd</td>
+<td style="text-align:left">set-default</td>
+<td style="text-align:left">设置默认分发，由bash.exe使用</td>
+</tr>
+<tr>
+<td style="text-align:right">i</td>
+<td style="text-align:left">install</td>
+<td style="text-align:left">安装新的发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">ui</td>
+<td style="text-align:left">uninstall</td>
+<td style="text-align:left">卸载发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">rg</td>
+<td style="text-align:left">register</td>
+<td style="text-align:left">注册现有的安装目录</td>
+</tr>
+<tr>
+<td style="text-align:right">ur</td>
+<td style="text-align:left">unregister</td>
+<td style="text-align:left">注销发行版，但不删除安装目录</td>
+</tr>
+<tr>
+<td style="text-align:right">m</td>
+<td style="text-align:left">move</td>
+<td style="text-align:left">将发行版移动到新目录</td>
+</tr>
+<tr>
+<td style="text-align:right">d</td>
+<td style="text-align:left">duplicate</td>
+<td style="text-align:left">在新目录中复制现有发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">e</td>
+<td style="text-align:left">export</td>
+<td style="text-align:left">将发行版的文件系统导出到.tar.gz文件，该文件可以通过“install”命令导入</td>
+</tr>
+<tr>
+<td style="text-align:right">r</td>
+<td style="text-align:left">run</td>
+<td style="text-align:left">在发行版中运行命令</td>
+</tr>
+<tr>
+<td style="text-align:right">di</td>
+<td style="text-align:left">get-dir</td>
+<td style="text-align:left">获取发行版的安装目录</td>
+</tr>
+<tr>
+<td style="text-align:right">gv</td>
+<td style="text-align:left">get-version</td>
+<td style="text-align:left">获取发行版的文件系统版本</td>
+</tr>
+<tr>
+<td style="text-align:right">ge</td>
+<td style="text-align:left">get-env</td>
+<td style="text-align:left">获取发行版的默认环境变量</td>
+</tr>
+<tr>
+<td style="text-align:right">se</td>
+<td style="text-align:left">set-env</td>
+<td style="text-align:left">设置发行版的默认环境变量。</td>
+</tr>
+<tr>
+<td style="text-align:right">ae</td>
+<td style="text-align:left">add-env</td>
+<td style="text-align:left">添加到发行版的默认环境变量。</td>
+</tr>
+<tr>
+<td style="text-align:right">re</td>
+<td style="text-align:left">remove-env</td>
+<td style="text-align:left">从发行版的默认环境变量中删除。</td>
+</tr>
+<tr>
+<td style="text-align:right">gu</td>
+<td style="text-align:left">get-uid</td>
+<td style="text-align:left">获取发行版的默认用户的UID。</td>
+</tr>
+<tr>
+<td style="text-align:right">su</td>
+<td style="text-align:left">set-uid</td>
+<td style="text-align:left">设置发行版的默认用户的UID。</td>
+</tr>
+<tr>
+<td style="text-align:right">gk</td>
+<td style="text-align:left">get-kernelcmd</td>
+<td style="text-align:left">获取发行版的默认内核命令行。</td>
+</tr>
+<tr>
+<td style="text-align:right">sk</td>
+<td style="text-align:left">set-kernelcmd</td>
+<td style="text-align:left">设置发行版的默认内核命令行。</td>
+</tr>
+<tr>
+<td style="text-align:right">gf</td>
+<td style="text-align:left">get-flags</td>
+<td style="text-align:left">获取一些发行版的标志。有关详细信息，请参见<a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl_distribution_flags">url</a></td>
+</tr>
+<tr>
+<td style="text-align:right">sf</td>
+<td style="text-align:left">set-flags</td>
+<td style="text-align:left">设置发行版的一些标志。有关详细信息，请参见<a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl_distribution_flags">url</a></td>
+</tr>
+<tr>
+<td style="text-align:right">s</td>
+<td style="text-align:left">shortcut</td>
+<td style="text-align:left">创建启动发布的快捷方式。</td>
+</tr>
+<tr>
+<td style="text-align:right">ec</td>
+<td style="text-align:left">export-config</td>
+<td style="text-align:left">将发行版的配置导出到XML文件。</td>
+</tr>
+<tr>
+<td style="text-align:right">ic</td>
+<td style="text-align:left">import-config</td>
+<td style="text-align:left">从XML文件导入发行版的配置</td>
+</tr>
+<tr>
+<td style="text-align:right">sm</td>
+<td style="text-align:left">summary</td>
+<td style="text-align:left">获取发行版的基本信息</td>
+</tr>
+<tr>
+<td style="text-align:right"></td>
+<td style="text-align:left">version</td>
+<td style="text-align:left">获取有关LxRunOffline版本信息</td>
+</tr>
+</tbody>
+</table>
 
               </div>
               <div class="post-footer">
@@ -377,7 +501,7 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://huiaei.github.io/post/aA4WAGuHG/" title="Onedrive设置多线程传输">Onedrive设置多线程传输</a>
+      <a href="https://huiaei.github.io/post/rLKAtZDfG/" title="WSL 工具 LxRunOffline 相关参数">WSL 工具 LxRunOffline 相关参数</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -386,23 +510,15 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
   </ul>
   <div class="tags">
     
-      <a href="https://huiaei.github.io/tag/onedrive/"># Onedrive</a>
-    
-      <a href="https://huiaei.github.io/tag/ji-qiao/"># 技巧</a>
-    
   </div>
   <div class="nav">
     <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="电信网关HG6201T获取超级账户" href="https://huiaei.github.io/post/tnoQslgIQ/">电信网关HG6201T获取超级账户</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="电信网关HG6201T获取超级账户" href="https://huiaei.github.io/post/tnoQslgIQ/">上一篇</a>
-      
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="CCleaner专业版断网激活" href="https://huiaei.github.io/post/JJvgQcsHT/">CCleaner专业版断网激活</a>
-        <a class="nav-mobile-next" title="CCleaner专业版断网激活" href="https://huiaei.github.io/post/JJvgQcsHT/">下一篇</a>
+        <a class="nav-pc-next" title="WSL（Windows子系统Linux）设置默认 Shell 为 Zsh" href="https://huiaei.github.io/post/_eXvcnkUt/">WSL（Windows子系统Linux）设置默认 Shell 为 Zsh</a>
+        <a class="nav-mobile-next" title="WSL（Windows子系统Linux）设置默认 Shell 为 Zsh" href="https://huiaei.github.io/post/_eXvcnkUt/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-07-10T10:20:48.266Z</updated>
+    <updated>2020-10-08T13:37:32.999Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -11,19 +11,227 @@
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
     <entry>
-        <title type="html"><![CDATA[Onedrive设置使用多线程传输]]></title>
+        <title type="html"><![CDATA[WSL 工具 LxRunOffline 相关参数]]></title>
+        <id>https://huiaei.github.io/post/rLKAtZDfG/</id>
+        <link href="https://huiaei.github.io/post/rLKAtZDfG/">
+        </link>
+        <updated>2020-10-08T13:00:25.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>基于版本3.5.0<br>
+项目地址：<a href="https://github.com/DDoSolitary/LxRunOffline">https://github.com/DDoSolitary/LxRunOffline</a></p>
+</blockquote>
+<p>支持的操作有：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">简写参数</th>
+<th style="text-align:left">完整参数</th>
+<th style="text-align:left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">l</td>
+<td style="text-align:left">list</td>
+<td style="text-align:left">列出所有已安装的发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">gd</td>
+<td style="text-align:left">get-default</td>
+<td style="text-align:left">获取默认分发，由bash.exe使用</td>
+</tr>
+<tr>
+<td style="text-align:right">sd</td>
+<td style="text-align:left">set-default</td>
+<td style="text-align:left">设置默认分发，由bash.exe使用</td>
+</tr>
+<tr>
+<td style="text-align:right">i</td>
+<td style="text-align:left">install</td>
+<td style="text-align:left">安装新的发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">ui</td>
+<td style="text-align:left">uninstall</td>
+<td style="text-align:left">卸载发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">rg</td>
+<td style="text-align:left">register</td>
+<td style="text-align:left">注册现有的安装目录</td>
+</tr>
+<tr>
+<td style="text-align:right">ur</td>
+<td style="text-align:left">unregister</td>
+<td style="text-align:left">注销发行版，但不删除安装目录</td>
+</tr>
+<tr>
+<td style="text-align:right">m</td>
+<td style="text-align:left">move</td>
+<td style="text-align:left">将发行版移动到新目录</td>
+</tr>
+<tr>
+<td style="text-align:right">d</td>
+<td style="text-align:left">duplicate</td>
+<td style="text-align:left">在新目录中复制现有发行版</td>
+</tr>
+<tr>
+<td style="text-align:right">e</td>
+<td style="text-align:left">export</td>
+<td style="text-align:left">将发行版的文件系统导出到.tar.gz文件，该文件可以通过“install”命令导入</td>
+</tr>
+<tr>
+<td style="text-align:right">r</td>
+<td style="text-align:left">run</td>
+<td style="text-align:left">在发行版中运行命令</td>
+</tr>
+<tr>
+<td style="text-align:right">di</td>
+<td style="text-align:left">get-dir</td>
+<td style="text-align:left">获取发行版的安装目录</td>
+</tr>
+<tr>
+<td style="text-align:right">gv</td>
+<td style="text-align:left">get-version</td>
+<td style="text-align:left">获取发行版的文件系统版本</td>
+</tr>
+<tr>
+<td style="text-align:right">ge</td>
+<td style="text-align:left">get-env</td>
+<td style="text-align:left">获取发行版的默认环境变量</td>
+</tr>
+<tr>
+<td style="text-align:right">se</td>
+<td style="text-align:left">set-env</td>
+<td style="text-align:left">设置发行版的默认环境变量。</td>
+</tr>
+<tr>
+<td style="text-align:right">ae</td>
+<td style="text-align:left">add-env</td>
+<td style="text-align:left">添加到发行版的默认环境变量。</td>
+</tr>
+<tr>
+<td style="text-align:right">re</td>
+<td style="text-align:left">remove-env</td>
+<td style="text-align:left">从发行版的默认环境变量中删除。</td>
+</tr>
+<tr>
+<td style="text-align:right">gu</td>
+<td style="text-align:left">get-uid</td>
+<td style="text-align:left">获取发行版的默认用户的UID。</td>
+</tr>
+<tr>
+<td style="text-align:right">su</td>
+<td style="text-align:left">set-uid</td>
+<td style="text-align:left">设置发行版的默认用户的UID。</td>
+</tr>
+<tr>
+<td style="text-align:right">gk</td>
+<td style="text-align:left">get-kernelcmd</td>
+<td style="text-align:left">获取发行版的默认内核命令行。</td>
+</tr>
+<tr>
+<td style="text-align:right">sk</td>
+<td style="text-align:left">set-kernelcmd</td>
+<td style="text-align:left">设置发行版的默认内核命令行。</td>
+</tr>
+<tr>
+<td style="text-align:right">gf</td>
+<td style="text-align:left">get-flags</td>
+<td style="text-align:left">获取一些发行版的标志。有关详细信息，请参见<a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl_distribution_flags">url</a></td>
+</tr>
+<tr>
+<td style="text-align:right">sf</td>
+<td style="text-align:left">set-flags</td>
+<td style="text-align:left">设置发行版的一些标志。有关详细信息，请参见<a href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl_distribution_flags">url</a></td>
+</tr>
+<tr>
+<td style="text-align:right">s</td>
+<td style="text-align:left">shortcut</td>
+<td style="text-align:left">创建启动发布的快捷方式。</td>
+</tr>
+<tr>
+<td style="text-align:right">ec</td>
+<td style="text-align:left">export-config</td>
+<td style="text-align:left">将发行版的配置导出到XML文件。</td>
+</tr>
+<tr>
+<td style="text-align:right">ic</td>
+<td style="text-align:left">import-config</td>
+<td style="text-align:left">从XML文件导入发行版的配置</td>
+</tr>
+<tr>
+<td style="text-align:right">sm</td>
+<td style="text-align:left">summary</td>
+<td style="text-align:left">获取发行版的基本信息</td>
+</tr>
+<tr>
+<td style="text-align:right"></td>
+<td style="text-align:left">version</td>
+<td style="text-align:left">获取有关LxRunOffline版本信息</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WSL（Windows子系统Linux）设置默认 Shell 为 Zsh]]></title>
+        <id>https://huiaei.github.io/post/_eXvcnkUt/</id>
+        <link href="https://huiaei.github.io/post/_eXvcnkUt/">
+        </link>
+        <updated>2020-10-08T12:35:04.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>安装 Zsh ，nano或者vim（选择你会使用的文本编辑器）</li>
+<li>使用 Linux 设置默认 Shell 为 Zsh 命令</li>
+</ol>
+<pre><code class="language-BASH">    chsh -s /bin/zsh
+</code></pre>
+<ol start="3">
+<li>使用上述指令后，重新使用CMD或者PowerShell进入WSL时，会发现依旧为默认的Bash，此时需要编辑文件生效。使用你熟悉的文本编辑工具，vim或者nano，打开<code>~/bashrc</code>，向里面添加：</li>
+</ol>
+<pre><code>    [[ $- == *i* ]] &amp;&amp; $(command -v zsh) || echo &quot;ZSH is not installed&quot;
+</code></pre>
+<p>之后保存即可。</p>
+<hr>
+<blockquote>
+<p>来源：<a href="https://limxw.com/posts/wsl-use-zsh/">WSL 中设置 zsh 为默认 SHELL</a></p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[电信网关HG6201T获取超级账户]]></title>
+        <id>https://huiaei.github.io/post/tnoQslgIQ/</id>
+        <link href="https://huiaei.github.io/post/tnoQslgIQ/">
+        </link>
+        <updated>2020-07-14T08:56:32.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>打开浏览器，打开<a href="http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi">http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi</a></li>
+<li>找到类似与以下的位置<br>
+&quot;baseinfoSet_TELECOMACCOUNT&quot;:&quot;telecomadmin&quot;,<br>
+&quot;baseinfoSet_TELECOMPASSWORD&quot;:&quot;120&amp;105&amp;112&amp;105&amp;103&amp;115&amp;113&amp;101&amp;104&amp;113&amp;109&amp;114&amp;48&amp;50&amp;48&amp;50&amp;55&amp;48&amp;48&amp;62&amp;&quot;,`</li>
+</ol>
+<p>第一行为超级管理账户名：telecomadmin<br>
+第二行为超级管理密码：120&amp;105&amp;112&amp;105&amp;103&amp;115&amp;113&amp;101&amp;104&amp;113&amp;109&amp;114&amp;48&amp;50&amp;48&amp;50&amp;55&amp;48&amp;48&amp;62&amp;</p>
+<p>当然，第二行的密码还需要进行一步处理.</p>
+<ol start="3">
+<li>将密码进行转换，由ASCII码转为字符。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Onedrive设置多线程传输]]></title>
         <id>https://huiaei.github.io/post/aA4WAGuHG/</id>
         <link href="https://huiaei.github.io/post/aA4WAGuHG/">
         </link>
         <updated>2020-06-28T10:34:57.000Z</updated>
-        <content type="html"><![CDATA[<p>修改这个文件：<br>
+        <content type="html"><![CDATA[<p>修改文件：<br>
 &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quot;<br>
 向第一行加入：<br>
 numberOfConcurrentUploads=3</p>
 <blockquote>
 <p>PS：数值项即为线程数，最小值为1，最大值为3，根据实际需要选择即可</p>
 </blockquote>
-<p>可通过win r运行，或cmd里运行下面直接打开修改：<br>
+<p>可通过<code>Windows</code>+<code>R</code>运行，或cmd里运行下面直接打开修改：<br>
 notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quot;</p>
 <hr>
 <blockquote>
@@ -32,7 +240,7 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CCleaner断网激活专业版大法]]></title>
+        <title type="html"><![CDATA[CCleaner专业版断网激活]]></title>
         <id>https://huiaei.github.io/post/JJvgQcsHT/</id>
         <link href="https://huiaei.github.io/post/JJvgQcsHT/">
         </link>
