@@ -8,7 +8,7 @@
 <meta name="description" content="好记性不如烂笔头">
 <meta name="theme-color" content="#000">
 <title>Origin （EA游戏平台）主程序离线安装包下载连接 | Huiaei&#39;s Notebook</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1603896832303">
+<link rel="shortcut icon" href="/favicon.ico?v=1603897157852">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
 
@@ -61,8 +61,6 @@
           
             
             
-              
-            
             <li class="nav-item ">
               
               
@@ -73,8 +71,6 @@
             </li>
           
             
-            
-              
             
             <li class="nav-item ">
               
@@ -87,8 +83,6 @@
           
             
             
-              
-            
             <li class="nav-item ">
               
               
@@ -100,8 +94,6 @@
           
             
             
-              
-            
             <li class="nav-item ">
               
               
@@ -111,16 +103,6 @@
               
             </li>
           
-          
-            
-              <li class="nav-item ">
-                <a href="/friends" target="_blank">
-                  
-                    fa-ship友情链接
-                  
-                </a>
-              </li>
-            
           
         </ul>
       </nav>
@@ -209,6 +191,8 @@
       </div>
     
   
+  
+
   
 
 
@@ -593,27 +577,23 @@ window.addEventListener('load', function() {
 </div>
               
   
-    
-      <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
 <script>
-  var gitalk = new Gitalk({
-    clientID: '90c41b22927cef805000',
-    clientSecret: '479d4cc4ce19808a1c67614293ac454f4b7861bb',
-    repo: 'huiaei.github.io',
-    owner: 'Huiaei',
-    admin: ['Huiaei'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-  gitalk.render('gitalk-container')
+new Valine({
+    el: '#vcomments' ,
+    appId: 'MnXOGG6AyUmeFhDxPaiepdiO-MdYXbMMI',
+    appKey: 'unKzM8CxHlaV5RyU8qLLVIBL',
+    notify: 'true' === 'true', 
+    avatar:'retro', 
+    placeholder: '谈一谈？',
+    pageSize: '10',
+    lang: 'zh-cn',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'normal',
+    avatarForce: 'true' === 'true',
+});
 </script>
-    
-    
-  
 
             </div>
           </div>
