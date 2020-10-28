@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-10-09T12:01:01.001Z</updated>
+    <updated>2020-10-28T14:53:56.885Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[Arch（pacman）配置国内源]]></title>
+        <id>https://huiaei.github.io/post/5kPmrk8a_/</id>
+        <link href="https://huiaei.github.io/post/5kPmrk8a_/">
+        </link>
+        <updated>2020-10-27T13:28:30.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>更改源</li>
+</ol>
+<ul>
+<li>使用<code>pacman-mirros</code>更改镜像软件库所在国家<br>
+<code>sudo pacman-mirrors -i -c China -m rank</code></li>
+<li>或者使用nano或vim打开<code>/etc/pacman.d/mirrorlist</code><br>
+添加源服务器链接并保存，例如，清华源<br>
+<code>Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch</code></li>
+</ul>
+<ol start="2">
+<li>使用命令<code>pacman -Syy</code>刷新库缓存</li>
+</ol>
+<hr>
+<p>推荐参考资料：<a href="https://wiki.archlinux.org">archwiki</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WSL 工具 LxRunOffline 相关参数]]></title>
         <id>https://huiaei.github.io/post/rLKAtZDfG/</id>
@@ -249,7 +272,7 @@
         <updated>2020-07-14T08:56:32.000Z</updated>
         <content type="html"><![CDATA[<ol>
 <li>打开浏览器，打开<a href="http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi">http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi</a></li>
-<li>找到类似与以下的位置<br>
+<li>找到与以下类似的位置<br>
 &quot;baseinfoSet_TELECOMACCOUNT&quot;:&quot;telecomadmin&quot;,<br>
 &quot;baseinfoSet_TELECOMPASSWORD&quot;:&quot;120&amp;105&amp;112&amp;105&amp;103&amp;115&amp;113&amp;101&amp;104&amp;113&amp;109&amp;114&amp;48&amp;50&amp;48&amp;50&amp;55&amp;48&amp;48&amp;62&amp;&quot;,`</li>
 </ol>
@@ -618,25 +641,6 @@ https://blog.csdn.net/tanningzhong/article/details/52817399</p>
 <pre><code>推荐使用多线程工具下载
 </code></pre>
 <p><a href="https://download.dm.origin.com/origin/live/OriginSetup.exe">https://download.dm.origin.com/origin/live/OriginSetup.exe</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gridea 检查远程连接失败的一个解决方法]]></title>
-        <id>https://huiaei.github.io/post/skL8FHq7NQt7UAib/</id>
-        <link href="https://huiaei.github.io/post/skL8FHq7NQt7UAib/">
-        </link>
-        <updated>2020-01-13T15:25:00.000Z</updated>
-        <content type="html"><![CDATA[<p>我使用的是 Windows 版本，Gridea 版本是 0.9.1 。<br>
-当时键入了配置完成；保存；检查远程连接。发现提示 <strong>远程连接失败，请检查仓库、用户名和 Token 设置</strong>，在其<strong>开发者工具</strong>中提示</p>
-<pre><code>    message: &quot;fatal: No such remote 'origin'↵&quot;
-    success: false
-</code></pre>
-<p>之后我向 Gridea 提出 issue 。 <a href="https://github.com/yz0812">yz0812</a> 提示了 Gridea 其保存目录的 .git/config 文件中 url 格式应为</p>
-<pre><code>https://username:token@github.com/**.github.io.git
-</code></pre>
-<p>后，我打开所在文件，并没有发现有类似格式。</p>
-<hr>
-<p>也受其提示，突发奇想。先将 Page 项目使用 git 给 clone 下来；完成后，打开项目文件夹，打开其 .git/config 文件，将包括上面 url 格式的那一段，复制到 Gridea 的 .git/config 中，保存文件。之后再检查连接，成功。</p>
 ]]></content>
     </entry>
 </feed>
