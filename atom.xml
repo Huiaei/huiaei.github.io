@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-10-28T15:06:07.284Z</updated>
+    <updated>2020-11-05T11:27:49.816Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -11,7 +11,25 @@
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
     <entry>
-        <title type="html"><![CDATA[Arch（pacman）配置国内源]]></title>
+        <title type="html"><![CDATA[pacman GPG key-rings钥匙串 缺少等问题]]></title>
+        <id>https://huiaei.github.io/post/qHT43PDga/</id>
+        <link href="https://huiaei.github.io/post/qHT43PDga/">
+        </link>
+        <updated>2020-11-05T11:11:37.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li><code>pacman-key --init</code>  初始化</li>
+<li><code>pacman-key --populate</code>  安装常用key</li>
+<li>可选选项
+<ul>
+<li>使用archlinuxcn<br>
+输入命令 <code>archlinuxcn-keyring</code></li>
+</ul>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Arch/Manjaro（pacman）配置国内源]]></title>
         <id>https://huiaei.github.io/post/5kPmrk8a_/</id>
         <link href="https://huiaei.github.io/post/5kPmrk8a_/">
         </link>
@@ -27,8 +45,42 @@
 <code>Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch</code></li>
 </ul>
 <ol start="2">
-<li>使用命令<code>pacman -Syy</code>刷新库缓存</li>
+<li>
+<p>使用命令<code>pacman -Syy</code>强制刷新软件库缓存</p>
+</li>
+<li>
+<p>可选选择<br>
+安装<code>archlinuxcn</code><br>
+1. 打开<code>/etc/pacman.conf</code><br>
+2. 在末尾添加</p>
+</li>
 </ol>
+<pre><code>[archlinuxcn]
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+</code></pre>
+<p>服务器可选以下，只需替换<code>Server =</code>之后的链接（搜集不全，如有缺失，欢迎补充）</p>
+<table>
+<thead>
+<tr>
+<th>名字</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>中科大</td>
+<td>https://mirrors.ustc.edu.cn/archlinuxcn/$arch</td>
+</tr>
+<tr>
+<td>网易</td>
+<td>http://mirrors.163.com/archlinux-cn/$arch</td>
+</tr>
+<tr>
+<td>腾讯云</td>
+<td>https://mirrors.cloud.tencent.com/archlinuxcn/$arch</td>
+</tr>
+</tbody>
+</table>
 <hr>
 <p>推荐参考资料：<a href="https://wiki.archlinux.org">archwiki</a></p>
 ]]></content>
@@ -629,18 +681,6 @@ git config --global --unset https.proxy</li>
 https://blog.gobyte.cn/post/1a22163b.html<br>
 https://blog.csdn.net/tanningzhong/article/details/52817399</p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Origin （EA游戏平台）主程序离线安装包下载连接]]></title>
-        <id>https://huiaei.github.io/post/40cBsb6rL/</id>
-        <link href="https://huiaei.github.io/post/40cBsb6rL/">
-        </link>
-        <updated>2020-01-15T04:22:13.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="离线包下载link">离线包下载LINK</h1>
-<pre><code>推荐使用多线程工具下载
-</code></pre>
-<p><a href="https://download.dm.origin.com/origin/live/OriginSetup.exe">https://download.dm.origin.com/origin/live/OriginSetup.exe</a></p>
 ]]></content>
     </entry>
 </feed>
