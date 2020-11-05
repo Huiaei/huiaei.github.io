@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-11-05T11:27:49.816Z</updated>
+    <updated>2020-11-05T11:30:18.178Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -21,7 +21,7 @@
 <li><code>pacman-key --populate</code>  安装常用key</li>
 <li>可选选项
 <ul>
-<li>使用archlinuxcn<br>
+<li>使用archlinuxcn（<a href="https://www.note4huiaei.tk/post/5kPmrk8a_/">如何添加archlinuxcn</a>）<br>
 输入命令 <code>archlinuxcn-keyring</code></li>
 </ul>
 </li>
