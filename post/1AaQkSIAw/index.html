@@ -7,7 +7,7 @@
 <meta name="keywords" content="notebook">
 <meta name="description" content="好记性不如烂笔头">
 <meta name="theme-color" content="#000">
-<title>pacman GPG key-rings钥匙串 缺少等问题 | Huiaei&#39;s Notebook</title>
+<title>Steam 在浏览器上使用脚本领取游戏 | Huiaei&#39;s Notebook</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1605268964440">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -27,7 +27,7 @@
 
 
 
-    <meta name="description" content="pacman GPG key-rings钥匙串 缺少等问题" />
+    <meta name="description" content="Steam 在浏览器上使用脚本领取游戏" />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -283,8 +283,8 @@
             <div class="section bg-color post post-page">
               <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://huiaei.github.io/post/qHT43PDga/">
-      pacman GPG key-rings钥匙串 缺少等问题
+    <a class="post-title-link" href="https://huiaei.github.io/post/1AaQkSIAw/">
+      Steam 在浏览器上使用脚本领取游戏
     </a>
   </h1>
   <div class="post-meta">
@@ -292,25 +292,25 @@
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2020-11-05</span>
+      <span>2020-11-13</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>1分钟</span>
+      <span>2分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>32<span class="pc-show">字数</span></span>
+      <span>343<span class="pc-show">字数</span></span>
     </span>
     
       
       
         
       
-      <span id="/post/qHT43PDga/" data-flag-title="pacman GPG key-rings钥匙串 缺少等问题" class="meta-item pc-show leancloud_visitors">
+      <span id="/post/1AaQkSIAw/" data-flag-title="Steam 在浏览器上使用脚本领取游戏" class="meta-item pc-show leancloud_visitors">
         <span class="post-meta-divider">|</span>
         <i class="fa fa-eye"></i>
         <span>浏览量：<span class="leancloud-visitors-count" ></span></span>
@@ -320,15 +320,101 @@
 </header>
               <div class="post-body next-md-body" id="post_body">
                 <ol>
-<li><code>pacman-key --init</code>  初始化</li>
-<li><code>pacman-key --populate</code>  安装常用key</li>
-<li>可选选项
-<ul>
-<li>使用archlinuxcn（<a href="https://www.note4huiaei.tk/post/5kPmrk8a_/">如何添加archlinuxcn</a>）<br>
-输入命令 <code>archlinuxcn-keyring</code></li>
-</ul>
-</li>
+<li>首先登录网页版Steam 账号。 <a href="https://store.steampowered.com/">https://store.steampowered.com/</a></li>
+<li>点击右上角自己账号<br>
+----账户明细<br>
+----许可和产品序列号激活</li>
+<li>获取需要的游戏ID，可前往<a href="https://steamdb.info">SteamDB</a>查询</li>
+<li><code>F12</code>打开控制台</li>
+<li>右键粘贴代码，在注释下方添加需要添加游戏的游戏ID，之后回车。</li>
 </ol>
+<p>添加位置如下</p>
+<pre><code class="language-javascript">    var freePackages =
+	[
+		//格式：请在下面输入游戏id。
+        //游戏id,
+        //游戏id,
+        //...,
+        --&gt;在这里添加游戏ID，每行结束以`,`结尾。&lt;--
+        --&gt;不要把直接把ID粘贴在这，需要粘贴在下方完整代码对应位置中&lt;--
+	];
+</code></pre>
+<p>完整代码如下</p>
+<pre><code class="language-JavaScript">(function()
+{
+    if( location.href.match( /^https:\/\/store\.steampowered\.com\/account\/licenses\/?$/ ) === null )
+	{
+		alert( '请在Steam帐号明细页面运行这些代码: https://store.steampowered.com/account/licenses/' );
+
+		window.location = 'https://store.steampowered.com/account/licenses/';
+
+		return;
+	}
+	
+	var freePackages =
+	[
+		//格式：请在下面输入游戏id。
+        //游戏id,
+        //游戏id,
+        //...,
+	];
+	
+	var ownedPackages = {};
+	
+	jQuery( '.account_table a' ).each( function( i, el )
+	{
+		var match = el.href.match( /javascript:RemoveFreeLicense\( ([0-9]+), '/ );
+		
+		if( match !== null )
+		{
+			ownedPackages[ +match[ 1 ] ] = true;
+		}
+	} );
+	
+	var i = 0,
+	    loaded = 0,
+	    package = 0,
+	    total = freePackages.length,
+	    modal = ShowBlockingWaitDialog( '努力执行中...',
+	    	'请耐心等待，如果有错误请无视，请耐心等待脚本加载完毕' );
+	
+	for( ; i &lt; total; i++ )
+	{
+		package = freePackages[ i ];
+		
+		if( ownedPackages[ package ] )
+		{
+			loaded++;
+			continue;
+		}
+		
+		jQuery.post(
+			'//store.steampowered.com/checkout/addfreelicense',
+			{
+				action: 'add_to_cart',
+				sessionid: g_sessionID,
+				subid: package
+			}
+		).always( function( )
+			{
+				loaded++;
+				
+				modal.Dismiss();
+				
+				if( loaded &gt;= total )
+				{
+					location.reload();
+				}
+				else
+				{
+					modal = ShowBlockingWaitDialog( '执行中...',
+						'加载至 &lt;b&gt;' + loaded + '&lt;/b&gt;/' + total + '.' );
+				}
+			}
+		);
+	}
+}());
+</code></pre>
 
               </div>
               <div class="post-footer">
@@ -339,7 +425,7 @@
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://huiaei.github.io/post/qHT43PDga/" title="pacman GPG key-rings钥匙串 缺少等问题">pacman GPG key-rings钥匙串 缺少等问题</a>
+      <a href="https://huiaei.github.io/post/1AaQkSIAw/" title="Steam 在浏览器上使用脚本领取游戏">Steam 在浏览器上使用脚本领取游戏</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -352,15 +438,11 @@
   <div class="nav">
     <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="Steam 在浏览器上使用脚本领取游戏" href="https://huiaei.github.io/post/1AaQkSIAw/">Steam 在浏览器上使用脚本领取游戏</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="Steam 在浏览器上使用脚本领取游戏" href="https://huiaei.github.io/post/1AaQkSIAw/">上一篇</a>
-      
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="Arch/Manjaro（pacman）配置国内源" href="https://huiaei.github.io/post/5kPmrk8a_/">Arch/Manjaro（pacman）配置国内源</a>
-        <a class="nav-mobile-next" title="Arch/Manjaro（pacman）配置国内源" href="https://huiaei.github.io/post/5kPmrk8a_/">下一篇</a>
+        <a class="nav-pc-next" title="pacman GPG key-rings钥匙串 缺少等问题" href="https://huiaei.github.io/post/qHT43PDga/">pacman GPG key-rings钥匙串 缺少等问题</a>
+        <a class="nav-mobile-next" title="pacman GPG key-rings钥匙串 缺少等问题" href="https://huiaei.github.io/post/qHT43PDga/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>

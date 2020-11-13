@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-11-05T14:30:59.301Z</updated>
+    <updated>2020-11-13T12:03:06.948Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,110 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[Steam 在浏览器上使用脚本领取游戏]]></title>
+        <id>https://huiaei.github.io/post/1AaQkSIAw/</id>
+        <link href="https://huiaei.github.io/post/1AaQkSIAw/">
+        </link>
+        <updated>2020-11-13T11:47:07.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>首先登录网页版Steam 账号。 <a href="https://store.steampowered.com/">https://store.steampowered.com/</a></li>
+<li>点击右上角自己账号<br>
+----账户明细<br>
+----许可和产品序列号激活</li>
+<li>获取需要的游戏ID，可前往<a href="https://steamdb.info">SteamDB</a>查询</li>
+<li><code>F12</code>打开控制台</li>
+<li>右键粘贴代码，在注释下方添加需要添加游戏的游戏ID，之后回车。</li>
+</ol>
+<p>添加位置如下</p>
+<pre><code class="language-javascript">    var freePackages =
+	[
+		//格式：请在下面输入游戏id。
+        //游戏id,
+        //游戏id,
+        //...,
+        --&gt;在这里添加游戏ID，每行结束以`,`结尾。&lt;--
+        --&gt;不要把直接把ID粘贴在这，需要粘贴在下方完整代码对应位置中&lt;--
+	];
+</code></pre>
+<p>完整代码如下</p>
+<pre><code class="language-JavaScript">(function()
+{
+    if( location.href.match( /^https:\/\/store\.steampowered\.com\/account\/licenses\/?$/ ) === null )
+	{
+		alert( '请在Steam帐号明细页面运行这些代码: https://store.steampowered.com/account/licenses/' );
+
+		window.location = 'https://store.steampowered.com/account/licenses/';
+
+		return;
+	}
+	
+	var freePackages =
+	[
+		//格式：请在下面输入游戏id。
+        //游戏id,
+        //游戏id,
+        //...,
+	];
+	
+	var ownedPackages = {};
+	
+	jQuery( '.account_table a' ).each( function( i, el )
+	{
+		var match = el.href.match( /javascript:RemoveFreeLicense\( ([0-9]+), '/ );
+		
+		if( match !== null )
+		{
+			ownedPackages[ +match[ 1 ] ] = true;
+		}
+	} );
+	
+	var i = 0,
+	    loaded = 0,
+	    package = 0,
+	    total = freePackages.length,
+	    modal = ShowBlockingWaitDialog( '努力执行中...',
+	    	'请耐心等待，如果有错误请无视，请耐心等待脚本加载完毕' );
+	
+	for( ; i &lt; total; i++ )
+	{
+		package = freePackages[ i ];
+		
+		if( ownedPackages[ package ] )
+		{
+			loaded++;
+			continue;
+		}
+		
+		jQuery.post(
+			'//store.steampowered.com/checkout/addfreelicense',
+			{
+				action: 'add_to_cart',
+				sessionid: g_sessionID,
+				subid: package
+			}
+		).always( function( )
+			{
+				loaded++;
+				
+				modal.Dismiss();
+				
+				if( loaded &gt;= total )
+				{
+					location.reload();
+				}
+				else
+				{
+					modal = ShowBlockingWaitDialog( '执行中...',
+						'加载至 &lt;b&gt;' + loaded + '&lt;/b&gt;/' + total + '.' );
+				}
+			}
+		);
+	}
+}());
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[pacman GPG key-rings钥匙串 缺少等问题]]></title>
         <id>https://huiaei.github.io/post/qHT43PDga/</id>
@@ -655,31 +759,6 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
 </table>
 <blockquote>
 <p><a href="https://www.cnbeta.com/articles/tech/968325.htm">https://www.cnbeta.com/articles/tech/968325.htm</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git 命令使用/取消代理]]></title>
-        <id>https://huiaei.github.io/post/n4cMAnDxT/</id>
-        <link href="https://huiaei.github.io/post/n4cMAnDxT/">
-        </link>
-        <updated>2020-02-15T03:45:36.000Z</updated>
-        <content type="html"><![CDATA[<p>假设代理到目标 socks5://127.0.0.1:10808</p>
-<ol>
-<li>全局代理<br>
-git config --global http.proxy socks5://127.0.0.1:10808<br>
-git config --global https.proxy socks5://127.0.0.1:10808</li>
-<li>部分代理<br>
-git config --global http.https://github.com.proxy socks5://127.0.0.1:10808<br>
-git config --global https.https://github.com.proxy socks5://127.0.0.1:10808</li>
-<li>取消代理<br>
-git config --global --unset http.proxy<br>
-git config --global --unset https.proxy</li>
-</ol>
-<blockquote>
-<p>参考自:<br>
-https://blog.gobyte.cn/post/1a22163b.html<br>
-https://blog.csdn.net/tanningzhong/article/details/52817399</p>
 </blockquote>
 ]]></content>
     </entry>
