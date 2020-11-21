@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2020-11-20T10:10:11.923Z</updated>
+    <updated>2020-11-21T09:33:47.478Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -11,12 +11,97 @@
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Huiaei&apos;s Notebook</rights>
     <entry>
+        <title type="html"><![CDATA[Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）]]></title>
+        <id>https://huiaei.github.io/post/RqtFG37f8/</id>
+        <link href="https://huiaei.github.io/post/RqtFG37f8/">
+        </link>
+        <updated>2020-11-21T06:50:28.000Z</updated>
+        <content type="html"><![CDATA[<table>
+<thead>
+<tr>
+<th>链接类型</th>
+<th>命令</th>
+<th>文件类型</th>
+<th>文件路径</th>
+<th>空间占用</th>
+<th>可链接类型</th>
+<th>本质</th>
+<th>Windows下是否可跨磁盘</th>
+<th>访问方式</th>
+<th>源文件与链接文件关联关系</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>符号链接（软链接）</td>
+<td>/d</td>
+<td>.symlinkd</td>
+<td>相对路径；绝对路径</td>
+<td>不占空间</td>
+<td>目录</td>
+<td>相当于只是对源文件进行引用，只有使用权，没有所有权</td>
+<td>本地磁盘；网络磁盘（共享目录）</td>
+<td>本地访问：通过链接目录所在磁盘路径访问；网络访问：通过tomcat可实现</td>
+<td>源删除链接失效；链接删除源保留；源内容变化链接内容变化；链接内容变化源内容变化</td>
+</tr>
+<tr>
+<td>目录链接（软链接）</td>
+<td>/j</td>
+<td>.junction</td>
+<td>绝对路径</td>
+<td>同上条</td>
+<td>同上条</td>
+<td>同上条，链接点</td>
+<td>本地硬盘</td>
+<td>同上条</td>
+<td>同上条</td>
+</tr>
+<tr>
+<td>硬链接</td>
+<td>/h</td>
+<td>.源文件类型</td>
+<td>同上条</td>
+<td>占用与原文件一致</td>
+<td>文件</td>
+<td>相当于复制粘贴</td>
+<td>不可以</td>
+<td>同上条</td>
+<td>同上条</td>
+</tr>
+<tr>
+<td>快捷方式</td>
+<td>批处理</td>
+<td>.lnk</td>
+<td>同上条</td>
+<td>文件大约1k，与源文件无关</td>
+<td>文件、目录</td>
+<td></td>
+<td>本地磁盘</td>
+<td>跳转到源所在位置访问；无法通过网络访问源</td>
+<td>源删除链接失效；链接删除源保留；只是个快捷方式</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Steam 在浏览器上使用脚本领取游戏]]></title>
         <id>https://huiaei.github.io/post/1AaQkSIAw/</id>
         <link href="https://huiaei.github.io/post/1AaQkSIAw/">
         </link>
-        <updated>2020-11-13T11:47:07.000Z</updated>
-        <content type="html"><![CDATA[<ol>
+        <updated>2020-11-13T03:47:07.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="单独激活">单独激活</h2>
+<ol>
+<li>首先登录网页版Steam 账号。 <a href="https://store.steampowered.com/">https://store.steampowered.com/</a></li>
+<li>点击右上角自己账号<br>
+----账户明细<br>
+----许可和产品序列号激活</li>
+<li>获取需要的游戏ID，可前往<a href="https://steamdb.info">SteamDB</a>查询</li>
+<li><code>F12</code>打开控制台</li>
+<li>输入AddFreeLicense(<code>游戏ID</code>);</li>
+</ol>
+<h2 id="批量激活">批量激活</h2>
+<ol>
 <li>首先登录网页版Steam 账号。 <a href="https://store.steampowered.com/">https://store.steampowered.com/</a></li>
 <li>点击右上角自己账号<br>
 ----账户明细<br>
@@ -533,232 +618,6 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
 <hr>
 <blockquote>
 <p><a href="https://blog.csdn.net/DZRYWYBL/java/article/details/83963291">https://blog.csdn.net/DZRYWYBL/java/article/details/83963291</a></p>
-</blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用 SMR 技术的硬盘型号列表]]></title>
-        <id>https://huiaei.github.io/post/0UgoEBfdb/</id>
-        <link href="https://huiaei.github.io/post/0UgoEBfdb/">
-        </link>
-        <updated>2020-04-26T01:48:05.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="西部数据western-digital">西部数据Western Digital</h2>
-<pre><code>（截至于2020.04.22）
-</code></pre>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">尺寸</th>
-<th style="text-align:center">系列</th>
-<th style="text-align:center">容量</th>
-<th style="text-align:center">型号</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">2.5寸</td>
-<td style="text-align:center">蓝盘</td>
-<td style="text-align:center">1TB</td>
-<td style="text-align:center">WD10SPZX</td>
-</tr>
-<tr>
-<td style="text-align:center">2.5寸</td>
-<td style="text-align:center">蓝盘</td>
-<td style="text-align:center">2TB</td>
-<td style="text-align:center">WD20SPZX</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">蓝盘</td>
-<td style="text-align:center">2TB</td>
-<td style="text-align:center">WD20EZAZ</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">蓝盘</td>
-<td style="text-align:center">6TB</td>
-<td style="text-align:center">WD60EZAZ</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">黑盘</td>
-<td style="text-align:center">1TB</td>
-<td style="text-align:center">WD10SPSX</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">红盘</td>
-<td style="text-align:center">2TB</td>
-<td style="text-align:center">WD20EFAX</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">红盘</td>
-<td style="text-align:center">3TB</td>
-<td style="text-align:center">WD30EFAX</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">红盘</td>
-<td style="text-align:center">4TB</td>
-<td style="text-align:center">WD40EFAX</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">红盘</td>
-<td style="text-align:center">6TB</td>
-<td style="text-align:center">WD60EFAX</td>
-</tr>
-</tbody>
-</table>
-<figure data-type="image" tabindex="1"><img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200501080242.png" alt="" loading="lazy"></figure>
-<blockquote>
-<p><a href="https://blog.westerndigital.com/wp-content/uploads/2020/04/2020_04_22_WD_SMR_SKUs_1Slide.pdf">https://blog.westerndigital.com/wp-content/uploads/2020/04/2020_04_22_WD_SMR_SKUs_1Slide.pdf</a></p>
-</blockquote>
-<hr>
-<h2 id="东芝toshiba">东芝TOSHIBA</h2>
-<pre><code>（截止于2020.04.28）  
-</code></pre>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">尺寸</th>
-<th style="text-align:center">型号</th>
-<th style="text-align:center">容量</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">2.5寸</td>
-<td style="text-align:center">L200</td>
-<td style="text-align:center">2TB</td>
-</tr>
-<tr>
-<td style="text-align:center">2.5寸</td>
-<td style="text-align:center">L200</td>
-<td style="text-align:center">1TB</td>
-</tr>
-<tr>
-<td style="text-align:center">2.5寸</td>
-<td style="text-align:center">MQ04</td>
-<td style="text-align:center">2TB</td>
-</tr>
-<tr>
-<td style="text-align:center">2.5寸</td>
-<td style="text-align:center">MQ04</td>
-<td style="text-align:center">1TB</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">P300</td>
-<td style="text-align:center">6TB</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">P300</td>
-<td style="text-align:center">4TB</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">DT02</td>
-<td style="text-align:center">6TB</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">DT02</td>
-<td style="text-align:center">4TB</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">DT02-V</td>
-<td style="text-align:center">6TB</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">DT02-V</td>
-<td style="text-align:center">4TB</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><a href="https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html">https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html</a></p>
-</blockquote>
-<hr>
-<h2 id="希捷seagate未找到官方说明来源第三方">希捷Seagate（未找到官方说明，来源第三方）</h2>
-<pre><code>(截止于2020.04.16）
-</code></pre>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">尺寸</th>
-<th style="text-align:center">系列</th>
-<th style="text-align:center">容量</th>
-<th style="text-align:center">型号</th>
-<th style="text-align:center">转数</th>
-<th style="text-align:center">接口速率</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Barracuda</td>
-<td style="text-align:center">2TB</td>
-<td style="text-align:center">ST2000DM008</td>
-<td style="text-align:center">7200rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Barracuda</td>
-<td style="text-align:center">4TB</td>
-<td style="text-align:center">ST4000DM004</td>
-<td style="text-align:center">5400rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Barracuda</td>
-<td style="text-align:center">8TB</td>
-<td style="text-align:center">ST8000DM004</td>
-<td style="text-align:center">5400rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Desktop HDD</td>
-<td style="text-align:center">5TB</td>
-<td style="text-align:center">ST5000DM000</td>
-<td style="text-align:center">5900rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Exos</td>
-<td style="text-align:center">8TB</td>
-<td style="text-align:center">ST8000AS0003</td>
-<td style="text-align:center">5900rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Archive v2</td>
-<td style="text-align:center">6TB</td>
-<td style="text-align:center">ST6000AS0002</td>
-<td style="text-align:center">5900rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-<tr>
-<td style="text-align:center">3.5寸</td>
-<td style="text-align:center">Archive v2</td>
-<td style="text-align:center">8TB</td>
-<td style="text-align:center">ST8000AS0002</td>
-<td style="text-align:center">5900rpm</td>
-<td style="text-align:center">SATA 6gig</td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<p><a href="https://www.cnbeta.com/articles/tech/968325.htm">https://www.cnbeta.com/articles/tech/968325.htm</a></p>
 </blockquote>
 ]]></content>
     </entry>
