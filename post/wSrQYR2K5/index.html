@@ -7,7 +7,7 @@
 <meta name="keywords" content="notebook">
 <meta name="description" content="好记性不如烂笔头">
 <meta name="theme-color" content="#000">
-<title>Steam 在浏览器上使用脚本领取游戏 | Huiaei&#39;s Notebook</title>
+<title>Python3 语法笔记 | Huiaei&#39;s Notebook</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1610722834054">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
@@ -27,7 +27,7 @@
 
 
 
-    <meta name="description" content="Steam 在浏览器上使用脚本领取游戏" />
+    <meta name="description" content="Python3 语法笔记" />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -218,10 +218,123 @@
               <div class="toc-box right-motion">
   <div class="toc-wrapper auto-number auto" id="toc_wrapper">
     <ul class="markdownIt-TOC">
-<li>
+<li><a href="#%E8%BF%90%E7%AE%97">运算</a>
 <ul>
-<li><a href="#%E5%8D%95%E7%8B%AC%E6%BF%80%E6%B4%BB">单独激活</a></li>
-<li><a href="#%E6%89%B9%E9%87%8F%E6%BF%80%E6%B4%BB">批量激活</a></li>
+<li><a href="#%E6%95%B4%E6%95%B0%E9%99%A4">整数除</a></li>
+<li><a href="#%E6%A8%A1%E9%99%A4">模除</a></li>
+<li><a href="#%E6%AC%A1%E6%96%B9">次方</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BF%9D%E7%95%99%E5%AD%97">保留字</a>
+<ul>
+<li><a href="#true-false-%E5%B8%83%E5%B0%94%E5%80%BC%E6%B3%A8%E6%84%8F%E5%A4%A7%E5%B0%8F%E5%86%99">True False 布尔值（注意大小写）</a></li>
+<li><a href="#not-%E5%8F%96%E9%9D%9E">not 取非</a></li>
+<li><a href="#and-or-%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97">and or 逻辑运算</a></li>
+<li><a href="#%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD">逻辑判断</a>
+<ul>
+<li><a href="#%E5%8F%8C%E7%AD%89%E5%8F%B7-%E5%88%A4%E6%96%AD%E7%9B%B8%E7%AD%89">双等号 == 判断相等</a></li>
+<li><a href="#%E5%88%A4%E6%96%AD%E4%B8%8D%E7%AD%89">!= 判断不等</a></li>
+<li><a href="#%E6%AF%94%E8%BE%83%E5%A4%A7%E5%B0%8F">比较大小</a></li>
+</ul>
+</li>
+<li><a href="#none-%E5%AF%B9%E8%B1%A1">None 对象</a></li>
+<li><a href="#is-%E6%AF%94%E8%BE%83%E6%8C%87%E5%90%91">is 比较指向</a></li>
+<li><a href="#print-%E6%89%93%E5%8D%B0%E8%BE%93%E5%87%BA">print 打印输出</a></li>
+<li><a href="#del-%E5%88%A0%E9%99%A4">del 删除</a></li>
+<li><a href="#in-%E5%88%A4%E6%96%AD%E5%8C%85%E5%90%AB">in 判断包含</a></li>
+<li><a href="#if-elif-else-%E6%9D%A1%E4%BB%B6">if elif else 条件</a></li>
+<li><a href="#%E5%BE%AA%E7%8E%AF">循环</a>
+<ul>
+<li><a href="#for-%E5%BE%AA%E7%8E%AF">for 循环</a></li>
+<li><a href="#while-%E5%BE%AA%E7%8E%AF">while 循环</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BC%82%E5%B8%B8">异常</a>
+<ul>
+<li><a href="#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86">异常处理</a></li>
+<li><a href="#raise-%E8%A7%A6%E5%8F%91%E5%BC%82%E5%B8%B8">raise 触发异常</a></li>
+</ul>
+</li>
+<li><a href="#yield-%E8%BF%AD%E4%BB%A3%E7%94%9F%E6%88%90">yield 迭代生成</a></li>
+<li><a href="#def-%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0">def 定义函数</a>
+<ul>
+<li><a href="#%E8%B0%83%E7%94%A8">调用</a></li>
+</ul>
+</li>
+<li><a href="#lambda-%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0">lambda 匿名函数</a></li>
+<li><a href="#%E7%9B%B8%E5%8A%A0%E5%90%8E%E7%9A%84%E5%80%BC%E4%B8%BA-30-%E7%9B%B8%E5%8A%A0%E5%90%8E%E7%9A%84%E5%80%BC%E4%B8%BA-40">=&gt; 相加后的值为 :  30<br>
+=&gt; 相加后的值为 :  40</a></li>
+</ul>
+</li>
+<li><a href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">数据类型</a>
+<ul>
+<li><a href="#%E5%AD%97%E7%AC%A6%E4%B8%B2">字符串</a>
+<ul>
+<li><a href="#%E5%BD%A2%E5%BC%8F">形式</a></li>
+<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
+<li><a href="#%E4%BD%9C%E4%B8%BA%E5%88%97%E8%A1%A8">作为列表</a></li>
+<li><a href="#%E6%A0%BC%E5%BC%8F%E5%8C%96">格式化</a></li>
+</ul>
+</li>
+<li><a href="#%E5%88%97%E8%A1%A8">列表</a>
+<ul>
+<li><a href="#append-%E5%9C%A8%E5%88%97%E8%A1%A8%E6%9C%80%E5%90%8E%E6%B7%BB%E5%8A%A0%E5%85%83%E7%B4%A0">.append 在列表最后添加元素</a></li>
+<li><a href="#pop-%E5%8E%BB%E9%99%A4%E5%88%97%E8%A1%A8%E6%9C%80%E5%90%8E%E7%9A%84%E5%85%83%E7%B4%A0">.pop 去除列表最后的元素</a></li>
+<li><a href="#%E5%88%87%E5%89%B2">切割</a></li>
+<li><a href="#%E7%9B%B8%E5%8A%A0%E5%88%97%E8%A1%A8%E4%BF%9D%E7%95%99%E9%87%8D%E5%A4%8D">相加列表，保留重复</a></li>
+<li><a href="#extend-%E6%8B%BC%E6%8E%A5%E5%88%97%E8%A1%A8%E4%BF%9D%E7%95%99%E9%87%8D%E5%A4%8D">.extend 拼接列表，保留重复</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%83%E7%BB%84">元组</a>
+<ul>
+<li><a href="#%E5%85%83%E7%BB%84%E8%B5%8B%E5%80%BC%E5%8F%98%E9%87%8F">元组赋值变量</a>
+<ul>
+<li><a href="#%E4%BA%A4%E6%8D%A2%E5%8F%98%E9%87%8F">交换变量</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%AD%97%E5%85%B8">字典</a>
+<ul>
+<li><a href="#%E8%B5%8B%E5%80%BC">赋值</a></li>
+<li><a href="#update-%E8%B5%8B%E5%80%BC">.update 赋值</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E9%94%AE%E5%8F%96%E5%80%BC">使用键取值</a></li>
+<li><a href="#keys-%E5%8F%96%E5%87%BA%E5%AD%97%E5%85%B8%E6%89%80%E6%9C%89%E7%9A%84%E9%94%AE">.keys 取出字典所有的键</a></li>
+<li><a href="#values-%E5%8F%96%E5%87%BA%E5%AD%97%E5%85%B8%E6%89%80%E6%9C%89%E7%9A%84%E5%80%BC">.values 取出字典所有的值</a>
+<ul>
+<li><a href="#%E9%81%BF%E5%85%8Dkeyerror%E9%94%99%E8%AF%AF">避免KeyError错误</a></li>
+</ul>
+</li>
+<li><a href="#%E9%BB%98%E8%AE%A4%E5%80%BC">默认值</a>
+<ul>
+<li><a href="#%E8%AE%BF%E9%97%AE%E9%94%99%E8%AF%AF%E7%9A%84%E9%94%AE%E6%97%B6%E8%BF%94%E5%9B%9E%E9%BB%98%E8%AE%A4%E5%80%BC">访问错误的键时，返回默认值</a></li>
+<li><a href="#%E8%AE%BE%E7%BD%AE%E9%94%AE%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC">设置键的默认值</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E9%9B%86%E5%90%88">集合</a>
+<ul>
+<li><a href="#%E8%B5%8B%E5%80%BC-%E4%B8%8E%E5%AD%97%E5%85%B8%E7%B1%BB%E4%BC%BC">赋值 与字典类似</a></li>
+<li><a href="#%E6%B7%BB%E5%8A%A0%E5%85%83%E7%B4%A0">添加元素</a></li>
+<li><a href="#%E4%BA%A4%E9%9B%86">交集</a></li>
+<li><a href="#%E5%B9%B6%E9%9B%86">并集</a></li>
+<li><a href="#%E8%A1%A5%E9%9B%86">补集</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%BA%8F%E5%8F%B7">序号</a>
+<ul>
+<li><a href="#%E6%8E%92%E5%BA%8F">排序</a></li>
+<li><a href="#%E9%94%99%E8%AF%AF">错误</a></li>
+<li><a href="#%E5%8F%96%E7%94%A8">取用</a></li>
+</ul>
+</li>
+<li><a href="#%E5%85%B6%E4%BD%99">其余</a>
+<ul>
+<li><a href="#bool-%E5%88%A4%E6%96%AD%E5%B8%83%E5%B0%94%E5%80%BC">bool()  判断布尔值</a></li>
+<li><a href="#range%E8%B5%B7%E5%A7%8B%E5%80%BC%E6%9C%80%E5%90%8E%E5%80%BC%E5%90%8E%E4%B8%80%E4%BD%8D">range(起始值,最后值后一位)</a></li>
 </ul>
 </li>
 </ul>
@@ -488,8 +601,8 @@ window.addEventListener('load', function() {
             <div class="section bg-color post post-page">
               <header class="post-header">
   <h1 class="post-title">
-    <a class="post-title-link" href="https://huiaei.github.io/post/1AaQkSIAw/">
-      Steam 在浏览器上使用脚本领取游戏
+    <a class="post-title-link" href="https://huiaei.github.io/post/wSrQYR2K5/">
+      Python3 语法笔记
     </a>
   </h1>
   <div class="post-meta">
@@ -497,25 +610,25 @@ window.addEventListener('load', function() {
     <span class="meta-item pc-show">
       <i class="fa fa-calendar-o"></i>
       <span>发布于</span>
-      <span>2020-11-13</span>
+      <span>2020-12-05</span>
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
-      <span>2分钟</span>
+      <span>7分钟</span>
     </span>
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>414<span class="pc-show">字数</span></span>
+      <span>1530<span class="pc-show">字数</span></span>
     </span>
     
       
       
         
       
-      <span id="/post/1AaQkSIAw/" data-flag-title="Steam 在浏览器上使用脚本领取游戏" class="meta-item pc-show leancloud_visitors">
+      <span id="/post/wSrQYR2K5/" data-flag-title="Python3 语法笔记" class="meta-item pc-show leancloud_visitors">
         <span class="post-meta-divider">|</span>
         <i class="fa fa-eye"></i>
         <span>浏览量：<span class="leancloud-visitors-count" ></span></span>
@@ -524,113 +637,341 @@ window.addEventListener('load', function() {
   </div>
 </header>
               <div class="post-body next-md-body" id="post_body">
-                <h2 id="单独激活">单独激活</h2>
-<ol>
-<li>首先登录网页版Steam 账号。 <a href="https://store.steampowered.com/">https://store.steampowered.com/</a></li>
-<li>点击右上角自己账号<br>
-----账户明细<br>
-----许可和产品序列号激活</li>
-<li>获取需要的游戏ID，可前往<a href="https://steamdb.info">SteamDB</a>查询</li>
-<li><code>F12</code>打开控制台</li>
-<li>输入AddFreeLicense(<code>游戏ID</code>);</li>
-</ol>
-<h2 id="批量激活">批量激活</h2>
-<ol>
-<li>首先登录网页版Steam 账号。 <a href="https://store.steampowered.com/">https://store.steampowered.com/</a></li>
-<li>点击右上角自己账号<br>
-----账户明细<br>
-----许可和产品序列号激活</li>
-<li>获取需要的游戏ID，可前往<a href="https://steamdb.info">SteamDB</a>查询</li>
-<li><code>F12</code>打开控制台</li>
-<li>右键粘贴代码，在注释下方添加需要添加游戏的游戏ID，之后回车。</li>
-</ol>
-<p>添加位置如下</p>
-<pre><code class="language-javascript">    var freePackages =
-	[
-		//格式：请在下面输入游戏id。
-        //游戏id,
-        //游戏id,
-        //...,
-        --&gt;在这里添加游戏ID，每行结束以`,`结尾。&lt;--
-        --&gt;不要把直接把ID粘贴在这，需要粘贴在下方完整代码对应位置中&lt;--
-	];
+                <h1 id="运算">运算</h1>
+<p>基本算法都支持，即加减乘除，括号。<br>
+除法结果一定为浮点数类型。</p>
+<h2 id="整数除">整数除</h2>
+<p>5 // 3  =&gt; 1<br>
+结果为向下取整，取更小整数。<br>
+-5 // 3  =&gt; -2</p>
+<h2 id="模除">模除</h2>
+<p>7 ％ ３  ＝&gt; １</p>
+<h2 id="次方">次方</h2>
+<p>2 ** 4  =&gt; 16</p>
+<hr>
+<h1 id="保留字">保留字</h1>
+<table>
+<thead>
+<tr>
+<th>and</th>
+<th>as</th>
+<th>assert</th>
+<th>break</th>
+<th>class</th>
+<th>continue</th>
+<th>def</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>if</td>
+<td>elif</td>
+<td>else</td>
+<td>except</td>
+<td>finally</td>
+<td>for</td>
+<td>from</td>
+</tr>
+<tr>
+<td>import</td>
+<td>in</td>
+<td>is</td>
+<td>lambda</td>
+<td>not</td>
+<td>or</td>
+<td>pass</td>
+</tr>
+<tr>
+<td>raise</td>
+<td>return</td>
+<td>try</td>
+<td>while</td>
+<td>with</td>
+<td>yield</td>
+<td>del</td>
+</tr>
+<tr>
+<td>global</td>
+<td>nonlocal</td>
+<td>True</td>
+<td>False</td>
+<td>None</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="true-false-布尔值注意大小写">True False 布尔值（注意大小写）</h2>
+<p>True<br>
+False</p>
+<p>None，0，空字符串，空列表，空字典都算是False<br>
+所有其他值都是True</p>
+<h2 id="not-取非">not 取非</h2>
+<p><code>not</code> True  =&gt; False<br>
+<code>not</code> False  =&gt; True</p>
+<h2 id="and-or-逻辑运算">and or 逻辑运算</h2>
+<p>True <code>and</code> False  =&gt;False<br>
+False <code>or</code> True  =&gt; True</p>
+<h2 id="逻辑判断">逻辑判断</h2>
+<h3 id="双等号-判断相等">双等号 == 判断相等</h3>
+<p>1 == 1  =&gt;True<br>
+1 == 2  =&gt;False</p>
+<h3 id="判断不等">!= 判断不等</h3>
+<p>1 != 1  =&gt;False<br>
+1 != 2  =&gt;True</p>
+<h3 id="比较大小">比较大小</h3>
+<p>1 &lt; 10   =&gt; True<br>
+1 &gt; 10   =&gt; False<br>
+2 &lt;= 2   =&gt; True    小于等于<br>
+2 &gt;= 2   =&gt; True    大于等于<br>
+1 &lt; 2 &lt; 3  =&gt; True<br>
+2 &lt; 3 &lt; 2  =&gt; False</p>
+<h2 id="none-对象">None 对象</h2>
+<p><code>None</code>是个对象，与它比较使用<code>is</code><br>
+&quot;etc&quot; is None  =&gt; False<br>
+None is None  =&gt; True</p>
+<h2 id="is-比较指向">is 比较指向</h2>
+<p>is是用来比较两个变量是否指向同一个对象。</p>
+<h2 id="print-打印输出">print 打印输出</h2>
+<p>print()</p>
+<h2 id="del-删除">del 删除</h2>
+<p>del 列表[元素序号]<br>
+del 字典[键]</p>
+<h2 id="in-判断包含">in 判断包含</h2>
+<p>元素 in 列表<br>
+元素 in 元组<br>
+键 in 字典<br>
+元素 in 集合<br>
+=&gt; Ture/False</p>
+<h2 id="if-elif-else-条件">if elif else 条件</h2>
+<p>不要忘记条件判断语句后面的冒号 <code>:</code></p>
+<pre><code class="language-PYTHON">if 条件1:
+    执行语句
+elif 条件2:
+    执行语句
+elif 条件x:
+    执行语句
+else 最后条件:
+    执行语句
 </code></pre>
-<p>完整代码如下</p>
-<pre><code class="language-JavaScript">(function()
-{
-    if( location.href.match( /^https:\/\/store\.steampowered\.com\/account\/licenses\/?$/ ) === null )
-	{
-		alert( '请在Steam帐号明细页面运行这些代码: https://store.steampowered.com/account/licenses/' );
-
-		window.location = 'https://store.steampowered.com/account/licenses/';
-
-		return;
-	}
-	
-	var freePackages =
-	[
-		//格式：请在下面输入游戏id。
-        //游戏id,
-        //游戏id,
-        //...,
-	];
-	
-	var ownedPackages = {};
-	
-	jQuery( '.account_table a' ).each( function( i, el )
-	{
-		var match = el.href.match( /javascript:RemoveFreeLicense\( ([0-9]+), '/ );
-		
-		if( match !== null )
-		{
-			ownedPackages[ +match[ 1 ] ] = true;
-		}
-	} );
-	
-	var i = 0,
-	    loaded = 0,
-	    package = 0,
-	    total = freePackages.length,
-	    modal = ShowBlockingWaitDialog( '努力执行中...',
-	    	'请耐心等待，如果有错误请无视，请耐心等待脚本加载完毕' );
-	
-	for( ; i &lt; total; i++ )
-	{
-		package = freePackages[ i ];
-		
-		if( ownedPackages[ package ] )
-		{
-			loaded++;
-			continue;
-		}
-		
-		jQuery.post(
-			'//store.steampowered.com/checkout/addfreelicense',
-			{
-				action: 'add_to_cart',
-				sessionid: g_sessionID,
-				subid: package
-			}
-		).always( function( )
-			{
-				loaded++;
-				
-				modal.Dismiss();
-				
-				if( loaded &gt;= total )
-				{
-					location.reload();
-				}
-				else
-				{
-					modal = ShowBlockingWaitDialog( '执行中...',
-						'加载至 &lt;b&gt;' + loaded + '&lt;/b&gt;/' + total + '.' );
-				}
-			}
-		);
-	}
-}());
+<h2 id="循环">循环</h2>
+<h3 id="for-循环">for 循环</h3>
+<pre><code class="language-PYTHON">for 条件:
+    执行语句
 </code></pre>
+<h3 id="while-循环">while 循环</h3>
+<pre><code class="language-PYTHON">while 条件:
+    执行语句
+</code></pre>
+<h2 id="异常">异常</h2>
+<h3 id="异常处理">异常处理</h3>
+<pre><code class="language-PYTHON">try:
+    需要判断运行的执行代码
+except KeyError:    #指定错误类型
+    出现异常时执行的代码
+excep (KeyError,TypeError):    #可指定多种错误
+    pass    # 无操作
+except KeyError as err:    #储存错误信息到 err
+    print(err)
+else:
+    没有出现异常执行的代码
+finally:
+    不管有无异常都执行的代码 
+</code></pre>
+<h3 id="raise-触发异常">raise 触发异常</h3>
+<p>raise 错误名(错误信息)</p>
+<pre><code class="language-PYTHON">raise NameError('error')
+</code></pre>
+<p>=&gt;NameError:error</p>
+<h2 id="yield-迭代生成">yield 迭代生成</h2>
+<p>yield会暂停并保存当前所有运行信息，返回yield的值</p>
+<pre><code class="language-PYTHON">def fibonacci(n): # 生成器函数 - 斐波那契
+    a, b, counter = 0, 1, 0
+    while True:
+        if (counter &gt; n): 
+            return
+        yield a #返回a的值
+        a, b = b, a + b
+        counter += 1
+f = fibonacci(10) # f 是一个迭代器，由生成器返回生成，a的值存于f并迭代
+</code></pre>
+<h2 id="def-定义函数">def 定义函数</h2>
+<pre><code class="language-PYTHON">def 函数名(参数):  #参数带有一个*为元组类型导入，**为字典类型导入
+    函数语句
+    return #返回值
+</code></pre>
+<h3 id="调用">调用</h3>
+<p>函数名(参数)</p>
+<h2 id="lambda-匿名函数">lambda 匿名函数</h2>
+<p>函数名 = lambda 参数:执行语句</p>
+<pre><code class="language-PYTHON">sum = lambda arg1, arg2: arg1 + arg2
+print (&quot;相加后的值为 : &quot;, sum( 10, 20 ))
+print (&quot;相加后的值为 : &quot;, sum( 20, 20 ))
+</code></pre>
+<h2 id="相加后的值为-30-相加后的值为-40">=&gt; 相加后的值为 :  30<br>
+=&gt; 相加后的值为 :  40</h2>
+<h1 id="数据类型">数据类型</h1>
+<h2 id="字符串">字符串</h2>
+<h3 id="形式">形式</h3>
+<p>单双引号都可<br>
+&quot;这是个字符串&quot;<br>
+'这也是个字符串'</p>
+<h3 id="链接">链接</h3>
+<p>&quot;Hello&quot; + &quot;world!&quot;   =&gt; &quot;Helloworld!&quot;</p>
+<h3 id="作为列表">作为列表</h3>
+<p>&quot;This is a string&quot;[0]  =&gt; 'T'</p>
+<h3 id="格式化">格式化</h3>
+<p>&quot;{} can be {}&quot;.format(&quot;strings&quot;, &quot;interpolated&quot;)<br>
+=&gt; strings can be interpolated</p>
+<p>&quot;{0} be nimble, {0} be quick, {0} jump over the {1}&quot;.format(&quot;Jack&quot;, &quot;candle stick&quot;)<br>
+=&gt; &quot;Jack be nimble, Jack be quick, Jack jump over the candle stick&quot;</p>
+<p>&quot;{name} wants to eat {food}&quot;.format(name=&quot;Bob&quot;, food=&quot;lasagna&quot;)<br>
+=&gt; &quot;Bob wants to eat lasagna&quot;</p>
+<p>兼容Python2的格式化<br>
+&quot;%s can be %s the %s way&quot; % (&quot;strings&quot;, &quot;interpolated&quot;, &quot;old&quot;)<br>
+=&gt; &quot;strings can be interpolated the old way&quot;</p>
+<h2 id="列表">列表</h2>
+<p>列表名 = [值]<br>
+li = [v1,v2,v3]</p>
+<h3 id="append-在列表最后添加元素">.append 在列表最后添加元素</h3>
+<p>列表名.append(值)<br>
+li.append(v4)<br>
+=&gt; li = [v1,v2,v3,v4]</p>
+<h3 id="pop-去除列表最后的元素">.pop 去除列表最后的元素</h3>
+<p>列表名.pop()<br>
+li.pop()<br>
+=&gt; li = [v1,v2,v3]</p>
+<h3 id="切割">切割</h3>
+<p>列表名[开始序号:终止序号:步伐]<br>
+步伐，即脚步跨度，间隔多少取一次。<br>
+开始序号、终止序号、步伐都可省略，默认值分别为0,-1,1，即默认从头开始，到尾结束，步伐为1。</p>
+<h3 id="相加列表保留重复">相加列表，保留重复</h3>
+<p>otherli = [s1,s2,s3]<br>
+li + otherli<br>
+=&gt; [v1,v2,v3,s1,s2,s3]</p>
+<p>li + [q1,q2,q3]<br>
+=&gt; [v1,v2,v3,s1,s2,s3,q1,q2,q3]</p>
+<h3 id="extend-拼接列表保留重复">.extend 拼接列表，保留重复</h3>
+<p>li = [v1,v2,v3]<br>
+otherli = [s1,s2,s3]<br>
+li.extend(otherli)<br>
+=&gt;[v1,v2,v3,s1,s2,s3]</p>
+<h2 id="元组">元组</h2>
+<p>元组名 = (值)<br>
+列表所允许的操作元组大都可以。</p>
+<h3 id="元组赋值变量">元组赋值变量</h3>
+<p>A,B,C = (Q,W,E)<br>
+=&gt;A=Q;B=W;C=E<br>
+括号可以省略<br>
+E,F,G = Z,X,C<br>
+=&gt;E=Z;F=X;G=C</p>
+<h4 id="交换变量">交换变量</h4>
+<p>O = 1<br>
+P = 2<br>
+O,P = P,O<br>
+=&gt;O=2;P=1</p>
+<h2 id="字典">字典</h2>
+<h3 id="赋值">赋值</h3>
+<p>字典名 = {键:值}<br>
+dict = {'1':A,'2':B}</p>
+<h3 id="update-赋值">.update 赋值</h3>
+<p>dict.update({'3':C})<br>
+=&gt;{'1':A,'2':B,'3':C}</p>
+<h3 id="使用键取值">使用键取值</h3>
+<p>dict['1']<br>
+=&gt;A</p>
+<h3 id="keys-取出字典所有的键">.keys 取出字典所有的键</h3>
+<p>list(dict.keys())<br>
+=&gt;['1','2','3']</p>
+<h3 id="values-取出字典所有的值">.values 取出字典所有的值</h3>
+<p>list(dict.values())<br>
+=&gt;[A,B,C]</p>
+<p>###KeyError 错误<br>
+访问不存在的值出现该错误<br>
+dict['4']<br>
+=&gt;KeyError</p>
+<h4 id="避免keyerror错误">避免KeyError错误</h4>
+<p>使用<code>.get</code>避免<br>
+dict.get('d')<br>
+=&gt;None</p>
+<h3 id="默认值">默认值</h3>
+<h4 id="访问错误的键时返回默认值">访问错误的键时，返回默认值</h4>
+<p>字典名.get(键,默认值)<br>
+dict.get('4',404)<br>
+=&gt;404</p>
+<h4 id="设置键的默认值">设置键的默认值</h4>
+<p>字典名.setdefault(键,默认值)</p>
+<p>个人理解为类似 .upadte ，不过 .update 是直接覆盖， .setdefault 如果键有值则保留不变，没有则添加。</p>
+<h2 id="集合">集合</h2>
+<p>集合名 = set()</p>
+<h3 id="赋值-与字典类似">赋值 与字典类似</h3>
+<p>aset = {1,1,2,2,3}   <strong>会合并重复项</strong><br>
+=&gt;{1,2,3}</p>
+<h3 id="添加元素">添加元素</h3>
+<p>aset.add(4)<br>
+=&gt;{1,2,3,4}</p>
+<h3 id="交集">交集</h3>
+<p>bset = {3,4,5,6}<br>
+aset &amp; bset<br>
+=&gt;{3,4}</p>
+<h3 id="并集">并集</h3>
+<p>aset | bset<br>
+=&gt;{1,2,3,4,5,6}</p>
+<h3 id="补集">补集</h3>
+<p>{1,2,3,4} - {2,3,5}<br>
+=&gt;{1,4}<br>
+aset - bset<br>
+=&gt;{1,2}</p>
+<h1 id="序号">序号</h1>
+<h2 id="排序">排序</h2>
+<p>正向排序从 0 开始，逆向排序从 -1 开始。</p>
+<table>
+<thead>
+<tr>
+<th>-6</th>
+<th>-5</th>
+<th>-4</th>
+<th>-3</th>
+<th>-2</th>
+<th>-1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>这</td>
+<td>是</td>
+<td>个</td>
+<td>例</td>
+<td>子</td>
+<td>。</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>#迭代<br>
+从第一个元素开始，只能向前，不能使用序号访问<br>
+##创建<br>
+iter()<br>
+next()</p>
+<h2 id="错误">错误</h2>
+<p>StopIteration  迭代完成</p>
+<h2 id="取用">取用</h2>
+<p>遍历，list，.<strong>next</strong>()</p>
+<h1 id="其余">其余</h1>
+<h2 id="bool-判断布尔值">bool()  判断布尔值</h2>
+<p>bool(0)<br>
+=&gt;False</p>
+<h2 id="range起始值最后值后一位">range(起始值,最后值后一位)</h2>
+<p>从0到输入值（不包括输入值），起始值可省略，默认为0<br>
+range(3)<br>
+=&gt;0,1,2</p>
 
               </div>
               <div class="post-footer">
@@ -641,7 +982,7 @@ window.addEventListener('load', function() {
     </li>
     <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://huiaei.github.io/post/1AaQkSIAw/" title="Steam 在浏览器上使用脚本领取游戏">Steam 在浏览器上使用脚本领取游戏</a>
+      <a href="https://huiaei.github.io/post/wSrQYR2K5/" title="Python3 语法笔记">Python3 语法笔记</a>
     </li>
     <li class="post-copyright-license">
       <strong>版权声明： </strong>
@@ -654,15 +995,11 @@ window.addEventListener('load', function() {
   <div class="nav">
     <div class="nav-prev">
       
-        <i class="fa fa-chevron-left"></i>
-        <a class="nav-pc-next" title="Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）" href="https://huiaei.github.io/post/RqtFG37f8/">Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）</a class="nav-pc-next">
-        <a class="nav-mobile-prev" title="Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）" href="https://huiaei.github.io/post/RqtFG37f8/">上一篇</a>
-      
     </div>
     <div class="nav-next">
       
-        <a class="nav-pc-next" title="pacman GPG key-rings钥匙串 缺少等问题" href="https://huiaei.github.io/post/qHT43PDga/">pacman GPG key-rings钥匙串 缺少等问题</a>
-        <a class="nav-mobile-next" title="pacman GPG key-rings钥匙串 缺少等问题" href="https://huiaei.github.io/post/qHT43PDga/">下一篇</a>
+        <a class="nav-pc-next" title="Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）" href="https://huiaei.github.io/post/RqtFG37f8/">Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）</a>
+        <a class="nav-mobile-next" title="Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）" href="https://huiaei.github.io/post/RqtFG37f8/">下一篇</a>
         <i class="fa fa-chevron-right"></i>
       
     </div>
