@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2021-01-15T15:00:40.770Z</updated>
+    <updated>2021-01-22T10:21:43.130Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[npm镜像]]></title>
+        <id>https://huiaei.github.io/post/4Pt7KhJd9/</id>
+        <link href="https://huiaei.github.io/post/4Pt7KhJd9/">
+        </link>
+        <updated>2021-01-22T10:15:53.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="使用方式">使用方式</h2>
+<ol>
+<li>临时使用</li>
+</ol>
+<pre><code>npm --registry [镜像服务url] install [安装目标]
+
+</code></pre>
+<ol start="2">
+<li>永久设置</li>
+</ol>
+<pre><code>npm config set registry [镜像服务url]
+
+</code></pre>
+<h2 id="常用大陆镜像服务url">常用大陆镜像服务url</h2>
+<blockquote>
+<p>欢迎补充</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>url</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>淘宝</td>
+<td>https://registry.npm.taobao.org/</td>
+</tr>
+<tr>
+<td>cnpmjs</td>
+<td>https://r.cnpmjs.org/</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python3 语法笔记]]></title>
         <id>https://huiaei.github.io/post/wSrQYR2K5/</id>
@@ -887,39 +930,6 @@ notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quo
 <blockquote>
 <p><a href="https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/">https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/</a></p>
 </blockquote>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CCleaner专业版断网激活]]></title>
-        <id>https://huiaei.github.io/post/JJvgQcsHT/</id>
-        <link href="https://huiaei.github.io/post/JJvgQcsHT/">
-        </link>
-        <updated>2020-06-09T23:44:50.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li>断开所有网络</li>
-<li>输入以下任意一种到注册栏中注册激活</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">名称</th>
-<th style="text-align:center">密钥</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Registered User</td>
-<td style="text-align:center">CBB4-FJN4-EPC6-G5P6-QT4C</td>
-</tr>
-<tr>
-<td style="text-align:center">任意</td>
-<td style="text-align:center">C2YW-XZT7-A4SE-UD89-YZPC</td>
-</tr>
-</tbody>
-</table>
-<ol start="3">
-<li>激活完后即可恢复网络</li>
-</ol>
 ]]></content>
     </entry>
 </feed>
