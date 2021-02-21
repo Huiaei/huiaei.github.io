@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://huiaei.github.io/</id>
     <title>Huiaei&apos;s Notebook</title>
-    <updated>2021-02-06T03:52:12.821Z</updated>
+    <updated>2021-02-21T12:00:59.400Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://huiaei.github.io/"/>
     <link rel="self" href="https://huiaei.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://huiaei.github.io/images/avatar.png</logo>
     <icon>https://huiaei.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Huiaei&apos;s Notebook</rights>
+    <entry>
+        <title type="html"><![CDATA[同方，蓝天，神舟型号命名规则]]></title>
+        <id>https://huiaei.github.io/post/VYn7ql9oT/</id>
+        <link href="https://huiaei.github.io/post/VYn7ql9oT/">
+        </link>
+        <updated>2021-02-21T11:39:46.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://od.huiaei.cf/Images/2021/02/Snipaste_2021-02-21_19-45-25.png?raw" alt="蓝天" loading="lazy"><br>
+<img src="https://od.huiaei.cf/Images/2021/02/Snipaste_2021-02-21_19-50-55.png?raw" alt="同方" loading="lazy"><br>
+<img src="https://od.huiaei.cf/Images/2021/02/Snipaste_2021-02-21_19-54-20.png?raw" alt="神舟" loading="lazy"></p>
+<p>引用自<a href="https://www.bilibili.com/video/av671755249">【笔吧科普】深入浅出，笔记本常见型号命名规则(蓝天、同方、神舟篇)</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[npm镜像]]></title>
         <id>https://huiaei.github.io/post/4Pt7KhJd9/</id>
@@ -909,27 +921,6 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 <ol start="3">
 <li>将密码进行转换，由ASCII码转为字符。</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Onedrive设置多线程传输]]></title>
-        <id>https://huiaei.github.io/post/aA4WAGuHG/</id>
-        <link href="https://huiaei.github.io/post/aA4WAGuHG/">
-        </link>
-        <updated>2020-06-28T10:34:57.000Z</updated>
-        <content type="html"><![CDATA[<p>修改文件：<br>
-&quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quot;<br>
-向第一行加入：<br>
-numberOfConcurrentUploads=3</p>
-<blockquote>
-<p>PS：数值项即为线程数，最小值为1，最大值为3，根据实际需要选择即可</p>
-</blockquote>
-<p>可通过<code>Windows</code>+<code>R</code>运行，或cmd里运行下面直接打开修改：<br>
-notepad &quot;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&quot;</p>
-<hr>
-<blockquote>
-<p><a href="https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/">https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/</a></p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
