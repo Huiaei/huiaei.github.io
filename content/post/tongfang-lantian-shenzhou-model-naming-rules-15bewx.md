@@ -15,15 +15,11 @@ isCJKLanguage: true
 
 # 同方、蓝天、神舟型号命名规则
 
-# 同方，蓝天，神舟型号命名规则
+![蓝天](assets/Snipaste_2021-02-21_19-45-25-20240302221816-3da54br.png)
 
-‍
+![同方](assets/Snipaste_2021-02-21_19-50-55-20240302221834-0eiecnj.png)
 
-![蓝天](https://raw.githubusercontent.com/Huiaei/huiaei.github.io/master/images/Snipaste_2021-02-21_19-45-25-20240302221816-3da54br.png)
-
-![同方](https://raw.githubusercontent.com/Huiaei/huiaei.github.io/master/images/Snipaste_2021-02-21_19-50-55-20240302221834-0eiecnj.png)
-
-![神舟](https://raw.githubusercontent.com/Huiaei/huiaei.github.io/master/images/Snipaste_2021-02-21_19-54-20-20240302221856-ifxnxub.png)
+![神舟](assets/Snipaste_2021-02-21_19-54-20-20240302221856-ifxnxub.png)
 
 ‍
 
