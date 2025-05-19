@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>磁盘 on Huiaei's Notebook</title><link>https://huiaei.eu.org/tags/%E7%A3%81%E7%9B%98/</link><description>Recent content in 磁盘 on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:28:54 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/tags/%E7%A3%81%E7%9B%98/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 SMR 技术的硬盘型号列表</title><link>https://huiaei.eu.org/post/list-of-hard-drive-models-using-smr-technology-zjveou.html</link><pubDate>Sat, 02 Mar 2024 22:11:49 +0800</pubDate><guid>https://huiaei.eu.org/post/list-of-hard-drive-models-using-smr-technology-zjveou.html</guid><description>&lt;h1 id="使用-smr-技术的硬盘型号列表">使用 SMR 技术的硬盘型号列表
+&lt;/h1>&lt;h1 id="使用-smr-技术的硬盘型号列表-1">使用 SMR 技术的硬盘型号列表
+&lt;/h1>&lt;h3 id="西部数据western-digital">西部数据Western Digital
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">（截至于2020.04.22）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">尺寸&lt;/th>
+&lt;th style="text-align: center">系列&lt;/th>
+&lt;th style="text-align: center">容量&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;td style="text-align: center">WD10SPZX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">WD20SPZX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">WD20EZAZ&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;td style="text-align: center">WD60EZAZ&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">黑盘&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;td style="text-align: center">WD10SPSX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">WD20EFAX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">3TB&lt;/td>
+&lt;td style="text-align: center">WD30EFAX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;td style="text-align: center">WD40EFAX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;td style="text-align: center">WD60EFAX&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200501080242.png"
+loading="lazy"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://blog.westerndigital.com/wp-content/uploads/2020/04/2020%5c_04%5c_22%5c_WD%5c_SMR%5c_SKUs%5c_1Slide.pdf" target="_blank" rel="noopener"
+>https://blog.westerndigital.com/wp-content/uploads/2020/04/2020_04_22_WD_SMR_SKUs_1Slide.pdf&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="东芝toshiba">东芝TOSHIBA
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">（截止于2020.04.28）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">尺寸&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">容量&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">L200&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">L200&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">MQ04&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">MQ04&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">P300&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">P300&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02-V&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02-V&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html" target="_blank" rel="noopener"
+>https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="希捷seagate未找到官方说明来源第三方">希捷Seagate（未找到官方说明，来源第三方）
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">(截止于2020.04.16）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">尺寸&lt;/th>
+&lt;th style="text-align: center">系列&lt;/th>
+&lt;th style="text-align: center">容量&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">转数&lt;/th>
+&lt;th style="text-align: center">接口速率&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Barracuda&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">ST2000DM008&lt;/td>
+&lt;td style="text-align: center">7200rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Barracuda&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;td style="text-align: center">ST4000DM004&lt;/td>
+&lt;td style="text-align: center">5400rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Barracuda&lt;/td>
+&lt;td style="text-align: center">8TB&lt;/td>
+&lt;td style="text-align: center">ST8000DM004&lt;/td>
+&lt;td style="text-align: center">5400rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Desktop HDD&lt;/td>
+&lt;td style="text-align: center">5TB&lt;/td>
+&lt;td style="text-align: center">ST5000DM000&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Exos&lt;/td>
+&lt;td style="text-align: center">8TB&lt;/td>
+&lt;td style="text-align: center">ST8000AS0003&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Archive v2&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;td style="text-align: center">ST6000AS0002&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Archive v2&lt;/td>
+&lt;td style="text-align: center">8TB&lt;/td>
+&lt;td style="text-align: center">ST8000AS0002&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://www.cnbeta.com/articles/tech/968325.htm" target="_blank" rel="noopener"
+>https://www.cnbeta.com/articles/tech/968325.htm&lt;/a>&lt;/p>&lt;/blockquote></description></item></channel></rss>

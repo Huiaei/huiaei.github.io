@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WSL on Huiaei's Notebook</title><link>https://huiaei.eu.org/tags/wsl/</link><description>Recent content in WSL on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:27:58 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/tags/wsl/index.xml" rel="self" type="application/rss+xml"/><item><title>WSL 工具 LxRunOffline 相关参数</title><link>https://huiaei.eu.org/post/wsl-tools-lxrunoffline-related-parameters-1tpseh.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/wsl-tools-lxrunoffline-related-parameters-1tpseh.html</guid><description>&lt;h1 id="wsl-工具-lxrunoffline-相关参数">WSL 工具 LxRunOffline 相关参数
+&lt;/h1>&lt;blockquote>
+&lt;p>基于版本3.5.0 项目地址：&lt;a class="link" href="https://github.com/DDoSolitary/LxRunOffline" target="_blank" rel="noopener"
+>https://github.com/DDoSolitary/LxRunOffline&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>支持的操作有：&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: right">简写参数&lt;/th>
+&lt;th>完整参数&lt;/th>
+&lt;th>解释&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: right">l&lt;/td>
+&lt;td>list&lt;/td>
+&lt;td>列出所有已安装的发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gd&lt;/td>
+&lt;td>get-default&lt;/td>
+&lt;td>获取默认分发，由bash.exe使用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sd&lt;/td>
+&lt;td>set-default&lt;/td>
+&lt;td>设置默认分发，由bash.exe使用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">i&lt;/td>
+&lt;td>install&lt;/td>
+&lt;td>安装新的发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ui&lt;/td>
+&lt;td>uninstall&lt;/td>
+&lt;td>卸载发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">rg&lt;/td>
+&lt;td>register&lt;/td>
+&lt;td>注册现有的安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ur&lt;/td>
+&lt;td>unregister&lt;/td>
+&lt;td>注销发行版，但不删除安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">m&lt;/td>
+&lt;td>move&lt;/td>
+&lt;td>将发行版移动到新目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">d&lt;/td>
+&lt;td>duplicate&lt;/td>
+&lt;td>在新目录中复制现有发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">e&lt;/td>
+&lt;td>export&lt;/td>
+&lt;td>将发行版的文件系统导出到.tar.gz文件，该文件可以通过“install”命令导入&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">r&lt;/td>
+&lt;td>run&lt;/td>
+&lt;td>在发行版中运行命令&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">di&lt;/td>
+&lt;td>get-dir&lt;/td>
+&lt;td>获取发行版的安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gv&lt;/td>
+&lt;td>get-version&lt;/td>
+&lt;td>获取发行版的文件系统版本&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ge&lt;/td>
+&lt;td>get-env&lt;/td>
+&lt;td>获取发行版的默认环境变量&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">se&lt;/td>
+&lt;td>set-env&lt;/td>
+&lt;td>设置发行版的默认环境变量。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ae&lt;/td>
+&lt;td>add-env&lt;/td>
+&lt;td>添加到发行版的默认环境变量。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">re&lt;/td>
+&lt;td>remove-env&lt;/td>
+&lt;td>从发行版的默认环境变量中删除。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gu&lt;/td>
+&lt;td>get-uid&lt;/td>
+&lt;td>获取发行版的默认用户的UID。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">su&lt;/td>
+&lt;td>set-uid&lt;/td>
+&lt;td>设置发行版的默认用户的UID。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gk&lt;/td>
+&lt;td>get-kernelcmd&lt;/td>
+&lt;td>获取发行版的默认内核命令行。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sk&lt;/td>
+&lt;td>set-kernelcmd&lt;/td>
+&lt;td>设置发行版的默认内核命令行。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gf&lt;/td>
+&lt;td>get-flags&lt;/td>
+&lt;td>获取一些发行版的标志。有关详细信息，请参见&lt;a class="link" href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl%5c_distribution%5c_flags" target="_blank" rel="noopener"
+>url&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sf&lt;/td>
+&lt;td>set-flags&lt;/td>
+&lt;td>设置发行版的一些标志。有关详细信息，请参见&lt;a class="link" href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl%5c_distribution%5c_flags" target="_blank" rel="noopener"
+>url&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">s&lt;/td>
+&lt;td>shortcut&lt;/td>
+&lt;td>创建启动发布的快捷方式。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ec&lt;/td>
+&lt;td>export-config&lt;/td>
+&lt;td>将发行版的配置导出到XML文件。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ic&lt;/td>
+&lt;td>import-config&lt;/td>
+&lt;td>从XML文件导入发行版的配置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sm&lt;/td>
+&lt;td>summary&lt;/td>
+&lt;td>获取发行版的基本信息&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">&lt;/td>
+&lt;td>version&lt;/td>
+&lt;td>获取有关LxRunOffline版本信息&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>附属参数：(可能不完整)&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>参数解释&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>-n&lt;/td>
+&lt;td>发行版的名称&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-d&lt;/td>
+&lt;td>发行版安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-f&lt;/td>
+&lt;td>包含要安装的发行版的根文件系统的tar文件。如果存在一个扩展名为.xml的相同名称的文件，并且没有指定“-c”，则该文件将作为配置文件导入。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-r&lt;/td>
+&lt;td>要提取的tar文件中的目录，可选选项&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-c&lt;/td>
+&lt;td>要使用的配置文件，可选选项&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-v&lt;/td>
+&lt;td>要使用的文件系统版本，如果未指定，则为最新可用版本。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-s&lt;/td>
+&lt;td>在桌面上创建快捷方式&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>WSL（Windows子系统Linux）设置默认 Shell 为 Zsh</title><link>https://huiaei.eu.org/post/wsl-windows-subsystem-linux-set-the-default-shell-to-zsh-2ijwg3.html</link><pubDate>Sat, 02 Mar 2024 22:11:53 +0800</pubDate><guid>https://huiaei.eu.org/post/wsl-windows-subsystem-linux-set-the-default-shell-to-zsh-2ijwg3.html</guid><description>&lt;h1 id="wslwindows子系统linux设置默认-shell-为-zsh">WSL（Windows子系统Linux）设置默认 Shell 为 Zsh
+&lt;/h1>&lt;ol>
+&lt;li>安装 Zsh ，nano或者vim（选择你会使用的文本编辑器）&lt;/li>
+&lt;li>使用 Linux 设置默认 Shell 为 Zsh 命令&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> chsh -s /bin/zsh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>使用上述指令后，重新使用CMD或者PowerShell进入WSL时，会发现依旧为默认的Bash，此时需要编辑文件生效。使用你熟悉的文本编辑工具，vim或者nano，打开&lt;code>~/bashrc&lt;/code>，向里面添加：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> [[ $- == *i* ]] &amp;amp;&amp;amp; $(command -v zsh) || echo &amp;#34;ZSH is not installed&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>之后保存即可。&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>参考自：&lt;a class="link" href="https://limxw.com/posts/wsl-use-zsh/" target="_blank" rel="noopener"
+>WSL 中设置 zsh 为默认 SHELL&lt;/a>&lt;/p>&lt;/blockquote></description></item></channel></rss>

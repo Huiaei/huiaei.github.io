@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>使用技巧 on Huiaei's Notebook</title><link>https://huiaei.eu.org/tags/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</link><description>Recent content in 使用技巧 on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:29:00 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/tags/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>Onedrive设置多线程传输</title><link>https://huiaei.eu.org/post/onedrive-sets-up-multithreaded-transmission-z2td6q.html</link><pubDate>Sat, 02 Mar 2024 22:12:00 +0800</pubDate><guid>https://huiaei.eu.org/post/onedrive-sets-up-multithreaded-transmission-z2td6q.html</guid><description>&lt;h1 id="onedrive设置多线程传输">Onedrive设置多线程传输
+&lt;/h1>&lt;p>修改文件： &amp;ldquo;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&amp;rdquo; 向第一行加入： numberOfConcurrentUploads=3&lt;/p>
+&lt;blockquote>
+&lt;p>PS：数值项即为线程数，最小值为1，最大值为3，根据实际需要选择即可&lt;/p>&lt;/blockquote>
+&lt;p>可通过&lt;code>Windows&lt;/code>+&lt;code>R&lt;/code>运行，或cmd里运行下面直接打开修改： notepad &amp;ldquo;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&amp;rdquo;&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/" target="_blank" rel="noopener"
+>https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>CCleaner专业版断网激活方法</title><link>https://huiaei.eu.org/post/ccleaner-professional-edition-activation-method-1oluad.html</link><pubDate>Sat, 02 Mar 2024 22:11:58 +0800</pubDate><guid>https://huiaei.eu.org/post/ccleaner-professional-edition-activation-method-1oluad.html</guid><description>&lt;h1 id="ccleaner专业版断网激活方法">CCleaner专业版断网激活方法
+&lt;/h1>&lt;ol>
+&lt;li>断开所有网络&lt;/li>
+&lt;li>输入以下任意一种到注册栏中注册激活&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: center">密钥&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">Registered User&lt;/td>
+&lt;td style="text-align: center">CBB4-FJN4-EPC6-G5P6-QT4C&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">任意&lt;/td>
+&lt;td style="text-align: center">C2YW-XZT7-A4SE-UD89-YZPC&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ol>
+&lt;li>激活完后即可恢复网络&lt;/li>
+&lt;/ol></description></item><item><title>Git 命令使用或取消代理</title><link>https://huiaei.eu.org/post/git-commands-use-or-cancel-proxy-1eonzk.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/git-commands-use-or-cancel-proxy-1eonzk.html</guid><description>&lt;h1 id="git-命令使用或取消代理">Git 命令使用或取消代理
+&lt;/h1>&lt;p>假设代理到目标 socks5://127.0.0.1:10808&lt;/p>
+&lt;ol>
+&lt;li>全局代理 git config &amp;ndash;global http.proxy socks5://127.0.0.1:10808 git config &amp;ndash;global https.proxy socks5://127.0.0.1:10808&lt;/li>
+&lt;li>部分代理 git config &amp;ndash;global http.https://github.com.proxy socks5://127.0.0.1:10808 git config &amp;ndash;global https.https://github.com.proxy socks5://127.0.0.1:10808&lt;/li>
+&lt;li>取消代理 git config &amp;ndash;global &amp;ndash;unset http.proxy git config &amp;ndash;global &amp;ndash;unset https.proxy&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>参考自: &lt;a class="link" href="https://blog.gobyte.cn/post/1a22163b.html" target="_blank" rel="noopener"
+>https://blog.gobyte.cn/post/1a22163b.html&lt;/a> &lt;a class="link" href="https://blog.csdn.net/tanningzhong/article/details/52817399" target="_blank" rel="noopener"
+>https://blog.csdn.net/tanningzhong/article/details/52817399&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>WSL 工具 LxRunOffline 相关参数</title><link>https://huiaei.eu.org/post/wsl-tools-lxrunoffline-related-parameters-1tpseh.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/wsl-tools-lxrunoffline-related-parameters-1tpseh.html</guid><description>&lt;h1 id="wsl-工具-lxrunoffline-相关参数">WSL 工具 LxRunOffline 相关参数
+&lt;/h1>&lt;blockquote>
+&lt;p>基于版本3.5.0 项目地址：&lt;a class="link" href="https://github.com/DDoSolitary/LxRunOffline" target="_blank" rel="noopener"
+>https://github.com/DDoSolitary/LxRunOffline&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>支持的操作有：&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: right">简写参数&lt;/th>
+&lt;th>完整参数&lt;/th>
+&lt;th>解释&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: right">l&lt;/td>
+&lt;td>list&lt;/td>
+&lt;td>列出所有已安装的发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gd&lt;/td>
+&lt;td>get-default&lt;/td>
+&lt;td>获取默认分发，由bash.exe使用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sd&lt;/td>
+&lt;td>set-default&lt;/td>
+&lt;td>设置默认分发，由bash.exe使用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">i&lt;/td>
+&lt;td>install&lt;/td>
+&lt;td>安装新的发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ui&lt;/td>
+&lt;td>uninstall&lt;/td>
+&lt;td>卸载发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">rg&lt;/td>
+&lt;td>register&lt;/td>
+&lt;td>注册现有的安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ur&lt;/td>
+&lt;td>unregister&lt;/td>
+&lt;td>注销发行版，但不删除安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">m&lt;/td>
+&lt;td>move&lt;/td>
+&lt;td>将发行版移动到新目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">d&lt;/td>
+&lt;td>duplicate&lt;/td>
+&lt;td>在新目录中复制现有发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">e&lt;/td>
+&lt;td>export&lt;/td>
+&lt;td>将发行版的文件系统导出到.tar.gz文件，该文件可以通过“install”命令导入&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">r&lt;/td>
+&lt;td>run&lt;/td>
+&lt;td>在发行版中运行命令&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">di&lt;/td>
+&lt;td>get-dir&lt;/td>
+&lt;td>获取发行版的安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gv&lt;/td>
+&lt;td>get-version&lt;/td>
+&lt;td>获取发行版的文件系统版本&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ge&lt;/td>
+&lt;td>get-env&lt;/td>
+&lt;td>获取发行版的默认环境变量&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">se&lt;/td>
+&lt;td>set-env&lt;/td>
+&lt;td>设置发行版的默认环境变量。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ae&lt;/td>
+&lt;td>add-env&lt;/td>
+&lt;td>添加到发行版的默认环境变量。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">re&lt;/td>
+&lt;td>remove-env&lt;/td>
+&lt;td>从发行版的默认环境变量中删除。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gu&lt;/td>
+&lt;td>get-uid&lt;/td>
+&lt;td>获取发行版的默认用户的UID。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">su&lt;/td>
+&lt;td>set-uid&lt;/td>
+&lt;td>设置发行版的默认用户的UID。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gk&lt;/td>
+&lt;td>get-kernelcmd&lt;/td>
+&lt;td>获取发行版的默认内核命令行。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sk&lt;/td>
+&lt;td>set-kernelcmd&lt;/td>
+&lt;td>设置发行版的默认内核命令行。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gf&lt;/td>
+&lt;td>get-flags&lt;/td>
+&lt;td>获取一些发行版的标志。有关详细信息，请参见&lt;a class="link" href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl%5c_distribution%5c_flags" target="_blank" rel="noopener"
+>url&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sf&lt;/td>
+&lt;td>set-flags&lt;/td>
+&lt;td>设置发行版的一些标志。有关详细信息，请参见&lt;a class="link" href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl%5c_distribution%5c_flags" target="_blank" rel="noopener"
+>url&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">s&lt;/td>
+&lt;td>shortcut&lt;/td>
+&lt;td>创建启动发布的快捷方式。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ec&lt;/td>
+&lt;td>export-config&lt;/td>
+&lt;td>将发行版的配置导出到XML文件。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ic&lt;/td>
+&lt;td>import-config&lt;/td>
+&lt;td>从XML文件导入发行版的配置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sm&lt;/td>
+&lt;td>summary&lt;/td>
+&lt;td>获取发行版的基本信息&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">&lt;/td>
+&lt;td>version&lt;/td>
+&lt;td>获取有关LxRunOffline版本信息&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>附属参数：(可能不完整)&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>参数解释&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>-n&lt;/td>
+&lt;td>发行版的名称&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-d&lt;/td>
+&lt;td>发行版安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-f&lt;/td>
+&lt;td>包含要安装的发行版的根文件系统的tar文件。如果存在一个扩展名为.xml的相同名称的文件，并且没有指定“-c”，则该文件将作为配置文件导入。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-r&lt;/td>
+&lt;td>要提取的tar文件中的目录，可选选项&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-c&lt;/td>
+&lt;td>要使用的配置文件，可选选项&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-v&lt;/td>
+&lt;td>要使用的文件系统版本，如果未指定，则为最新可用版本。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-s&lt;/td>
+&lt;td>在桌面上创建快捷方式&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>电信网关HG6201T获取超级账户</title><link>https://huiaei.eu.org/post/telecom-gateway-hg6201t-get-super-account-z25sonm.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/telecom-gateway-hg6201t-get-super-account-z25sonm.html</guid><description>&lt;h1 id="电信网关hg6201t获取超级账户">电信网关HG6201T获取超级账户
+&lt;/h1>&lt;ol>
+&lt;li>打开浏览器，打开&lt;a class="link" href="http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi" target="_blank" rel="noopener"
+>http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi&lt;/a>&lt;/li>
+&lt;li>找到与以下类似的位置 &amp;ldquo;baseinfoSet_TELECOMACCOUNT&amp;rdquo;:&amp;ldquo;telecomadmin&amp;rdquo;, &amp;ldquo;baseinfoSet_TELECOMPASSWORD&amp;rdquo;:&amp;ldquo;120&amp;amp;105&amp;amp;112&amp;amp;105&amp;amp;103&amp;amp;115&amp;amp;113&amp;amp;101&amp;amp;104&amp;amp;113&amp;amp;109&amp;amp;114&amp;amp;48&amp;amp;50&amp;amp;48&amp;amp;50&amp;amp;55&amp;amp;48&amp;amp;48&amp;amp;62&amp;amp;&amp;rdquo;,`&lt;/li>
+&lt;/ol>
+&lt;p>第一行为超级管理账户名：telecomadmin 第二行为超级管理密码：120&amp;amp;105&amp;amp;112&amp;amp;105&amp;amp;103&amp;amp;115&amp;amp;113&amp;amp;101&amp;amp;104&amp;amp;113&amp;amp;109&amp;amp;114&amp;amp;48&amp;amp;50&amp;amp;48&amp;amp;50&amp;amp;55&amp;amp;48&amp;amp;48&amp;amp;62&amp;amp;&lt;/p>
+&lt;p>当然，第二行的密码还需要进行一步处理.&lt;/p>
+&lt;ol>
+&lt;li>将密码进行转换，由ASCII码转为字符。&lt;/li>
+&lt;/ol></description></item><item><title>WSL（Windows子系统Linux）设置默认 Shell 为 Zsh</title><link>https://huiaei.eu.org/post/wsl-windows-subsystem-linux-set-the-default-shell-to-zsh-2ijwg3.html</link><pubDate>Sat, 02 Mar 2024 22:11:53 +0800</pubDate><guid>https://huiaei.eu.org/post/wsl-windows-subsystem-linux-set-the-default-shell-to-zsh-2ijwg3.html</guid><description>&lt;h1 id="wslwindows子系统linux设置默认-shell-为-zsh">WSL（Windows子系统Linux）设置默认 Shell 为 Zsh
+&lt;/h1>&lt;ol>
+&lt;li>安装 Zsh ，nano或者vim（选择你会使用的文本编辑器）&lt;/li>
+&lt;li>使用 Linux 设置默认 Shell 为 Zsh 命令&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> chsh -s /bin/zsh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>使用上述指令后，重新使用CMD或者PowerShell进入WSL时，会发现依旧为默认的Bash，此时需要编辑文件生效。使用你熟悉的文本编辑工具，vim或者nano，打开&lt;code>~/bashrc&lt;/code>，向里面添加：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> [[ $- == *i* ]] &amp;amp;&amp;amp; $(command -v zsh) || echo &amp;#34;ZSH is not installed&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>之后保存即可。&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>参考自：&lt;a class="link" href="https://limxw.com/posts/wsl-use-zsh/" target="_blank" rel="noopener"
+>WSL 中设置 zsh 为默认 SHELL&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>Docker容器中无法运行二进制文件并出现：xxx not found</title><link>https://huiaei.eu.org/post/the-binary-file-cannot-be-run-in-the-docker-container-and-appears-xxx-not-found-zoxfh6.html</link><pubDate>Sat, 02 Mar 2024 22:11:52 +0800</pubDate><guid>https://huiaei.eu.org/post/the-binary-file-cannot-be-run-in-the-docker-container-and-appears-xxx-not-found-zoxfh6.html</guid><description>&lt;h1 id="docker容器中无法运行二进制文件并出现xxx-not-found">Docker容器中无法运行二进制文件并出现：xxx not found
+&lt;/h1>&lt;h2 id="问题">问题
+&lt;/h2>&lt;p>在Docker容器中，运行二进制文件出现 &lt;code>/bin/sh: xxx not found&lt;/code> ，使用 Chmod 赋予执行权限依旧出现此问题。&lt;/p>
+&lt;h2 id="解决">解决
+&lt;/h2>&lt;p>容器内执行 &lt;code>mkdir /lib64 &amp;amp;&amp;amp; ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2&lt;/code>&lt;/p>
+&lt;h2 id="原因">原因
+&lt;/h2>&lt;p>镜像可能使用的是以alpine镜像为基础的项目，可能出现动态链接库位置错误问题。&lt;/p>
+&lt;p>一般二进制文件在linux系统下编译，动态链接库是到/lib64目录下的，而在alpine镜像内无/lib64目录(&lt;a class="link" href="https://github.com/gliderlabs/docker-alpine/issues/11" target="_blank" rel="noopener"
+>参考&lt;/a>)。&lt;/p>
+&lt;p>alpine镜像使用的是musl libc而不是gun libc，因而动态链接库的位置不一致。&lt;/p>
+&lt;h2 id="参考">参考
+&lt;/h2>&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker" target="_blank" rel="noopener"
+>https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/docker-library/openjdk/issues/77" target="_blank" rel="noopener"
+>https://github.com/docker-library/openjdk/issues/77&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/gliderlabs/docker-alpine/issues/11" target="_blank" rel="noopener"
+>https://github.com/gliderlabs/docker-alpine/issues/11&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/sgerrand/alpine-pkg-glibc/releases" target="_blank" rel="noopener"
+>https://github.com/sgerrand/alpine-pkg-glibc/releases&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>引用自：&lt;a class="link" href="https://blog.51cto.com/welcomeweb/2652026" target="_blank" rel="noopener"
+>alpine镜像启动的容器内运行二进制文件出现：/bin/sh: xxx not found&lt;/a>&lt;/p></description></item><item><title>ArchManjaro（pacman）配置国内源</title><link>https://huiaei.eu.org/post/archmanjaro-pacman-configuration-domestic-source-srfse.html</link><pubDate>Sat, 02 Mar 2024 22:11:50 +0800</pubDate><guid>https://huiaei.eu.org/post/archmanjaro-pacman-configuration-domestic-source-srfse.html</guid><description>&lt;h1 id="archmanjaropacman配置国内源">ArchManjaro（pacman）配置国内源
+&lt;/h1>&lt;ol>
+&lt;li>更改源&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>使用&lt;code>pacman-mirros&lt;/code>更改镜像软件库所在国家 &lt;code>sudo pacman-mirrors -i -c China -m rank&lt;/code>&lt;/li>
+&lt;li>或者使用nano或vim打开&lt;code>/etc/pacman.d/mirrorlist&lt;/code> 添加源服务器链接并保存，例如，清华源 &lt;code>Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>使用命令&lt;code>pacman -Syy&lt;/code>强制刷新软件库缓存&lt;/li>
+&lt;li>可选选择 安装&lt;code>archlinuxcn&lt;/code> 1. 打开&lt;code>/etc/pacman.conf&lt;/code> 2. 在末尾添加&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[archlinuxcn]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>服务器可选以下，只需替换&lt;code>Server =&lt;/code>之后的链接（搜集不全，如有缺失，欢迎补充）&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名字&lt;/th>
+&lt;th>链接&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>中科大&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirrors.ustc.edu.cn/archlinuxcn/$arch" target="_blank" rel="noopener"
+>https://mirrors.ustc.edu.cn/archlinuxcn/$arch&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>网易&lt;/td>
+&lt;td>&lt;a class="link" href="http://mirrors.163.com/archlinux-cn/$arch" target="_blank" rel="noopener"
+>http://mirrors.163.com/archlinux-cn/$arch&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>腾讯云&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirrors.cloud.tencent.com/archlinuxcn/$arch" target="_blank" rel="noopener"
+>https://mirrors.cloud.tencent.com/archlinuxcn/$arch&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>推荐参考资料：&lt;a class="link" href="https://wiki.archlinux.org" target="_blank" rel="noopener"
+>archwiki&lt;/a>&lt;/p></description></item><item><title>Windows远程桌面连接使用微软账户登录</title><link>https://huiaei.eu.org/post/windows-remote-desktop-connection-login-with-microsoft-account-z2kbxxi.html</link><pubDate>Sat, 02 Mar 2024 22:11:43 +0800</pubDate><guid>https://huiaei.eu.org/post/windows-remote-desktop-connection-login-with-microsoft-account-z2kbxxi.html</guid><description>&lt;h1 id="windows远程桌面连接使用微软账户登录">Windows远程桌面连接使用微软账户登录
+&lt;/h1>&lt;ol>
+&lt;li>打开&lt;code>远程桌面连接&lt;/code>或者其他进行RDP连接的应用软件（以&lt;code>远程桌面连接&lt;/code>为例）&lt;/li>
+&lt;li>&lt;code>计算机&lt;/code>填写远程设备的IP地址或者域名（RDP默认端口为&lt;code>3389&lt;/code>）&lt;/li>
+&lt;li>&lt;code>用户名&lt;/code>填写微软账户的邮箱地址&lt;/li>
+&lt;li>点击&lt;code>连接&lt;/code>&lt;/li>
+&lt;li>使用微软账户的密码进行登录&lt;/li>
+&lt;/ol>
+&lt;h2 id="常见问题">常见问题
+&lt;/h2>&lt;h3 id="微软账户的邮箱地址和密码输入正确但是无法登录">微软账户的邮箱地址和密码输入正确但是无法登录
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>请尝试将&lt;code>计算机&lt;/code>填写成 &lt;code>MicrosoftAccount\{微软账户邮箱地址}&lt;/code>的形式&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在远程连接目标设备上使用&lt;code>运行&lt;/code>（Windows+R）执行下列任选一行&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">runas /u:{微软账户邮箱地址} cmd.exe
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">runas /u:MicrosoftAccount\{微软账户邮箱地址} cmd.exe
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>在弹出来的CLI（命令行）窗口按照提示输入微软账户密码&lt;/p>
+&lt;p>命令的意思是使用&lt;code>{微软账户邮箱地址}&lt;/code>的身份运行&lt;code>cmd.exe&lt;/code>&lt;/p>
+&lt;p>此操作用意在于刷新微软账户在远程连接设备上的凭证缓存&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="参考">参考
+&lt;/h2>&lt;p>&lt;a class="link" href="https://docs.microsoft.com/en-us/answers/questions/369584/windows-10-home-to-pro-upgrade-need-to-update-pers.html" target="_blank" rel="noopener"
+>Windows 10 RDP not working using Microsoft account (local accounts are working)&lt;/a>&lt;/p></description></item><item><title>Steam 在浏览器上使用脚本领取游戏</title><link>https://huiaei.eu.org/post/steam-use-scripts-to-get-games-on-your-browser-z1kyz7g.html</link><pubDate>Sat, 02 Mar 2024 22:11:39 +0800</pubDate><guid>https://huiaei.eu.org/post/steam-use-scripts-to-get-games-on-your-browser-z1kyz7g.html</guid><description>&lt;h1 id="steam-在浏览器上使用脚本领取游戏">Steam 在浏览器上使用脚本领取游戏
+&lt;/h1>&lt;h3 id="单独激活">单独激活
+&lt;/h3>&lt;ol>
+&lt;li>首先登录网页版Steam 账号。 &lt;a class="link" href="https://store.steampowered.com/" target="_blank" rel="noopener"
+>https://store.steampowered.com/&lt;/a>&lt;/li>
+&lt;li>点击右上角自己账号 &amp;mdash;-账户明细 &amp;mdash;-许可和产品序列号激活&lt;/li>
+&lt;li>获取需要的游戏ID，可前往&lt;a class="link" href="https://steamdb.info" target="_blank" rel="noopener"
+>SteamDB&lt;/a>查询&lt;/li>
+&lt;li>&lt;code>F12&lt;/code>打开控制台&lt;/li>
+&lt;li>输入AddFreeLicense(&lt;code>游戏ID&lt;/code>);&lt;/li>
+&lt;/ol>
+&lt;h3 id="批量激活">批量激活
+&lt;/h3>&lt;ol>
+&lt;li>首先登录网页版Steam 账号。 &lt;a class="link" href="https://store.steampowered.com/" target="_blank" rel="noopener"
+>https://store.steampowered.com/&lt;/a>&lt;/li>
+&lt;li>点击右上角自己账号 &amp;mdash;-账户明细 &amp;mdash;-许可和产品序列号激活&lt;/li>
+&lt;li>获取需要的游戏ID，可前往&lt;a class="link" href="https://steamdb.info" target="_blank" rel="noopener"
+>SteamDB&lt;/a>查询&lt;/li>
+&lt;li>&lt;code>F12&lt;/code>打开控制台&lt;/li>
+&lt;li>右键粘贴代码，在注释下方添加需要添加游戏的游戏ID，之后回车。&lt;/li>
+&lt;/ol>
+&lt;p>添加位置如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">freePackages&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//格式：请在下面输入游戏id。
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//游戏id,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//游戏id,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//...,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="o">--&amp;gt;&lt;/span>&lt;span class="nx">在这里添加游戏ID&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nx">每行结束以&lt;/span>&lt;span class="sb">`,`&lt;/span>&lt;span class="nx">结尾&lt;/span>&lt;span class="err">。&lt;/span>&lt;span class="o">&amp;lt;--&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">--&amp;gt;&lt;/span>&lt;span class="nx">不要把直接把ID粘贴在这&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nx">需要粘贴在下方完整代码对应位置中&lt;/span>&lt;span class="o">&amp;lt;--&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>完整代码如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="n">function&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">location&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">href&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="o">/^&lt;/span>&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="o">/&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">store&lt;/span>\&lt;span class="o">.&lt;/span>&lt;span class="n">steampowered&lt;/span>\&lt;span class="o">.&lt;/span>&lt;span class="n">com&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">account&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">licenses&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="err">?&lt;/span>&lt;span class="o">$/&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="o">===&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">alert&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;请在Steam帐号明细页面运行这些代码: https://store.steampowered.com/account/licenses/&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">window&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">location&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://store.steampowered.com/account/licenses/&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">freePackages&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">格式：请在下面输入游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="err">。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//...&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">ownedPackages&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">jQuery&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;.account_table a&amp;#39;&lt;/span> &lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">each&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">function&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">el&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">el&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">href&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="n">javascript&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">RemoveFreeLicense&lt;/span>\&lt;span class="p">(&lt;/span> &lt;span class="p">([&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s1">&amp;#39;/ );&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="o">!==&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ownedPackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="o">+&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="mi">1&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="bp">true&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">package&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">total&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">freePackages&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">length&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ShowBlockingWaitDialog&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;努力执行中...&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;请耐心等待，如果有错误请无视，请耐心等待脚本加载完毕&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">total&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">package&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">freePackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">ownedPackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="n">package&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">continue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">jQuery&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">post&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;//store.steampowered.com/checkout/addfreelicense&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">action&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;add_to_cart&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">sessionid&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">g_sessionID&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">subid&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">package&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">always&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">function&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Dismiss&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">loaded&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="n">total&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">location&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reload&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ShowBlockingWaitDialog&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;执行中...&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;加载至 &amp;lt;b&amp;gt;&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">loaded&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;&amp;lt;/b&amp;gt;/&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">total&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;.&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}());&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>命令 on Huiaei's Notebook</title><link>https://huiaei.eu.org/tags/%E5%91%BD%E4%BB%A4/</link><description>Recent content in 命令 on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:28:40 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/tags/%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml"/><item><title>Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）</title><link>https://huiaei.eu.org/post/mklink-command-differences-between-symbolic-links-directory-links-hard-links-shortcuts-z12cpcs.html</link><pubDate>Sat, 02 Mar 2024 22:12:06 +0800</pubDate><guid>https://huiaei.eu.org/post/mklink-command-differences-between-symbolic-links-directory-links-hard-links-shortcuts-z12cpcs.html</guid><description>&lt;h1 id="mklink-命令符号链接目录链接硬链接快捷方式的区别">Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）
+&lt;/h1>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>链接类型&lt;/th>
+&lt;th>命令&lt;/th>
+&lt;th>文件类型&lt;/th>
+&lt;th>文件路径&lt;/th>
+&lt;th>空间占用&lt;/th>
+&lt;th>可链接类型&lt;/th>
+&lt;th>本质&lt;/th>
+&lt;th>Windows下是否可跨磁盘&lt;/th>
+&lt;th>访问方式&lt;/th>
+&lt;th>源文件与链接文件关联关系&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>符号链接（软链接）&lt;/td>
+&lt;td>/d&lt;/td>
+&lt;td>.symlinkd&lt;/td>
+&lt;td>相对路径；绝对路径&lt;/td>
+&lt;td>不占空间&lt;/td>
+&lt;td>目录&lt;/td>
+&lt;td>相当于只是对源文件进行引用，只有使用权，没有所有权&lt;/td>
+&lt;td>本地磁盘；网络磁盘（共享目录）&lt;/td>
+&lt;td>本地访问：通过链接目录所在磁盘路径访问；网络访问：通过tomcat可实现&lt;/td>
+&lt;td>源删除链接失效；链接删除源保留；源内容变化链接内容变化；链接内容变化源内容变化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>目录链接（软链接）&lt;/td>
+&lt;td>/j&lt;/td>
+&lt;td>.junction&lt;/td>
+&lt;td>绝对路径&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条，链接点&lt;/td>
+&lt;td>本地硬盘&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>硬链接&lt;/td>
+&lt;td>/h&lt;/td>
+&lt;td>.源文件类型&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>占用与原文件一致&lt;/td>
+&lt;td>文件&lt;/td>
+&lt;td>相当于复制粘贴&lt;/td>
+&lt;td>不可以&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>快捷方式&lt;/td>
+&lt;td>批处理&lt;/td>
+&lt;td>.lnk&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>文件大约1k，与源文件无关&lt;/td>
+&lt;td>文件、目录&lt;/td>
+&lt;td>本地磁盘&lt;/td>
+&lt;td>跳转到源所在位置访问；无法通过网络访问源&lt;/td>
+&lt;td>源删除链接失效；链接删除源保留；只是个快捷方式&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>‍&lt;/p></description></item><item><title>Git 命令使用或取消代理</title><link>https://huiaei.eu.org/post/git-commands-use-or-cancel-proxy-1eonzk.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/git-commands-use-or-cancel-proxy-1eonzk.html</guid><description>&lt;h1 id="git-命令使用或取消代理">Git 命令使用或取消代理
+&lt;/h1>&lt;p>假设代理到目标 socks5://127.0.0.1:10808&lt;/p>
+&lt;ol>
+&lt;li>全局代理 git config &amp;ndash;global http.proxy socks5://127.0.0.1:10808 git config &amp;ndash;global https.proxy socks5://127.0.0.1:10808&lt;/li>
+&lt;li>部分代理 git config &amp;ndash;global http.https://github.com.proxy socks5://127.0.0.1:10808 git config &amp;ndash;global https.https://github.com.proxy socks5://127.0.0.1:10808&lt;/li>
+&lt;li>取消代理 git config &amp;ndash;global &amp;ndash;unset http.proxy git config &amp;ndash;global &amp;ndash;unset https.proxy&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>参考自: &lt;a class="link" href="https://blog.gobyte.cn/post/1a22163b.html" target="_blank" rel="noopener"
+>https://blog.gobyte.cn/post/1a22163b.html&lt;/a> &lt;a class="link" href="https://blog.csdn.net/tanningzhong/article/details/52817399" target="_blank" rel="noopener"
+>https://blog.csdn.net/tanningzhong/article/details/52817399&lt;/a>&lt;/p>&lt;/blockquote></description></item></channel></rss>

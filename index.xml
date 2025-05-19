@@ -1,0 +1,3810 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Huiaei's Notebook</title><link>https://huiaei.eu.org/</link><description>Recent content on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:29:14 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/index.xml" rel="self" type="application/rss+xml"/><item><title>零跑 B10 （2025年）详细配置及参数</title><link>https://huiaei.eu.org/post/zero-run-b10-2025-detailed-configuration-and-parameters-1iwesh.html</link><pubDate>Fri, 11 Apr 2025 17:29:21 +0800</pubDate><guid>https://huiaei.eu.org/post/zero-run-b10-2025-detailed-configuration-and-parameters-1iwesh.html</guid><description>&lt;h1 id="零跑-b10-2025年详细配置及参数">零跑 B10 （2025年）详细配置及参数
+&lt;/h1>&lt;blockquote>
+&lt;p>来自：&lt;a class="link" href="https://www.leapmotor.com/parameter-pk-web.html?platform=web&amp;amp;carTypeId=14" target="_blank" rel="noopener"
+>https://www.leapmotor.com/parameter-pk-web.html?platform=web&amp;amp;carTypeId=14&lt;/a>&lt;/p>
+&lt;p>通过网页截图后使用&lt;a class="link" href="https://chat.qwen.ai/" target="_blank" rel="noopener"
+>Qwen3-32B模型&lt;/a>进行提取（提取时间：2025年5月19日）&lt;/p>
+&lt;p>声明：无法保证数据准确和可靠性，如有错误欢迎指出。&lt;/p>
+&lt;p>说明：●表示标配，○表示选配，-表示无&lt;/p>&lt;/blockquote>
+&lt;h2 id="b10-510km版本">B10 510KM版本
+&lt;/h2>&lt;h3 id="比较车型">比较车型
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>车型&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>全国指导价&lt;/td>
+&lt;td>9.98 万起&lt;/td>
+&lt;td>10.98 万起&lt;/td>
+&lt;td>11.98 万起&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="基本参数">基本参数
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>长 x 宽 x 高 (mm)&lt;/td>
+&lt;td>4515 x 1885 x 1655&lt;/td>
+&lt;td>4515 x 1885 x 1655&lt;/td>
+&lt;td>4515 x 1885 x 1655&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>轴距 (mm)&lt;/td>
+&lt;td>2735&lt;/td>
+&lt;td>2735&lt;/td>
+&lt;td>2735&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CLTC 综合工况续航里程 (km)&lt;/td>
+&lt;td>510&lt;/td>
+&lt;td>510&lt;/td>
+&lt;td>510&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>最高车速 (km/h)&lt;/td>
+&lt;td>160&lt;/td>
+&lt;td>170&lt;/td>
+&lt;td>170&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>0-100 km/h 加速 (s)&lt;/td>
+&lt;td>9.3&lt;/td>
+&lt;td>6.8&lt;/td>
+&lt;td>6.8&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空载最小离地间隙 (mm)&lt;/td>
+&lt;td>170&lt;/td>
+&lt;td>170&lt;/td>
+&lt;td>170&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车身结构&lt;/td>
+&lt;td>5 门 5 座&lt;/td>
+&lt;td>5 门 5 座&lt;/td>
+&lt;td>5 门 5 座&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>行李箱容积 (L)&lt;/td>
+&lt;td>420/1415&lt;/td>
+&lt;td>420/1415&lt;/td>
+&lt;td>420/1415&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>整备质量 (kg)&lt;/td>
+&lt;td>1670&lt;/td>
+&lt;td>1705&lt;/td>
+&lt;td>1705&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>整车质保&lt;/td>
+&lt;td>4 年或 12 万公里&lt;/td>
+&lt;td>4 年或 12 万公里&lt;/td>
+&lt;td>4 年或 12 万公里&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="leapmotor-power-智能动力系统">Leapmotor Power 智能动力系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>电机类型&lt;/td>
+&lt;td>永磁同步&lt;/td>
+&lt;td>永磁同步&lt;/td>
+&lt;td>永磁同步&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电机总功率 (kW)&lt;/td>
+&lt;td>132&lt;/td>
+&lt;td>160&lt;/td>
+&lt;td>160&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电机总扭矩 (N·m)&lt;/td>
+&lt;td>175&lt;/td>
+&lt;td>240&lt;/td>
+&lt;td>240&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后电机最大功率 (kW)&lt;/td>
+&lt;td>132&lt;/td>
+&lt;td>160&lt;/td>
+&lt;td>160&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后电机最大扭矩 (N·m)&lt;/td>
+&lt;td>175&lt;/td>
+&lt;td>240&lt;/td>
+&lt;td>240&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电机布局&lt;/td>
+&lt;td>单电机后置&lt;/td>
+&lt;td>单电机后置&lt;/td>
+&lt;td>单电机后置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>变速箱&lt;/td>
+&lt;td>单速变速箱&lt;/td>
+&lt;td>单速变速箱&lt;/td>
+&lt;td>单速变速箱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池类型&lt;/td>
+&lt;td>磷酸铁锂&lt;/td>
+&lt;td>磷酸铁锂&lt;/td>
+&lt;td>磷酸铁锂&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池能量 (kWh)&lt;/td>
+&lt;td>56.2&lt;/td>
+&lt;td>56.2&lt;/td>
+&lt;td>56.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>交流标准充电 (30%-80%)&lt;/td>
+&lt;td>约 4.2 小时&lt;/td>
+&lt;td>约 4.2 小时&lt;/td>
+&lt;td>约 4.2 小时&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>直流快充充电 (30%-80%)&lt;/td>
+&lt;td>约 19 分钟&lt;/td>
+&lt;td>约 19 分钟&lt;/td>
+&lt;td>约 19 分钟&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>预约充电&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池智能恒温管理系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池热失控预警&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池组质保&lt;/td>
+&lt;td>首任车主（非营运）三电终身质保&lt;/td>
+&lt;td>首任车主（非营运）三电终身质保&lt;/td>
+&lt;td>首任车主（非营运）三电终身质保&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="底盘系统">底盘系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>驱动方式&lt;/td>
+&lt;td>后置后驱&lt;/td>
+&lt;td>后置后驱&lt;/td>
+&lt;td>后置后驱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前悬架类型&lt;/td>
+&lt;td>麦弗逊式独立悬架&lt;/td>
+&lt;td>麦弗逊式独立悬架&lt;/td>
+&lt;td>麦弗逊式独立悬架&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后悬架类型&lt;/td>
+&lt;td>多连杆式独立悬架&lt;/td>
+&lt;td>多连杆式独立悬架&lt;/td>
+&lt;td>多连杆式独立悬架&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>助力类型&lt;/td>
+&lt;td>电动助力 EPS&lt;/td>
+&lt;td>电动助力 EPS&lt;/td>
+&lt;td>电动助力 EPS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>换挡方式&lt;/td>
+&lt;td>怀挡式&lt;/td>
+&lt;td>怀挡式&lt;/td>
+&lt;td>怀挡式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>加速模式&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>制动能回收&lt;/td>
+&lt;td>弱/中/强&lt;/td>
+&lt;td>弱/中/强&lt;/td>
+&lt;td>弱/中/强&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>转向模式&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前/后制动器类型&lt;/td>
+&lt;td>通风盘式/盘式&lt;/td>
+&lt;td>通风盘式/盘式&lt;/td>
+&lt;td>通风盘式/盘式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EPB 电子驻车&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>轮胎规格&lt;/td>
+&lt;td>225/50 R18&lt;/td>
+&lt;td>235/50 R18&lt;/td>
+&lt;td>235/50 R18&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>钢轮毂&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>铝合金轮毂&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>运动融合控制&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="leapmotor-pilot-智能驾驶辅助系统">Leapmotor Pilot 智能驾驶辅助系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>前视摄像头&lt;/td>
+&lt;td>200 万像素 x1&lt;/td>
+&lt;td>200 万像素 x1&lt;/td>
+&lt;td>800 万像素 x2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>环视摄像头&lt;/td>
+&lt;td>130 万像素 x4&lt;/td>
+&lt;td>130 万像素 x4&lt;/td>
+&lt;td>300 万像素 x4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盲区摄像头&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>300 万像素 x4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>超声波雷达&lt;/td>
+&lt;td>x12&lt;/td>
+&lt;td>x12&lt;/td>
+&lt;td>x12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前向毫米波雷达&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>侧向毫米波雷达&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>激光雷达&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>等效 128 线 x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后高位摄像头&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>300 万像素 x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>高通 8650 超级计算平台&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前车起步提醒&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>智能限速辅助 (ISA)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前碰撞预警 (FCW)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前向车距监测 (FDM)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道偏离预警 (LDW)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盲区查看系统 (BSV)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盲区监测预警 (BSD)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>坡道辅助影像&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道变换预警 (LCA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>开门预警 (DOW)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后碰撞预警 (RCW)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后方交通穿行预警 (RCTA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空道辅助 (SDIS)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>全速自适应巡航 (ACC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动紧急制动 (AEB)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道居中辅助 (LCC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方向盘脱手预警&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道保持辅助 (LKA)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动变道辅助 (ALC)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>高速智能领航辅助 (NAP)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>通勤智能领航 (CNAP) ※&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>导航辅助巡航 (NAC)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>停车场记忆泊车 (HPA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>APA 自动泊车系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>远程泊车辅助系统 (RPA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>倒车影像 (动态辅助线)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>直线召唤&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>360° 全景影像&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>透明底盘&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="leapmotor-os-智能交互系统">Leapmotor OS 智能交互系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>液晶仪表&lt;/td>
+&lt;td>8.8 英寸&lt;/td>
+&lt;td>8.8 英寸&lt;/td>
+&lt;td>8.8 英寸&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>中控液晶显示屏&lt;/td>
+&lt;td>14.6 英寸 (2.5K)&lt;/td>
+&lt;td>14.6 英寸 (2.5K)&lt;/td>
+&lt;td>14.6 英寸 (2.5K)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车机智能芯片&lt;/td>
+&lt;td>SA8155P&lt;/td>
+&lt;td>SA8155P&lt;/td>
+&lt;td>SA8295P&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ID 账户和自适应配置系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音识别控制系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音唤醒词&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音分区域唤醒识别&lt;/td>
+&lt;td>双区域&lt;/td>
+&lt;td>双区域&lt;/td>
+&lt;td>双区域&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>可见即可说&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AI 语音大模型&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音连续识别&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>应用中心&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>零动空间&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>守护模式&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>哨兵模式&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>露营模式&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>整车 OTA 升级&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机 OTA 远程升级&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机 APP 远程控制系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机近场遥控器&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手表控车&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车载 KTV&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>无麦 K 歌&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>蓝牙/车载电话&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车载网络&lt;/td>
+&lt;td>4G&lt;/td>
+&lt;td>4G&lt;/td>
+&lt;td>4G&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>在线零听&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手车互联 ※&lt;/td>
+&lt;td>CarLink / HUAWEI HiCar&lt;/td>
+&lt;td>CarLink / HUAWEI HiCar&lt;/td>
+&lt;td>CarLink / HUAWEI HiCar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSP 数字功放音响系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>扬声器数量&lt;/td>
+&lt;td>6 个&lt;/td>
+&lt;td>12 个&lt;/td>
+&lt;td>12 个&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="安全装备">安全装备
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>前排正面安全气囊&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排侧安全气囊&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>贯穿式侧气帘&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排三点锁止式安全带&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>安全带未系提醒&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排三点锁止式安全带&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TPMS 胎压监测&lt;/td>
+&lt;td>胎压显示&lt;/td>
+&lt;td>胎压显示&lt;/td>
+&lt;td>胎压显示&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ISO FIX 儿童座椅接口&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车身防盗报警系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车门未关提示&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车内中控锁&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>儿童安全门锁&lt;/td>
+&lt;td>机械&lt;/td>
+&lt;td>机械&lt;/td>
+&lt;td>机械&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车速感应上锁&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>碰撞后车门自动解锁&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>防抱死制动系统 (ABS)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电子制动力分配系统 (EBD)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>动态驻车制动 (DBF)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电子紧急制动辅助 (EBA)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>牵引力控制系统 (TCS)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车身稳定系统 (ESC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>坡道起步辅助 (HHC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动驻车 (Auto Hold)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>陡坡缓降 (HDC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电子防翻滚功能 (ARP)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>碰撞后二次制动 (MCB)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="外部配置">外部配置
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>全景天幕&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电动遮阳帘&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LED 前大灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后贯穿式 LED 位置灯&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前大灯高度可调&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前大灯自动开启&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>远近光自动切换&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前大灯延时关闭&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LED 尾灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LED 高位制动灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AGS 主动进气格栅&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>外后视镜功能&lt;/td>
+&lt;td>电动调节、加热、电动折叠、锁车自动折叠、盲区提醒、后方来车提醒&lt;/td>
+&lt;td>电动调节、加热、电动折叠、锁车自动折叠、盲区提醒、后方来车提醒&lt;/td>
+&lt;td>电动调节、加热、电动折叠、锁车自动折叠、盲区提醒、后方来车提醒&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>外后视镜 LED 转向灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后风窗加热&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手动拨出式隐藏门把手&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前后电动车窗&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车窗一键升降&lt;/td>
+&lt;td>全车&lt;/td>
+&lt;td>全车&lt;/td>
+&lt;td>全车&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车窗防夹功能&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前风窗无骨雨刮&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电动后备箱（带位置记忆和防夹）&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="内部配置">内部配置
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>方向盘材质&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>多功能方向盘&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方向盘位置调节&lt;/td>
+&lt;td>手动上下+前后调节&lt;/td>
+&lt;td>手动上下+前后调节&lt;/td>
+&lt;td>手动上下+前后调节&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方向盘加热&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>座椅材质&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排座椅头枕&lt;/td>
+&lt;td>可拆卸式&lt;/td>
+&lt;td>可拆卸式&lt;/td>
+&lt;td>可拆卸式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>主驾座椅调节方式&lt;/td>
+&lt;td>前后调节、靠背调节、高低调节&lt;/td>
+&lt;td>前后调节、靠背调节、高低调节&lt;/td>
+&lt;td>前后调节、靠背调节、高低调节&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>副驾座椅调节方式&lt;/td>
+&lt;td>前后调节、靠背调节&lt;/td>
+&lt;td>前后调节、靠背调节&lt;/td>
+&lt;td>前后调节、靠背调节&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>主副驾座椅电动调节&lt;/td>
+&lt;td>主/副&lt;/td>
+&lt;td>主/副&lt;/td>
+&lt;td>主/副&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排座椅功能&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>主/副座椅加热、主驾座椅通风&lt;/td>
+&lt;td>主/副座椅加热、主驾座椅通风&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排座椅 4/6 比例放倒&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排中央扶手&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排中央扶手托&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>内后视镜防眩目&lt;/td>
+&lt;td>手动&lt;/td>
+&lt;td>手动&lt;/td>
+&lt;td>手动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车内化妆镜&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>主驾+照明灯、副驾+照明灯&lt;/td>
+&lt;td>主驾+照明灯、副驾+照明灯&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>阅读灯&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车内氛围灯&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>256 色&lt;/td>
+&lt;td>256 色&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>织物顶棚&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>行李箱照明灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="空调系统">空调系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>自动恒温单区空调&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排空调出风口&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>热泵空调&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PM2.5 空调滤芯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空调防霉模式&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="舒适便利">舒适便利
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>行车记录&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>钥匙类型&lt;/td>
+&lt;td>遥控钥匙 x1、蓝牙钥匙、机械钥匙 x1&lt;/td>
+&lt;td>遥控钥匙 x1、蓝牙钥匙、机械钥匙 x1&lt;/td>
+&lt;td>遥控钥匙 x1、蓝牙钥匙、机械钥匙 x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机无线充电&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>前排 x1 (15W)&lt;/td>
+&lt;td>前排 x1 (15W)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排 USB 接口&lt;/td>
+&lt;td>TYPE-A x1 (5W)&lt;/td>
+&lt;td>TYPE-A x1 (12W)、TYPE-C x1 (60W)&lt;/td>
+&lt;td>TYPE-A x1 (12W)、TYPE-C x1 (60W)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排 USB 接口&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>TYPE-A x1 (12W)&lt;/td>
+&lt;td>TYPE-A x1 (15W)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12V 电源&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>V2L 对外放电功能&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手套箱&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>舒适刹停&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="外观颜色">外观颜色
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>颜色&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>星河银&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>苍原灰&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>光电白&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>金属黑&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天幕灰&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>澄露紫&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>星夜蓝&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="内饰颜色">内饰颜色
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>颜色&lt;/th>
+&lt;th>B10 510 舒享智驾版&lt;/th>
+&lt;th>B10 510 悦享智驾版&lt;/th>
+&lt;th>B10 510 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>萝萝紫&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>竹影灰&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="b10-600km版本">B10 600KM版本
+&lt;/h2>&lt;h3 id="比较车型-1">比较车型
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>车型&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>全国指导价&lt;/td>
+&lt;td>11.98 万起&lt;/td>
+&lt;td>12.98 万起&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="基本参数-1">基本参数
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>长 x 宽 x 高 (mm)&lt;/td>
+&lt;td>4515 x 1885 x 1655&lt;/td>
+&lt;td>4515 x 1885 x 1655&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>轴距 (mm)&lt;/td>
+&lt;td>2735&lt;/td>
+&lt;td>2735&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CLTC 综合工况续航里程 (km)&lt;/td>
+&lt;td>600&lt;/td>
+&lt;td>600&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>最高车速 (km/h)&lt;/td>
+&lt;td>170&lt;/td>
+&lt;td>170&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>0-100 km/h 加速 (s)&lt;/td>
+&lt;td>6.8&lt;/td>
+&lt;td>6.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空载最小离地间隙 (mm)&lt;/td>
+&lt;td>170&lt;/td>
+&lt;td>170&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车身结构&lt;/td>
+&lt;td>5 门 5 座&lt;/td>
+&lt;td>5 门 5 座&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>行李箱容积 (L)&lt;/td>
+&lt;td>420/1415&lt;/td>
+&lt;td>420/1415&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>整备质量 (kg)&lt;/td>
+&lt;td>1756&lt;/td>
+&lt;td>1756&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>整车质保&lt;/td>
+&lt;td>4 年或 12 万公里&lt;/td>
+&lt;td>4 年或 12 万公里&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="leapmotor-power-智能动力系统-1">Leapmotor Power 智能动力系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>电机类型&lt;/td>
+&lt;td>永磁同步&lt;/td>
+&lt;td>永磁同步&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电机总功率 (kW)&lt;/td>
+&lt;td>160&lt;/td>
+&lt;td>160&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电机总扭矩 (N·m)&lt;/td>
+&lt;td>240&lt;/td>
+&lt;td>240&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后电机最大功率 (kW)&lt;/td>
+&lt;td>160&lt;/td>
+&lt;td>160&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后电机最大扭矩 (N·m)&lt;/td>
+&lt;td>240&lt;/td>
+&lt;td>240&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电机布局&lt;/td>
+&lt;td>单电机后置&lt;/td>
+&lt;td>单电机后置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>变速箱&lt;/td>
+&lt;td>单速变速箱&lt;/td>
+&lt;td>单速变速箱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池类型&lt;/td>
+&lt;td>磷酸铁锂&lt;/td>
+&lt;td>磷酸铁锂&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池能量 (kWh)&lt;/td>
+&lt;td>67.1&lt;/td>
+&lt;td>67.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>交流标准充电 (30%-80%)&lt;/td>
+&lt;td>约 5.6 小时&lt;/td>
+&lt;td>约 5.6 小时&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>直流快充充电 (30%-80%)&lt;/td>
+&lt;td>约 20 分钟&lt;/td>
+&lt;td>约 20 分钟&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>预约充电&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池智能恒温管理系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池热失控预警&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电池组质保&lt;/td>
+&lt;td>首任车主（非营运）三电终身质保&lt;/td>
+&lt;td>首任车主（非营运）三电终身质保&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="底盘系统-1">底盘系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>驱动方式&lt;/td>
+&lt;td>后置后驱&lt;/td>
+&lt;td>后置后驱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前悬架类型&lt;/td>
+&lt;td>麦弗逊式独立悬架&lt;/td>
+&lt;td>麦弗逊式独立悬架&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后悬架类型&lt;/td>
+&lt;td>多连杆式独立悬架&lt;/td>
+&lt;td>多连杆式独立悬架&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>助力类型&lt;/td>
+&lt;td>电动助力 EPS&lt;/td>
+&lt;td>电动助力 EPS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>换挡方式&lt;/td>
+&lt;td>怀挡式&lt;/td>
+&lt;td>怀挡式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>加速模式&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>制动能回收&lt;/td>
+&lt;td>弱/中/强&lt;/td>
+&lt;td>弱/中/强&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>转向模式&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;td>舒适/标准/运动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前/后制动器类型&lt;/td>
+&lt;td>通风盘式/盘式&lt;/td>
+&lt;td>通风盘式/盘式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EPB 电子驻车&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>轮胎规格&lt;/td>
+&lt;td>225/50 R18&amp;lt;br&amp;gt;235/50 R18&lt;/td>
+&lt;td>225/50 R18&amp;lt;br&amp;gt;235/50 R18&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>钢轮毂&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>铝合金轮毂&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>运动融合控制&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="leapmotor-pilot-智能驾驶辅助系统-1">Leapmotor Pilot 智能驾驶辅助系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>前视摄像头&lt;/td>
+&lt;td>200 万像素 x1&lt;/td>
+&lt;td>800 万像素 x2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>环视摄像头&lt;/td>
+&lt;td>130 万像素 x4&lt;/td>
+&lt;td>300 万像素 x4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盲区摄像头&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>300 万像素 x4&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>超声波雷达&lt;/td>
+&lt;td>x12&lt;/td>
+&lt;td>x12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前向毫米波雷达&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>侧向毫米波雷达&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>激光雷达&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>等效 128 线 x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后高位摄像头&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>300 万像素 x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>高通 8650 超级计算平台&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前车起步提醒&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>智能限速辅助 (ISA)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前碰撞预警 (FCW)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前向车距监测 (FDM)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道偏离预警 (LDW)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盲区查看系统 (BSV)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>盲区监测预警 (BSD)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>坡道辅助影像&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道变换预警 (LCA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>开门预警 (DOW)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后碰撞预警 (RCW)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后方交通穿行预警 (RCTA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空道辅助 (SDIS)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>全速自适应巡航 (ACC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动紧急制动 (AEB)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道居中辅助 (LCC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方向盘脱手预警&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车道保持辅助 (LKA)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动变道辅助 (ALC)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>高速智能领航辅助 (NAP)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>通勤智能领航 (CNAP) ※&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>导航辅助巡航 (NAC)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>停车场记忆泊车 (HPA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>APA 自动泊车系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>远程泊车辅助系统 (RPA)&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>倒车影像 (动态辅助线)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>直线召唤&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>360° 全景影像&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>透明底盘&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="leapmotor-os-智能交互系统-1">Leapmotor OS 智能交互系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>液晶仪表&lt;/td>
+&lt;td>8.8 英寸&lt;/td>
+&lt;td>8.8 英寸&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>中控液晶显示屏&lt;/td>
+&lt;td>14.6 英寸 (2.5K)&lt;/td>
+&lt;td>14.6 英寸 (2.5K)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车机智能芯片&lt;/td>
+&lt;td>SA8155P&lt;/td>
+&lt;td>SA8295P&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ID 账户和自适应配置系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音识别控制系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音唤醒词&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音分区域唤醒识别&lt;/td>
+&lt;td>双区域&lt;/td>
+&lt;td>双区域&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>可见即可说&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AI 语音大模型&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>语音连续识别&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>应用中心&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>零动空间&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>守护模式&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>哨兵模式&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>露营模式&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>整车 OTA 升级&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机 OTA 远程升级&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机 APP 远程控制系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机近场遥控器&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手表控车&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车载 KTV&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>无麦 K 歌&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>蓝牙/车载电话&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车载网络&lt;/td>
+&lt;td>4G&lt;/td>
+&lt;td>4G&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>在线零听&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手车互联 ※&lt;/td>
+&lt;td>CarLink / HUAWEI HiCar&lt;/td>
+&lt;td>CarLink / HUAWEI HiCar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSP 数字功放音响系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>扬声器数量&lt;/td>
+&lt;td>12 个&lt;/td>
+&lt;td>12 个&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="安全装备-1">安全装备
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>前排正面安全气囊&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排侧安全气囊&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>贯穿式侧气帘&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排三点锁止式安全带&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>安全带未系提醒&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排三点锁止式安全带&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>TPMS 胎压监测&lt;/td>
+&lt;td>胎压显示&lt;/td>
+&lt;td>胎压显示&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ISO FIX 儿童座椅接口&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车身防盗报警系统&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车门未关提示&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车内中控锁&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>儿童安全门锁&lt;/td>
+&lt;td>机械&lt;/td>
+&lt;td>机械&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车速感应上锁&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>碰撞后车门自动解锁&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>防抱死制动系统 (ABS)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电子制动力分配系统 (EBD)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>动态驻车制动 (DBF)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电子紧急制动辅助 (EBA)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>牵引力控制系统 (TCS)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车身稳定系统 (ESC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>坡道起步辅助 (HHC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>自动驻车 (Auto Hold)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>陡坡缓降 (HDC)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电子防翻滚功能 (ARP)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>碰撞后二次制动 (MCB)&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="外部配置-1">外部配置
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>全景天幕&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电动遮阳帘&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LED 前大灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后贯穿式 LED 位置灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前大灯高度可调&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前大灯自动开启&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>远近光自动切换&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前大灯延时关闭&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LED 尾灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LED 高位制动灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AGS 主动进气格栅&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>外后视镜功能&lt;/td>
+&lt;td>电动调节、加热、电动折叠、锁车自动折叠、盲区提醒、后方来车提醒&lt;/td>
+&lt;td>电动调节、加热、电动折叠、锁车自动折叠、盲区提醒、后方来车提醒&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>外后视镜 LED 转向灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>后风窗加热&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手动拨出式隐藏门把手&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前后电动车窗&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车窗一键升降&lt;/td>
+&lt;td>全车&lt;/td>
+&lt;td>全车&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车窗防夹功能&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前风窗无骨雨刮&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>电动后备箱（带位置记忆和防夹）&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="内部配置-1">内部配置
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>方向盘材质&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>多功能方向盘&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方向盘位置调节&lt;/td>
+&lt;td>手动上下+前后调节&lt;/td>
+&lt;td>手动上下+前后调节&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>方向盘加热&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>座椅材质&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;td>仿皮&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排座椅头枕&lt;/td>
+&lt;td>可拆卸式&lt;/td>
+&lt;td>可拆卸式&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>主驾座椅调节方式&lt;/td>
+&lt;td>前后调节、靠背调节、高低调节&lt;/td>
+&lt;td>前后调节、靠背调节、高低调节&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>副驾座椅调节方式&lt;/td>
+&lt;td>前后调节、靠背调节&lt;/td>
+&lt;td>前后调节、靠背调节&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>主副驾驶座电动调节&lt;/td>
+&lt;td>-&lt;/td>
+&lt;td>主/副&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排座椅功能&lt;/td>
+&lt;td>主/副座椅加热、主驾座椅通风&lt;/td>
+&lt;td>主/副座椅加热、主驾座椅通风&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排座椅 4/6 比例放倒&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排中央扶手&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排中央扶手托&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>内后视镜防眩目&lt;/td>
+&lt;td>手动&lt;/td>
+&lt;td>手动&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车内化妆镜&lt;/td>
+&lt;td>主驾+照明灯、副驾+照明灯&lt;/td>
+&lt;td>主驾+照明灯、副驾+照明灯&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>阅读灯&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>车内氛围灯&lt;/td>
+&lt;td>256 色&lt;/td>
+&lt;td>256 色&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>织物顶棚&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>行李箱照明灯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="空调系统-1">空调系统
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>自动恒温单区空调&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排空调出风口&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>热泵空调&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PM2.5 空调滤芯&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>空调防霉模式&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="舒适便利-1">舒适便利
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>行车记录&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>钥匙类型&lt;/td>
+&lt;td>遥控钥匙 x1、蓝牙钥匙、机械钥匙 x1&lt;/td>
+&lt;td>遥控钥匙 x1、蓝牙钥匙、机械钥匙 x1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手机无线充电&lt;/td>
+&lt;td>前排 x1 (15W)&lt;/td>
+&lt;td>前排 x1 (15W)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>前排 USB 接口&lt;/td>
+&lt;td>TYPE-A x1 (12W)&amp;lt;br&amp;gt;TYPE-C x1 (60W)&lt;/td>
+&lt;td>TYPE-A x1 (12W)&amp;lt;br&amp;gt;TYPE-C x1 (15W)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>第二排 USB 接口&lt;/td>
+&lt;td>TYPE-A x1 (12W)&lt;/td>
+&lt;td>TYPE-A x1 (12W)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12V 电源&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;td>前排&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>V2L 对外放电功能&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>手套箱&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>舒适刹停&lt;/td>
+&lt;td>●&lt;/td>
+&lt;td>●&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="外观颜色-1">外观颜色
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>颜色&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>星河银&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>苍原灰&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>光电白&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>金属黑&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>天幕灰&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>澄露紫&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>星夜蓝&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h3 id="内饰颜色-1">内饰颜色
+&lt;/h3>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>颜色&lt;/th>
+&lt;th>B10 600 悦享智驾版&lt;/th>
+&lt;th>B10 600 激光雷达智驾版&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>萝萝紫&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>竹影灰&lt;/td>
+&lt;td>○&lt;/td>
+&lt;td>○&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）</title><link>https://huiaei.eu.org/post/mklink-command-differences-between-symbolic-links-directory-links-hard-links-shortcuts-z12cpcs.html</link><pubDate>Sat, 02 Mar 2024 22:12:06 +0800</pubDate><guid>https://huiaei.eu.org/post/mklink-command-differences-between-symbolic-links-directory-links-hard-links-shortcuts-z12cpcs.html</guid><description>&lt;h1 id="mklink-命令符号链接目录链接硬链接快捷方式的区别">Mklink 命令（符号链接、目录链接、硬链接、快捷方式的区别）
+&lt;/h1>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>链接类型&lt;/th>
+&lt;th>命令&lt;/th>
+&lt;th>文件类型&lt;/th>
+&lt;th>文件路径&lt;/th>
+&lt;th>空间占用&lt;/th>
+&lt;th>可链接类型&lt;/th>
+&lt;th>本质&lt;/th>
+&lt;th>Windows下是否可跨磁盘&lt;/th>
+&lt;th>访问方式&lt;/th>
+&lt;th>源文件与链接文件关联关系&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>符号链接（软链接）&lt;/td>
+&lt;td>/d&lt;/td>
+&lt;td>.symlinkd&lt;/td>
+&lt;td>相对路径；绝对路径&lt;/td>
+&lt;td>不占空间&lt;/td>
+&lt;td>目录&lt;/td>
+&lt;td>相当于只是对源文件进行引用，只有使用权，没有所有权&lt;/td>
+&lt;td>本地磁盘；网络磁盘（共享目录）&lt;/td>
+&lt;td>本地访问：通过链接目录所在磁盘路径访问；网络访问：通过tomcat可实现&lt;/td>
+&lt;td>源删除链接失效；链接删除源保留；源内容变化链接内容变化；链接内容变化源内容变化&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>目录链接（软链接）&lt;/td>
+&lt;td>/j&lt;/td>
+&lt;td>.junction&lt;/td>
+&lt;td>绝对路径&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条，链接点&lt;/td>
+&lt;td>本地硬盘&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>硬链接&lt;/td>
+&lt;td>/h&lt;/td>
+&lt;td>.源文件类型&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>占用与原文件一致&lt;/td>
+&lt;td>文件&lt;/td>
+&lt;td>相当于复制粘贴&lt;/td>
+&lt;td>不可以&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>快捷方式&lt;/td>
+&lt;td>批处理&lt;/td>
+&lt;td>.lnk&lt;/td>
+&lt;td>同上条&lt;/td>
+&lt;td>文件大约1k，与源文件无关&lt;/td>
+&lt;td>文件、目录&lt;/td>
+&lt;td>本地磁盘&lt;/td>
+&lt;td>跳转到源所在位置访问；无法通过网络访问源&lt;/td>
+&lt;td>源删除链接失效；链接删除源保留；只是个快捷方式&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>‍&lt;/p></description></item><item><title>Origin （EA游戏平台）主程序离线安装包下载连接</title><link>https://huiaei.eu.org/post/origin-ea-game-platform-main-program-offline-installation-package-download-connection-1qr85o.html</link><pubDate>Sat, 02 Mar 2024 22:12:05 +0800</pubDate><guid>https://huiaei.eu.org/post/origin-ea-game-platform-main-program-offline-installation-package-download-connection-1qr85o.html</guid><description>&lt;h1 id="origin-ea游戏平台主程序离线安装包下载连接">Origin （EA游戏平台）主程序离线安装包下载连接
+&lt;/h1>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">推荐使用多线程工具下载
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a class="link" href="https://download.dm.origin.com/origin/live/OriginSetup.exe" target="_blank" rel="noopener"
+>https://download.dm.origin.com/origin/live/OriginSetup.exe&lt;/a>&lt;/p></description></item><item><title>同方、蓝天、神舟型号命名规则</title><link>https://huiaei.eu.org/post/tongfang-lantian-shenzhou-model-naming-rules-15bewx.html</link><pubDate>Sat, 02 Mar 2024 22:12:05 +0800</pubDate><guid>https://huiaei.eu.org/post/tongfang-lantian-shenzhou-model-naming-rules-15bewx.html</guid><description>&lt;h1 id="同方蓝天神舟型号命名规则">同方、蓝天、神舟型号命名规则
+&lt;/h1>&lt;p>&lt;img src="https://huiaei.eu.org/assets/Snipaste_2021-02-21_19-45-25-20240302221816-3da54br.png"
+loading="lazy"
+alt="蓝天"
+>&lt;/p>
+&lt;p>&lt;img src="https://huiaei.eu.org/assets/Snipaste_2021-02-21_19-50-55-20240302221834-0eiecnj.png"
+loading="lazy"
+alt="同方"
+>&lt;/p>
+&lt;p>&lt;img src="https://huiaei.eu.org/assets/Snipaste_2021-02-21_19-54-20-20240302221856-ifxnxub.png"
+loading="lazy"
+alt="神舟"
+>&lt;/p>
+&lt;p>‍&lt;/p>
+&lt;p>引用自&lt;a class="link" href="https://www.bilibili.com/video/av671755249" target="_blank" rel="noopener"
+>【笔吧科普】深入浅出，笔记本常见型号命名规则(蓝天、同方、神舟篇)&lt;/a>&lt;/p>
+&lt;p>‍&lt;/p></description></item><item><title>常见站长平台连接</title><link>https://huiaei.eu.org/post/common-webmaster-platform-connections-2mperu.html</link><pubDate>Sat, 02 Mar 2024 22:12:03 +0800</pubDate><guid>https://huiaei.eu.org/post/common-webmaster-platform-connections-2mperu.html</guid><description>&lt;h1 id="常见站长平台连接">常见站长平台连接
+&lt;/h1>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">提供商&lt;/th>
+&lt;th>链接&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">谷歌&lt;/td>
+&lt;td>&lt;a class="link" href="http://www.google.com/webmasters/sitemaps/" target="_blank" rel="noopener"
+>http://www.google.com/webmasters/sitemaps/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">百度&lt;/td>
+&lt;td>&lt;a class="link" href="https://ziyuan.baidu.com/" target="_blank" rel="noopener"
+>https://ziyuan.baidu.com/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">必应&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.bing.com/toolbox/webmaster/" target="_blank" rel="noopener"
+>https://www.bing.com/toolbox/webmaster/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">搜狗&lt;/td>
+&lt;td>&lt;a class="link" href="http://zhanzhang.sogou.com/" target="_blank" rel="noopener"
+>http://zhanzhang.sogou.com/&lt;/a>（实行的邀请制）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">360&lt;/td>
+&lt;td>&lt;a class="link" href="http://zhanzhang.so.com" target="_blank" rel="noopener"
+>http://zhanzhang.so.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://blog.csdn.net/DZRYWYBL/java/article/details/83963291" target="_blank" rel="noopener"
+>https://blog.csdn.net/DZRYWYBL/java/article/details/83963291&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>‍&lt;/p></description></item><item><title>Gridea 检查远程连接失败的一个解决方法</title><link>https://huiaei.eu.org/post/a-solution-to-gridea-checks-for-remote-connection-failure-ztivwg.html</link><pubDate>Sat, 02 Mar 2024 22:12:00 +0800</pubDate><guid>https://huiaei.eu.org/post/a-solution-to-gridea-checks-for-remote-connection-failure-ztivwg.html</guid><description>&lt;h1 id="gridea-检查远程连接失败的一个解决方法">Gridea 检查远程连接失败的一个解决方法
+&lt;/h1>&lt;p>我使用的是 Windows 版本，Gridea 版本是 0.9.1 。 当时键入了配置完成；保存；检查远程连接。发现提示 &lt;strong>远程连接失败，请检查仓库、用户名和 Token 设置&lt;/strong>，在其&lt;strong>开发者工具&lt;/strong>中提示&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> message: &amp;#34;fatal: No such remote &amp;#39;origin&amp;#39;↵&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> success: false
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>之后我向 Gridea 提出 issue 。 &lt;a class="link" href="https://github.com/yz0812" target="_blank" rel="noopener"
+>yz0812&lt;/a> 提示了 Gridea 其保存目录的 .git/config 文件中 url 格式应为&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://username:token@github.com/**.github.io.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>后，我打开所在文件，并没有发现有类似格式。&lt;/p>
+&lt;hr>
+&lt;p>也受其提示，突发奇想。先将 Page 项目使用 git 给 clone 下来；完成后，打开项目文件夹，打开其 .git/config 文件，将包括上面 url 格式的那一段，复制到 Gridea 的 .git/config 中，保存文件。之后再检查连接，成功。&lt;/p></description></item><item><title>Onedrive设置多线程传输</title><link>https://huiaei.eu.org/post/onedrive-sets-up-multithreaded-transmission-z2td6q.html</link><pubDate>Sat, 02 Mar 2024 22:12:00 +0800</pubDate><guid>https://huiaei.eu.org/post/onedrive-sets-up-multithreaded-transmission-z2td6q.html</guid><description>&lt;h1 id="onedrive设置多线程传输">Onedrive设置多线程传输
+&lt;/h1>&lt;p>修改文件： &amp;ldquo;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&amp;rdquo; 向第一行加入： numberOfConcurrentUploads=3&lt;/p>
+&lt;blockquote>
+&lt;p>PS：数值项即为线程数，最小值为1，最大值为3，根据实际需要选择即可&lt;/p>&lt;/blockquote>
+&lt;p>可通过&lt;code>Windows&lt;/code>+&lt;code>R&lt;/code>运行，或cmd里运行下面直接打开修改： notepad &amp;ldquo;%localappdata%\Microsoft\OneDrive\settings\Personal\global.ini&amp;rdquo;&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/" target="_blank" rel="noopener"
+>https://blog.tcpsoft.app/2020/03/let-onedrive-fly-scientifically/&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>CCleaner专业版断网激活方法</title><link>https://huiaei.eu.org/post/ccleaner-professional-edition-activation-method-1oluad.html</link><pubDate>Sat, 02 Mar 2024 22:11:58 +0800</pubDate><guid>https://huiaei.eu.org/post/ccleaner-professional-edition-activation-method-1oluad.html</guid><description>&lt;h1 id="ccleaner专业版断网激活方法">CCleaner专业版断网激活方法
+&lt;/h1>&lt;ol>
+&lt;li>断开所有网络&lt;/li>
+&lt;li>输入以下任意一种到注册栏中注册激活&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: center">密钥&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">Registered User&lt;/td>
+&lt;td style="text-align: center">CBB4-FJN4-EPC6-G5P6-QT4C&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">任意&lt;/td>
+&lt;td style="text-align: center">C2YW-XZT7-A4SE-UD89-YZPC&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ol>
+&lt;li>激活完后即可恢复网络&lt;/li>
+&lt;/ol></description></item><item><title>Git 命令使用或取消代理</title><link>https://huiaei.eu.org/post/git-commands-use-or-cancel-proxy-1eonzk.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/git-commands-use-or-cancel-proxy-1eonzk.html</guid><description>&lt;h1 id="git-命令使用或取消代理">Git 命令使用或取消代理
+&lt;/h1>&lt;p>假设代理到目标 socks5://127.0.0.1:10808&lt;/p>
+&lt;ol>
+&lt;li>全局代理 git config &amp;ndash;global http.proxy socks5://127.0.0.1:10808 git config &amp;ndash;global https.proxy socks5://127.0.0.1:10808&lt;/li>
+&lt;li>部分代理 git config &amp;ndash;global http.https://github.com.proxy socks5://127.0.0.1:10808 git config &amp;ndash;global https.https://github.com.proxy socks5://127.0.0.1:10808&lt;/li>
+&lt;li>取消代理 git config &amp;ndash;global &amp;ndash;unset http.proxy git config &amp;ndash;global &amp;ndash;unset https.proxy&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>参考自: &lt;a class="link" href="https://blog.gobyte.cn/post/1a22163b.html" target="_blank" rel="noopener"
+>https://blog.gobyte.cn/post/1a22163b.html&lt;/a> &lt;a class="link" href="https://blog.csdn.net/tanningzhong/article/details/52817399" target="_blank" rel="noopener"
+>https://blog.csdn.net/tanningzhong/article/details/52817399&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>Pacman GPG key-rings钥匙串 缺少等问题</title><link>https://huiaei.eu.org/post/pacman-gpg-keyrings-keychain-missing-and-other-issues-1j3thg.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/pacman-gpg-keyrings-keychain-missing-and-other-issues-1j3thg.html</guid><description>&lt;h1 id="pacman-gpg-key-rings钥匙串-缺少等问题">Pacman GPG key-rings钥匙串 缺少等问题
+&lt;/h1>&lt;ol>
+&lt;li>&lt;code>pacman-key --init&lt;/code> 初始化&lt;/li>
+&lt;li>&lt;code>pacman-key --populate&lt;/code> 安装常用key&lt;/li>
+&lt;li>可选选项
+&lt;ul>
+&lt;li>使用archlinuxcn（&lt;a class="link" href="https://www.note4huiaei.tk/post/5kPmrk8a%5c_/" target="_blank" rel="noopener"
+>如何添加archlinuxcn&lt;/a>） 输入命令 &lt;code>archlinuxcn-keyring&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>‍&lt;/p></description></item><item><title>WSL 工具 LxRunOffline 相关参数</title><link>https://huiaei.eu.org/post/wsl-tools-lxrunoffline-related-parameters-1tpseh.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/wsl-tools-lxrunoffline-related-parameters-1tpseh.html</guid><description>&lt;h1 id="wsl-工具-lxrunoffline-相关参数">WSL 工具 LxRunOffline 相关参数
+&lt;/h1>&lt;blockquote>
+&lt;p>基于版本3.5.0 项目地址：&lt;a class="link" href="https://github.com/DDoSolitary/LxRunOffline" target="_blank" rel="noopener"
+>https://github.com/DDoSolitary/LxRunOffline&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;ul>
+&lt;li>支持的操作有：&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: right">简写参数&lt;/th>
+&lt;th>完整参数&lt;/th>
+&lt;th>解释&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: right">l&lt;/td>
+&lt;td>list&lt;/td>
+&lt;td>列出所有已安装的发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gd&lt;/td>
+&lt;td>get-default&lt;/td>
+&lt;td>获取默认分发，由bash.exe使用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sd&lt;/td>
+&lt;td>set-default&lt;/td>
+&lt;td>设置默认分发，由bash.exe使用&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">i&lt;/td>
+&lt;td>install&lt;/td>
+&lt;td>安装新的发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ui&lt;/td>
+&lt;td>uninstall&lt;/td>
+&lt;td>卸载发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">rg&lt;/td>
+&lt;td>register&lt;/td>
+&lt;td>注册现有的安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ur&lt;/td>
+&lt;td>unregister&lt;/td>
+&lt;td>注销发行版，但不删除安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">m&lt;/td>
+&lt;td>move&lt;/td>
+&lt;td>将发行版移动到新目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">d&lt;/td>
+&lt;td>duplicate&lt;/td>
+&lt;td>在新目录中复制现有发行版&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">e&lt;/td>
+&lt;td>export&lt;/td>
+&lt;td>将发行版的文件系统导出到.tar.gz文件，该文件可以通过“install”命令导入&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">r&lt;/td>
+&lt;td>run&lt;/td>
+&lt;td>在发行版中运行命令&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">di&lt;/td>
+&lt;td>get-dir&lt;/td>
+&lt;td>获取发行版的安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gv&lt;/td>
+&lt;td>get-version&lt;/td>
+&lt;td>获取发行版的文件系统版本&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ge&lt;/td>
+&lt;td>get-env&lt;/td>
+&lt;td>获取发行版的默认环境变量&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">se&lt;/td>
+&lt;td>set-env&lt;/td>
+&lt;td>设置发行版的默认环境变量。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ae&lt;/td>
+&lt;td>add-env&lt;/td>
+&lt;td>添加到发行版的默认环境变量。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">re&lt;/td>
+&lt;td>remove-env&lt;/td>
+&lt;td>从发行版的默认环境变量中删除。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gu&lt;/td>
+&lt;td>get-uid&lt;/td>
+&lt;td>获取发行版的默认用户的UID。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">su&lt;/td>
+&lt;td>set-uid&lt;/td>
+&lt;td>设置发行版的默认用户的UID。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gk&lt;/td>
+&lt;td>get-kernelcmd&lt;/td>
+&lt;td>获取发行版的默认内核命令行。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sk&lt;/td>
+&lt;td>set-kernelcmd&lt;/td>
+&lt;td>设置发行版的默认内核命令行。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">gf&lt;/td>
+&lt;td>get-flags&lt;/td>
+&lt;td>获取一些发行版的标志。有关详细信息，请参见&lt;a class="link" href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl%5c_distribution%5c_flags" target="_blank" rel="noopener"
+>url&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sf&lt;/td>
+&lt;td>set-flags&lt;/td>
+&lt;td>设置发行版的一些标志。有关详细信息，请参见&lt;a class="link" href="https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/wslapi/ne-wslapi-wsl%5c_distribution%5c_flags" target="_blank" rel="noopener"
+>url&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">s&lt;/td>
+&lt;td>shortcut&lt;/td>
+&lt;td>创建启动发布的快捷方式。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ec&lt;/td>
+&lt;td>export-config&lt;/td>
+&lt;td>将发行版的配置导出到XML文件。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">ic&lt;/td>
+&lt;td>import-config&lt;/td>
+&lt;td>从XML文件导入发行版的配置&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">sm&lt;/td>
+&lt;td>summary&lt;/td>
+&lt;td>获取发行版的基本信息&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: right">&lt;/td>
+&lt;td>version&lt;/td>
+&lt;td>获取有关LxRunOffline版本信息&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>附属参数：(可能不完整)&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>参数&lt;/th>
+&lt;th>参数解释&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>-n&lt;/td>
+&lt;td>发行版的名称&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-d&lt;/td>
+&lt;td>发行版安装目录&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-f&lt;/td>
+&lt;td>包含要安装的发行版的根文件系统的tar文件。如果存在一个扩展名为.xml的相同名称的文件，并且没有指定“-c”，则该文件将作为配置文件导入。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-r&lt;/td>
+&lt;td>要提取的tar文件中的目录，可选选项&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-c&lt;/td>
+&lt;td>要使用的配置文件，可选选项&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-v&lt;/td>
+&lt;td>要使用的文件系统版本，如果未指定，则为最新可用版本。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-s&lt;/td>
+&lt;td>在桌面上创建快捷方式&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>电信网关HG6201T获取超级账户</title><link>https://huiaei.eu.org/post/telecom-gateway-hg6201t-get-super-account-z25sonm.html</link><pubDate>Sat, 02 Mar 2024 22:11:57 +0800</pubDate><guid>https://huiaei.eu.org/post/telecom-gateway-hg6201t-get-super-account-z25sonm.html</guid><description>&lt;h1 id="电信网关hg6201t获取超级账户">电信网关HG6201T获取超级账户
+&lt;/h1>&lt;ol>
+&lt;li>打开浏览器，打开&lt;a class="link" href="http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi" target="_blank" rel="noopener"
+>http://192.168.1.1:8080/cgi-bin/baseinfoSet.cgi&lt;/a>&lt;/li>
+&lt;li>找到与以下类似的位置 &amp;ldquo;baseinfoSet_TELECOMACCOUNT&amp;rdquo;:&amp;ldquo;telecomadmin&amp;rdquo;, &amp;ldquo;baseinfoSet_TELECOMPASSWORD&amp;rdquo;:&amp;ldquo;120&amp;amp;105&amp;amp;112&amp;amp;105&amp;amp;103&amp;amp;115&amp;amp;113&amp;amp;101&amp;amp;104&amp;amp;113&amp;amp;109&amp;amp;114&amp;amp;48&amp;amp;50&amp;amp;48&amp;amp;50&amp;amp;55&amp;amp;48&amp;amp;48&amp;amp;62&amp;amp;&amp;rdquo;,`&lt;/li>
+&lt;/ol>
+&lt;p>第一行为超级管理账户名：telecomadmin 第二行为超级管理密码：120&amp;amp;105&amp;amp;112&amp;amp;105&amp;amp;103&amp;amp;115&amp;amp;113&amp;amp;101&amp;amp;104&amp;amp;113&amp;amp;109&amp;amp;114&amp;amp;48&amp;amp;50&amp;amp;48&amp;amp;50&amp;amp;55&amp;amp;48&amp;amp;48&amp;amp;62&amp;amp;&lt;/p>
+&lt;p>当然，第二行的密码还需要进行一步处理.&lt;/p>
+&lt;ol>
+&lt;li>将密码进行转换，由ASCII码转为字符。&lt;/li>
+&lt;/ol></description></item><item><title>npm镜像</title><link>https://huiaei.eu.org/post/npm-mirror-lk9eg.html</link><pubDate>Sat, 02 Mar 2024 22:11:54 +0800</pubDate><guid>https://huiaei.eu.org/post/npm-mirror-lk9eg.html</guid><description>&lt;h1 id="npm镜像">npm镜像
+&lt;/h1>&lt;h3 id="使用方式">使用方式
+&lt;/h3>&lt;ol>
+&lt;li>临时使用&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm --registry [镜像服务url] install [安装目标]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>永久设置&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">npm config set registry [镜像服务url]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="常用大陆镜像服务url">常用大陆镜像服务URL
+&lt;/h3>&lt;blockquote>
+&lt;p>欢迎补充&lt;/p>&lt;/blockquote>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名称&lt;/th>
+&lt;th>url&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>淘宝&lt;/td>
+&lt;td>&lt;a class="link" href="https://registry.npm.taobao.org/" target="_blank" rel="noopener"
+>https://registry.npm.taobao.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>cnpmjs&lt;/td>
+&lt;td>&lt;a class="link" href="https://r.cnpmjs.org/" target="_blank" rel="noopener"
+>https://r.cnpmjs.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>WSL（Windows子系统Linux）设置默认 Shell 为 Zsh</title><link>https://huiaei.eu.org/post/wsl-windows-subsystem-linux-set-the-default-shell-to-zsh-2ijwg3.html</link><pubDate>Sat, 02 Mar 2024 22:11:53 +0800</pubDate><guid>https://huiaei.eu.org/post/wsl-windows-subsystem-linux-set-the-default-shell-to-zsh-2ijwg3.html</guid><description>&lt;h1 id="wslwindows子系统linux设置默认-shell-为-zsh">WSL（Windows子系统Linux）设置默认 Shell 为 Zsh
+&lt;/h1>&lt;ol>
+&lt;li>安装 Zsh ，nano或者vim（选择你会使用的文本编辑器）&lt;/li>
+&lt;li>使用 Linux 设置默认 Shell 为 Zsh 命令&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> chsh -s /bin/zsh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol>
+&lt;li>使用上述指令后，重新使用CMD或者PowerShell进入WSL时，会发现依旧为默认的Bash，此时需要编辑文件生效。使用你熟悉的文本编辑工具，vim或者nano，打开&lt;code>~/bashrc&lt;/code>，向里面添加：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> [[ $- == *i* ]] &amp;amp;&amp;amp; $(command -v zsh) || echo &amp;#34;ZSH is not installed&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>之后保存即可。&lt;/p>
+&lt;hr>
+&lt;blockquote>
+&lt;p>参考自：&lt;a class="link" href="https://limxw.com/posts/wsl-use-zsh/" target="_blank" rel="noopener"
+>WSL 中设置 zsh 为默认 SHELL&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>Docker容器中无法运行二进制文件并出现：xxx not found</title><link>https://huiaei.eu.org/post/the-binary-file-cannot-be-run-in-the-docker-container-and-appears-xxx-not-found-zoxfh6.html</link><pubDate>Sat, 02 Mar 2024 22:11:52 +0800</pubDate><guid>https://huiaei.eu.org/post/the-binary-file-cannot-be-run-in-the-docker-container-and-appears-xxx-not-found-zoxfh6.html</guid><description>&lt;h1 id="docker容器中无法运行二进制文件并出现xxx-not-found">Docker容器中无法运行二进制文件并出现：xxx not found
+&lt;/h1>&lt;h2 id="问题">问题
+&lt;/h2>&lt;p>在Docker容器中，运行二进制文件出现 &lt;code>/bin/sh: xxx not found&lt;/code> ，使用 Chmod 赋予执行权限依旧出现此问题。&lt;/p>
+&lt;h2 id="解决">解决
+&lt;/h2>&lt;p>容器内执行 &lt;code>mkdir /lib64 &amp;amp;&amp;amp; ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2&lt;/code>&lt;/p>
+&lt;h2 id="原因">原因
+&lt;/h2>&lt;p>镜像可能使用的是以alpine镜像为基础的项目，可能出现动态链接库位置错误问题。&lt;/p>
+&lt;p>一般二进制文件在linux系统下编译，动态链接库是到/lib64目录下的，而在alpine镜像内无/lib64目录(&lt;a class="link" href="https://github.com/gliderlabs/docker-alpine/issues/11" target="_blank" rel="noopener"
+>参考&lt;/a>)。&lt;/p>
+&lt;p>alpine镜像使用的是musl libc而不是gun libc，因而动态链接库的位置不一致。&lt;/p>
+&lt;h2 id="参考">参考
+&lt;/h2>&lt;p>&lt;a class="link" href="https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker" target="_blank" rel="noopener"
+>https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/docker-library/openjdk/issues/77" target="_blank" rel="noopener"
+>https://github.com/docker-library/openjdk/issues/77&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/gliderlabs/docker-alpine/issues/11" target="_blank" rel="noopener"
+>https://github.com/gliderlabs/docker-alpine/issues/11&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/sgerrand/alpine-pkg-glibc/releases" target="_blank" rel="noopener"
+>https://github.com/sgerrand/alpine-pkg-glibc/releases&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>引用自：&lt;a class="link" href="https://blog.51cto.com/welcomeweb/2652026" target="_blank" rel="noopener"
+>alpine镜像启动的容器内运行二进制文件出现：/bin/sh: xxx not found&lt;/a>&lt;/p></description></item><item><title>ArchManjaro（pacman）配置国内源</title><link>https://huiaei.eu.org/post/archmanjaro-pacman-configuration-domestic-source-srfse.html</link><pubDate>Sat, 02 Mar 2024 22:11:50 +0800</pubDate><guid>https://huiaei.eu.org/post/archmanjaro-pacman-configuration-domestic-source-srfse.html</guid><description>&lt;h1 id="archmanjaropacman配置国内源">ArchManjaro（pacman）配置国内源
+&lt;/h1>&lt;ol>
+&lt;li>更改源&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>使用&lt;code>pacman-mirros&lt;/code>更改镜像软件库所在国家 &lt;code>sudo pacman-mirrors -i -c China -m rank&lt;/code>&lt;/li>
+&lt;li>或者使用nano或vim打开&lt;code>/etc/pacman.d/mirrorlist&lt;/code> 添加源服务器链接并保存，例如，清华源 &lt;code>Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>使用命令&lt;code>pacman -Syy&lt;/code>强制刷新软件库缓存&lt;/li>
+&lt;li>可选选择 安装&lt;code>archlinuxcn&lt;/code> 1. 打开&lt;code>/etc/pacman.conf&lt;/code> 2. 在末尾添加&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[archlinuxcn]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>服务器可选以下，只需替换&lt;code>Server =&lt;/code>之后的链接（搜集不全，如有缺失，欢迎补充）&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>名字&lt;/th>
+&lt;th>链接&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>中科大&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirrors.ustc.edu.cn/archlinuxcn/$arch" target="_blank" rel="noopener"
+>https://mirrors.ustc.edu.cn/archlinuxcn/$arch&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>网易&lt;/td>
+&lt;td>&lt;a class="link" href="http://mirrors.163.com/archlinux-cn/$arch" target="_blank" rel="noopener"
+>http://mirrors.163.com/archlinux-cn/$arch&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>腾讯云&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirrors.cloud.tencent.com/archlinuxcn/$arch" target="_blank" rel="noopener"
+>https://mirrors.cloud.tencent.com/archlinuxcn/$arch&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>推荐参考资料：&lt;a class="link" href="https://wiki.archlinux.org" target="_blank" rel="noopener"
+>archwiki&lt;/a>&lt;/p></description></item><item><title>README</title><link>https://huiaei.eu.org/post/readme-z18hrf6.html</link><pubDate>Sat, 02 Mar 2024 22:11:50 +0800</pubDate><guid>https://huiaei.eu.org/post/readme-z18hrf6.html</guid><description>&lt;h1 id="readme">README
+&lt;/h1>&lt;h1 id="关于">关于
+&lt;/h1>&lt;p>欢迎你！这是一个笔记本项目，初衷是记录本人在平常遇上的问题、解决方式和步骤。&lt;/p>
+&lt;p>&lt;strong>请善用搜索功能找到相关的内容&lt;/strong>。&lt;/p>
+&lt;p>解决方式有些来源网络上，经过收集信息并处理成我喜欢或是理解的方式，也有些是瞎折腾出来的方法。这些方法不能保证对你的问题同样有效，只作为参考，请根据你的问题实际来解决。&lt;/p>
+&lt;ul>
+&lt;li>如果你发现方法失效了，欢迎你到GITHUB提交ISSUES来提醒我。&lt;/li>
+&lt;li>如果你找到了新方法并且想更新笔记，也欢迎你到GITHUB提交合并，帮助下一个可能遇上相同问题的朋友。&lt;/li>
+&lt;/ul>
+&lt;h3 id="文章来源和许可">文章来源和许可
+&lt;/h3>&lt;p>如果来源于网络上的文章，按照个人习惯会将来源标注在文章的末端。但如果遇上借鉴太多的情况，在解决问题的过程中可能记不住那么多链接，这些链接将不会标注，在此表示抱歉。&lt;/p>
+&lt;p>PS：文章基本都是解决之后的总结，解决过程中不会去记录，相关的截图大部分也是复现后截取。&lt;/p>
+&lt;p>如果你想引用本笔记本内容，欢迎引用。除商用外，不做任何限制，完全自由。该笔记本的目的就是为了帮助自己和其他遇上相同问题的人，使其快速走出问题的困扰。&lt;/p>
+&lt;h3 id="感谢与其他">感谢与其他
+&lt;/h3>&lt;p>非常感谢GITHUB和GITBOOK提供的服务。&lt;/p>
+&lt;p>本项目使用Onedrive作为图床的根基，使用vercel平台搭建onemanager进行调用，也非常感谢这些项目和平台。&lt;/p>
+&lt;p>之前曾经采用GRIDEA和HEXO搭建静态博客的方式公开这个笔记本，但是因为一些原因，现在最终改用到了Gitbook，也非常感谢之前这些项目以及网上的搭建教程。&lt;/p>
+&lt;p>最后感谢网络上愿意免费公开分享自己的经验和解决方式的大佬。&lt;/p></description></item><item><title>使用 SMR 技术的硬盘型号列表</title><link>https://huiaei.eu.org/post/list-of-hard-drive-models-using-smr-technology-zjveou.html</link><pubDate>Sat, 02 Mar 2024 22:11:49 +0800</pubDate><guid>https://huiaei.eu.org/post/list-of-hard-drive-models-using-smr-technology-zjveou.html</guid><description>&lt;h1 id="使用-smr-技术的硬盘型号列表">使用 SMR 技术的硬盘型号列表
+&lt;/h1>&lt;h1 id="使用-smr-技术的硬盘型号列表-1">使用 SMR 技术的硬盘型号列表
+&lt;/h1>&lt;h3 id="西部数据western-digital">西部数据Western Digital
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">（截至于2020.04.22）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">尺寸&lt;/th>
+&lt;th style="text-align: center">系列&lt;/th>
+&lt;th style="text-align: center">容量&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;td style="text-align: center">WD10SPZX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">WD20SPZX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">WD20EZAZ&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">蓝盘&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;td style="text-align: center">WD60EZAZ&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">黑盘&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;td style="text-align: center">WD10SPSX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">WD20EFAX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">3TB&lt;/td>
+&lt;td style="text-align: center">WD30EFAX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;td style="text-align: center">WD40EFAX&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">红盘&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;td style="text-align: center">WD60EFAX&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="https://gitee.com/huiaei/ImageDB/raw/master/img/20200501080242.png"
+loading="lazy"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://blog.westerndigital.com/wp-content/uploads/2020/04/2020%5c_04%5c_22%5c_WD%5c_SMR%5c_SKUs%5c_1Slide.pdf" target="_blank" rel="noopener"
+>https://blog.westerndigital.com/wp-content/uploads/2020/04/2020_04_22_WD_SMR_SKUs_1Slide.pdf&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="东芝toshiba">东芝TOSHIBA
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">（截止于2020.04.28）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">尺寸&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">容量&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">L200&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">L200&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">MQ04&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">2.5寸&lt;/td>
+&lt;td style="text-align: center">MQ04&lt;/td>
+&lt;td style="text-align: center">1TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">P300&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">P300&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02-V&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">DT02-V&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html" target="_blank" rel="noopener"
+>https://toshiba-semicon-storage.com/cn/company/news/news-topics/2020/04/storage-20200428-1.html&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="希捷seagate未找到官方说明来源第三方">希捷Seagate（未找到官方说明，来源第三方）
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">(截止于2020.04.16）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">尺寸&lt;/th>
+&lt;th style="text-align: center">系列&lt;/th>
+&lt;th style="text-align: center">容量&lt;/th>
+&lt;th style="text-align: center">型号&lt;/th>
+&lt;th style="text-align: center">转数&lt;/th>
+&lt;th style="text-align: center">接口速率&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Barracuda&lt;/td>
+&lt;td style="text-align: center">2TB&lt;/td>
+&lt;td style="text-align: center">ST2000DM008&lt;/td>
+&lt;td style="text-align: center">7200rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Barracuda&lt;/td>
+&lt;td style="text-align: center">4TB&lt;/td>
+&lt;td style="text-align: center">ST4000DM004&lt;/td>
+&lt;td style="text-align: center">5400rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Barracuda&lt;/td>
+&lt;td style="text-align: center">8TB&lt;/td>
+&lt;td style="text-align: center">ST8000DM004&lt;/td>
+&lt;td style="text-align: center">5400rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Desktop HDD&lt;/td>
+&lt;td style="text-align: center">5TB&lt;/td>
+&lt;td style="text-align: center">ST5000DM000&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Exos&lt;/td>
+&lt;td style="text-align: center">8TB&lt;/td>
+&lt;td style="text-align: center">ST8000AS0003&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Archive v2&lt;/td>
+&lt;td style="text-align: center">6TB&lt;/td>
+&lt;td style="text-align: center">ST6000AS0002&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">3.5寸&lt;/td>
+&lt;td style="text-align: center">Archive v2&lt;/td>
+&lt;td style="text-align: center">8TB&lt;/td>
+&lt;td style="text-align: center">ST8000AS0002&lt;/td>
+&lt;td style="text-align: center">5900rpm&lt;/td>
+&lt;td style="text-align: center">SATA 6gig&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://www.cnbeta.com/articles/tech/968325.htm" target="_blank" rel="noopener"
+>https://www.cnbeta.com/articles/tech/968325.htm&lt;/a>&lt;/p>&lt;/blockquote></description></item><item><title>Windows远程桌面连接使用微软账户登录</title><link>https://huiaei.eu.org/post/windows-remote-desktop-connection-login-with-microsoft-account-z2kbxxi.html</link><pubDate>Sat, 02 Mar 2024 22:11:43 +0800</pubDate><guid>https://huiaei.eu.org/post/windows-remote-desktop-connection-login-with-microsoft-account-z2kbxxi.html</guid><description>&lt;h1 id="windows远程桌面连接使用微软账户登录">Windows远程桌面连接使用微软账户登录
+&lt;/h1>&lt;ol>
+&lt;li>打开&lt;code>远程桌面连接&lt;/code>或者其他进行RDP连接的应用软件（以&lt;code>远程桌面连接&lt;/code>为例）&lt;/li>
+&lt;li>&lt;code>计算机&lt;/code>填写远程设备的IP地址或者域名（RDP默认端口为&lt;code>3389&lt;/code>）&lt;/li>
+&lt;li>&lt;code>用户名&lt;/code>填写微软账户的邮箱地址&lt;/li>
+&lt;li>点击&lt;code>连接&lt;/code>&lt;/li>
+&lt;li>使用微软账户的密码进行登录&lt;/li>
+&lt;/ol>
+&lt;h2 id="常见问题">常见问题
+&lt;/h2>&lt;h3 id="微软账户的邮箱地址和密码输入正确但是无法登录">微软账户的邮箱地址和密码输入正确但是无法登录
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;p>请尝试将&lt;code>计算机&lt;/code>填写成 &lt;code>MicrosoftAccount\{微软账户邮箱地址}&lt;/code>的形式&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>在远程连接目标设备上使用&lt;code>运行&lt;/code>（Windows+R）执行下列任选一行&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">runas /u:{微软账户邮箱地址} cmd.exe
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">runas /u:MicrosoftAccount\{微软账户邮箱地址} cmd.exe
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>在弹出来的CLI（命令行）窗口按照提示输入微软账户密码&lt;/p>
+&lt;p>命令的意思是使用&lt;code>{微软账户邮箱地址}&lt;/code>的身份运行&lt;code>cmd.exe&lt;/code>&lt;/p>
+&lt;p>此操作用意在于刷新微软账户在远程连接设备上的凭证缓存&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="参考">参考
+&lt;/h2>&lt;p>&lt;a class="link" href="https://docs.microsoft.com/en-us/answers/questions/369584/windows-10-home-to-pro-upgrade-need-to-update-pers.html" target="_blank" rel="noopener"
+>Windows 10 RDP not working using Microsoft account (local accounts are working)&lt;/a>&lt;/p></description></item><item><title>Steam 在浏览器上使用脚本领取游戏</title><link>https://huiaei.eu.org/post/steam-use-scripts-to-get-games-on-your-browser-z1kyz7g.html</link><pubDate>Sat, 02 Mar 2024 22:11:39 +0800</pubDate><guid>https://huiaei.eu.org/post/steam-use-scripts-to-get-games-on-your-browser-z1kyz7g.html</guid><description>&lt;h1 id="steam-在浏览器上使用脚本领取游戏">Steam 在浏览器上使用脚本领取游戏
+&lt;/h1>&lt;h3 id="单独激活">单独激活
+&lt;/h3>&lt;ol>
+&lt;li>首先登录网页版Steam 账号。 &lt;a class="link" href="https://store.steampowered.com/" target="_blank" rel="noopener"
+>https://store.steampowered.com/&lt;/a>&lt;/li>
+&lt;li>点击右上角自己账号 &amp;mdash;-账户明细 &amp;mdash;-许可和产品序列号激活&lt;/li>
+&lt;li>获取需要的游戏ID，可前往&lt;a class="link" href="https://steamdb.info" target="_blank" rel="noopener"
+>SteamDB&lt;/a>查询&lt;/li>
+&lt;li>&lt;code>F12&lt;/code>打开控制台&lt;/li>
+&lt;li>输入AddFreeLicense(&lt;code>游戏ID&lt;/code>);&lt;/li>
+&lt;/ol>
+&lt;h3 id="批量激活">批量激活
+&lt;/h3>&lt;ol>
+&lt;li>首先登录网页版Steam 账号。 &lt;a class="link" href="https://store.steampowered.com/" target="_blank" rel="noopener"
+>https://store.steampowered.com/&lt;/a>&lt;/li>
+&lt;li>点击右上角自己账号 &amp;mdash;-账户明细 &amp;mdash;-许可和产品序列号激活&lt;/li>
+&lt;li>获取需要的游戏ID，可前往&lt;a class="link" href="https://steamdb.info" target="_blank" rel="noopener"
+>SteamDB&lt;/a>查询&lt;/li>
+&lt;li>&lt;code>F12&lt;/code>打开控制台&lt;/li>
+&lt;li>右键粘贴代码，在注释下方添加需要添加游戏的游戏ID，之后回车。&lt;/li>
+&lt;/ol>
+&lt;p>添加位置如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">freePackages&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//格式：请在下面输入游戏id。
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//游戏id,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//游戏id,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//...,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="o">--&amp;gt;&lt;/span>&lt;span class="nx">在这里添加游戏ID&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nx">每行结束以&lt;/span>&lt;span class="sb">`,`&lt;/span>&lt;span class="nx">结尾&lt;/span>&lt;span class="err">。&lt;/span>&lt;span class="o">&amp;lt;--&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">--&amp;gt;&lt;/span>&lt;span class="nx">不要把直接把ID粘贴在这&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nx">需要粘贴在下方完整代码对应位置中&lt;/span>&lt;span class="o">&amp;lt;--&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>完整代码如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="n">function&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">location&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">href&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="o">/^&lt;/span>&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="o">/&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">store&lt;/span>\&lt;span class="o">.&lt;/span>&lt;span class="n">steampowered&lt;/span>\&lt;span class="o">.&lt;/span>&lt;span class="n">com&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">account&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">licenses&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="err">?&lt;/span>&lt;span class="o">$/&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="o">===&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">alert&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;请在Steam帐号明细页面运行这些代码: https://store.steampowered.com/account/licenses/&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">window&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">location&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://store.steampowered.com/account/licenses/&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">freePackages&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">格式：请在下面输入游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="err">。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//...&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">ownedPackages&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">jQuery&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;.account_table a&amp;#39;&lt;/span> &lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">each&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">function&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">el&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">el&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">href&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="n">javascript&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">RemoveFreeLicense&lt;/span>\&lt;span class="p">(&lt;/span> &lt;span class="p">([&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s1">&amp;#39;/ );&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="o">!==&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ownedPackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="o">+&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="mi">1&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="bp">true&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">package&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">total&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">freePackages&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">length&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ShowBlockingWaitDialog&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;努力执行中...&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;请耐心等待，如果有错误请无视，请耐心等待脚本加载完毕&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">total&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">package&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">freePackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">ownedPackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="n">package&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">continue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">jQuery&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">post&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;//store.steampowered.com/checkout/addfreelicense&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">action&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;add_to_cart&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">sessionid&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">g_sessionID&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">subid&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">package&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">always&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">function&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Dismiss&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">loaded&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="n">total&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">location&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reload&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ShowBlockingWaitDialog&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;执行中...&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;加载至 &amp;lt;b&amp;gt;&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">loaded&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;&amp;lt;/b&amp;gt;/&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">total&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;.&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}());&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>获取EA Desktop客户端离线安装包的办法</title><link>https://huiaei.eu.org/post/how-to-get-offline-installation-package-of-ea-desktop-client-1dcskp.html</link><pubDate>Sat, 02 Mar 2024 22:11:00 +0800</pubDate><guid>https://huiaei.eu.org/post/how-to-get-offline-installation-package-of-ea-desktop-client-1dcskp.html</guid><description>&lt;h1 id="获取ea-desktop客户端离线安装包的办法">获取EA Desktop客户端离线安装包的办法
+&lt;/h1>&lt;h2 id="方法">方法
+&lt;/h2>&lt;ol>
+&lt;li>
+&lt;p>首先获取最新的在线安装包 &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EADesktopInstaller.exe" target="_blank" rel="noopener"
+>EA Desktop Installer&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用压缩工具打开&lt;code>EAappInstaller.exe&lt;/code>，得到类似下方的目录&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">u0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">u1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">u2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;/li>
+&lt;li>
+&lt;p>使用文本编辑工具打开第一个文件： &lt;code>0&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用搜索功能或者翻阅的方式找到类似于下方的链接（使用换行后大约在整体的中间部分）&lt;/p>
+&lt;p>&lt;code>https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.150.5030-639.msi&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用下载工具下载该链接即可。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>请注意有些依赖文件，如果没有是需要下载安装的，推荐直接下载安装一遍，下载地址在发现此链接位置的附近。&lt;/p>
+&lt;p>提供一个当前&lt;code>12.0.150.5030&lt;/code>版本的所有下载列表，顺便说一句，下载的&lt;code>EAapp.msi&lt;/code>安装时是可以选安装位置的。&lt;/p>
+&lt;p>依赖安装完记得&lt;strong>重启计算机&lt;/strong>。&lt;/p>
+&lt;blockquote>
+&lt;p>vcredist10.x86.exe : &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc" target="_blank" rel="noopener"
+>https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc&lt;/a>_redist-10.0.40219.x86.exe&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>vcredist14.x86.exe ：https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc_redist-14.28.29325.x86.exe&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>vcredist14.x64.exe : &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc" target="_blank" rel="noopener"
+>https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc&lt;/a>_redist-14.28.29325.x64.exe&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>EAapp.msi : &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.150.5030-639.msi" target="_blank" rel="noopener"
+>https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.150.5030-639.msi&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="本人使用的工具">本人使用的工具
+&lt;/h2>&lt;ul>
+&lt;li>压缩工具：&lt;a class="link" href="https://www.7-zip.org/" target="_blank" rel="noopener"
+>7zip&lt;/a>&lt;/li>
+&lt;li>文本编辑工具：&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+>Visual Studio Code&lt;/a>&lt;/li>
+&lt;li>下载工具推荐使用多线程下载工具&lt;/li>
+&lt;/ul>
+&lt;h2 id="其他的说明">其他的说明
+&lt;/h2>&lt;blockquote>
+&lt;p>Q：什么时候发现的？&lt;/p>
+&lt;p>A：在2021年10月28日23时左右（UTC+8），方法可能具有时效性。&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Q：第一步的下载的是&lt;code>EA Desktop Installer&lt;/code>，为什么第二步是&lt;code>EAappInstaller.exe&lt;/code>&lt;/p>
+&lt;p>A：EA的下载链接跳转到EAappInstaller.exe，现在EA Desktop还处于开放测试阶段，不清楚之后会不会修改。&lt;/p>&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Q：为什么我找到的离线完整包是&lt;code>EADesktop-xx.x.xxx.xxxx&lt;/code>结尾的？&lt;/p>
+&lt;p>A：早期的链接的确是这个结尾，后面EA可能修改文件名了，将新版本链接中的的&lt;code>EAapp&lt;/code>修改为&lt;code>EADesktop&lt;/code>测试是无法获取到资源的。&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;p>到此正文已经结束，下面是找到这个链接的过程，仅记录，不对方法有任何补充说明&lt;/p>
+&lt;hr>
+&lt;h2 id="折腾步骤">折腾步骤
+&lt;/h2>&lt;h3 id="1-找规律">1. 找规律
+&lt;/h3>&lt;p>一开始从网上收集了一下各位网友发布的离线完整包下载地址，我将链接收集保存下来并发现规律。&lt;/p>
+&lt;p>完整包的链接样式为&lt;code>https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EADesktop-{version}.msi&lt;/code>，这个在后来挖掘文件的时候也发现了这个样式。在第二步中的&lt;code>u0&lt;/code>中也发现类似的，使用压缩工具打开，进入&lt;code>u0/.rsrc/EAX_CONFIG/&lt;/code>文件夹中的&lt;code>INTEGRATION.CFG&lt;/code>，也发现了下面的内容&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">updater&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://autopatch-integration.juno.ea.com&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">installer&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">downloadurl&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-{version}.exe&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">telemetry&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">ratt&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://ratt-dev.juno.ea.com/ratt/telm&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">pin&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://pin-river-test.data.ea.com/pinEvents&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="nx">machine&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">updateBucket&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">999&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>可以发现&lt;code>[installer]&lt;/code>处有个“格式化”的链接，但是到后面发现这个并不是，只要你带入版本号去下载，其实下载的还是在线安装包，不过EA可能也保存了之前老版本的安装器，毕竟能下载，不过这点没有去验证。&lt;/p>
+&lt;p>已经知道了链接的方式，那么我从收集来的下载链接中提取出版本号，也就是&lt;code>{version}&lt;/code>的内容，并形成一张表（最后一行是最后加的）。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">xx&lt;/th>
+&lt;th style="text-align: center">.x&lt;/th>
+&lt;th style="text-align: center">.xxx&lt;/th>
+&lt;th style="text-align: center">.xxxx&lt;/th>
+&lt;th style="text-align: center">-xxx&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
+&lt;td style="text-align: center">38&lt;/td>
+&lt;td style="text-align: center">4820&lt;/td>
+&lt;td style="text-align: center">153&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
+&lt;td style="text-align: center">100&lt;/td>
+&lt;td style="text-align: center">4941&lt;/td>
+&lt;td style="text-align: center">417&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
+&lt;td style="text-align: center">113&lt;/td>
+&lt;td style="text-align: center">4970&lt;/td>
+&lt;td style="text-align: center">474&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
+&lt;td style="text-align: center">150&lt;/td>
+&lt;td style="text-align: center">5030&lt;/td>
+&lt;td style="text-align: center">639&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>那么最新的版本号从哪里来？当时我也是突发想法，查看了&lt;code>EAappInstaller.exe&lt;/code>的属性，查看这个文件的版本号，得到了&lt;code>12.0.150.5030&lt;/code>，最后找到的结果也证实了确实是这个。&lt;/p>
+&lt;p>但是通过收集的链接会发现还有小尾巴 &lt;code>-xxx&lt;/code>，如何得到？我当时通过表格企图找到规律，但是这个值不是简单的规律，只能知道&lt;code>xx.x.xxx.xxxx&lt;/code>越大&lt;code>-xxx&lt;/code>也越大。&lt;/p>
+&lt;h3 id="2-获取在线安装器的临时配置文件">2. 获取在线安装器的临时配置文件
+&lt;/h3>&lt;p>参考&lt;a class="link" href="https://answers.ea.com/t5/Bug-Reports-Technical-Issues/Can-t-install-reinstall-EA-Desktop/td-p/9805968" target="_blank" rel="noopener"
+>Can&amp;rsquo;t install/reinstall EA Desktop - EA问答&lt;/a>&lt;/p>
+&lt;p>按照方法，的确获取到了下载的链接。不过需要运行在线安装器，生成临时的配置文件。&lt;/p>
+&lt;h3 id="3-网络抓包">3. 网络抓包
+&lt;/h3>&lt;p>当时想着&lt;code>{version}&lt;/code>会不会是通过网络获取的，而这个安装器是一个“通用”的安装器。（这个最后思考了下是不可能的，如果是通用的安装器，那么为什么程序的签名时间是最近的时间）&lt;/p>
+&lt;p>安装&lt;code>fiddler&lt;/code>进行抓包，使用签名获取的版本号进行搜索，复现正常安装流程到下载文件阶段。&lt;/p>
+&lt;p>发现只有两个匹配的网络请求，最早出现版本号的位置再向更早的时间摸索，并没有发现有请求已经返回版本号的存在，所以当时判断不来源在线。&lt;/p>
+&lt;h3 id="4-挖掘文件">4. 挖掘文件
+&lt;/h3>&lt;p>其实之前就一直在翻文件内容，只不过当时没有注意到没有换行，第二步发现的&lt;code>0&lt;/code>其实也打开了不止三次，只是最后才更加注意了，发现是个长的单行，当时就打开自动换行功能，发现了链接位置。&lt;/p>
+&lt;p>&lt;del>(其实一直开着搜索版本号把文件都打开了一遍，发现这里有匹配项而已)&lt;/del>&lt;/p></description></item><item><title>Motorola Edge s Pro 刷机折腾记录</title><link>https://huiaei.eu.org/post/motorola-edge-s-pro-flashing-record-1flhrg.html</link><pubDate>Sat, 02 Mar 2024 22:10:04 +0800</pubDate><guid>https://huiaei.eu.org/post/motorola-edge-s-pro-flashing-record-1flhrg.html</guid><description>&lt;h1 id="motorola-edge-s-pro-刷机折腾记录">Motorola Edge s Pro 刷机折腾记录
+&lt;/h1>&lt;p>此文非教程，只记录本人的折腾之旅，只提供思路，不要照抄。 请保证你有相应的能力水平。&lt;/p>
+&lt;h2 id="本人手机简述">本人手机简述
+&lt;/h2>&lt;p>Motorola Edge s Pro&lt;/p>
+&lt;ul>
+&lt;li>SOC ：高通骁龙870&lt;/li>
+&lt;li>内存 ：8GB&lt;/li>
+&lt;li>储存 ：256GB&lt;/li>
+&lt;li>型号 ：XT2153-1&lt;/li>
+&lt;li>代号 ：pstart&lt;/li>
+&lt;/ul>
+&lt;h2 id="解锁bootloader">解锁BootLoader
+&lt;/h2>&lt;h3 id="需要工具">需要工具：
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+>Tiny Fastboot Script&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://mirrors.lolinet.com/software/windows/Motorola/Drivers/" target="_blank" rel="noopener"
+>Motorola USB Driver&lt;/a>&lt;/li>
+&lt;li>Motorola用户账号（用于获取解锁码）&lt;/li>
+&lt;li>还算过关的英语水平或者会使用翻译工具&lt;/li>
+&lt;/ul>
+&lt;h3 id="操作">操作
+&lt;/h3>&lt;ol>
+&lt;li>打开“开发者选项”
+&lt;ol>
+&lt;li>打开手机系统&lt;code>设置&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>关于手机&lt;/code>&lt;/li>
+&lt;li>连续点击&lt;code>版本号&lt;/code>直到提示进入了&lt;code>开发者模式&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>打开“OEM解锁”
+&lt;ol>
+&lt;li>打开手机系统&lt;code>设置&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>系统&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>高级&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>开发者选项&lt;/code>&lt;/li>
+&lt;li>找到&lt;code>OEM解锁&lt;/code>打开开关&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>重启到“Fastboot”
+&lt;ol>
+&lt;li>长按&lt;code>电源键&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>重启&lt;/code>&lt;/li>
+&lt;li>点击完后立即按住&lt;code>音量减键&lt;/code>&lt;/li>
+&lt;li>进入&lt;code>Fastboot&lt;/code>&lt;/li>
+&lt;li>解压安装&lt;code>Motorola USB Driver&lt;/code>&lt;/li>
+&lt;li>解压使用&lt;code>Tiny Fastboot Script&lt;/code>,请先阅读&lt;code>请先阅读我&lt;/code>文本，按照提示指引使用。
+&lt;ol>
+&lt;li>双击&lt;code>flash.bat&lt;/code>&lt;/li>
+&lt;li>使用数据线将手机和电脑连接&lt;/li>
+&lt;li>按照提示输入数字并回车，例如&lt;code>[8] 解锁设备的 Bootloader&lt;/code>,输入&lt;code>8&lt;/code>回车&lt;/li>
+&lt;li>获取解锁请求码
+&lt;ol>
+&lt;li>按照提示选择&lt;code>[3] 获取解锁请求码&lt;/code>&lt;/li>
+&lt;li>进入后会给予一串代码，复制下来（命令行中使用鼠标左键选中，然后单机鼠标右键即可复制出来）&lt;/li>
+&lt;li>前往网页&lt;a class="link" href="https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b" target="_blank" rel="noopener"
+>unlock-your-device&lt;/a>,或者按照提示选择&lt;code>[1] 打开 Motorola 解锁官网&lt;/code>&lt;/li>
+&lt;li>登录&lt;code>Motorola账号&lt;/code>&lt;/li>
+&lt;li>将代码贴进文本框查询是否能解锁，通过即可继续往下，同意协议后即可获取解锁码，解锁码会发送到&lt;code>Motorola账户&lt;/code>的注册邮箱中。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>复制解锁码，按照提示返回，然后选择&lt;code>[2] 解锁普通 Motorola 设备的 Bootloader（需要解锁码）&lt;/code>，按照要求复制进去即可（复制好后点击命令行窗口然后鼠标右键即可复制）&lt;/li>
+&lt;li>可能会弹出警告，请自行阅读并理解风险后自行决定。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="刷入其他的发行版本或者第三方rom">刷入其他的发行版本或者第三方ROM
+&lt;/h2>&lt;p>同样使用&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+>Tiny Fastboot Script&lt;/a>工具，按照提示即可。&lt;/p>
+&lt;p>推荐几个网页： &lt;a class="link" href="https://mirrors.lolinet.com/firmware/motorola/pstar/" target="_blank" rel="noopener"
+>由lolinet.com提供的手机系统镜像&lt;/a> &lt;a class="link" href="https://bbs.ixmoe.com/t/topic/22491" target="_blank" rel="noopener"
+>Motorola 软件通道介绍，如何找到合适的官方固件&lt;/a> &lt;a class="link" href="https://bbs.ixmoe.com/" target="_blank" rel="noopener"
+>汐梦社区&lt;/a>&lt;/p>
+&lt;h2 id="刷入magisk-root">刷入Magisk Root
+&lt;/h2>&lt;ol>
+&lt;li>下载对应的最新的官方固件&lt;/li>
+&lt;li>解压提取&lt;code>boot.img&lt;/code>&lt;/li>
+&lt;li>传入手机中&lt;/li>
+&lt;li>手机安装&lt;code>Magisk Manager&lt;/code>&lt;/li>
+&lt;li>选择安装修补&lt;/li>
+&lt;li>选择传入手机的&lt;code>boot.img&lt;/code>&lt;/li>
+&lt;li>修补完成后，查看日志，找到修补过的boot.img文件位置&lt;/li>
+&lt;li>将修补的&lt;code>boot.img&lt;/code>传到电脑使用&lt;code>Tiny Fastboot Script&lt;/code>刷入&lt;code>Boot&lt;/code>分区&lt;/li>
+&lt;li>重启手机&lt;/li>
+&lt;/ol>
+&lt;h2 id="鸣谢">鸣谢
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://bbs.ixmoe.com/" target="_blank" rel="noopener"
+>汐梦社区&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://mirrors.lolinet.com" target="_blank" rel="noopener"
+>lolinet.com&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://bbs.ixmoe.com/u/chenchen" target="_blank" rel="noopener"
+>chenchen&lt;/a>的&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+>Tiny Fastboot Script&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener"
+>Magisk&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://forum.xda-developers.com/t/guide-root-motorola-with-magisk-unlocked-bootloader-non-twrp-method.4222583/" target="_blank" rel="noopener"
+>[Guide] Root Motorola with Magisk (UnLocked Bootloader)(Non-TWRP method)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Archives</title><link>https://huiaei.eu.org/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://huiaei.eu.org/archives/</guid><description/></item><item><title>Links</title><link>https://huiaei.eu.org/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://huiaei.eu.org/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://huiaei.eu.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://huiaei.eu.org/search/</guid><description/></item></channel></rss>

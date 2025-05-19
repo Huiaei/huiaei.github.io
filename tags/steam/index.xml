@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Steam on Huiaei's Notebook</title><link>https://huiaei.eu.org/tags/steam/</link><description>Recent content in Steam on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:27:08 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/tags/steam/index.xml" rel="self" type="application/rss+xml"/><item><title>Steam 在浏览器上使用脚本领取游戏</title><link>https://huiaei.eu.org/post/steam-use-scripts-to-get-games-on-your-browser-z1kyz7g.html</link><pubDate>Sat, 02 Mar 2024 22:11:39 +0800</pubDate><guid>https://huiaei.eu.org/post/steam-use-scripts-to-get-games-on-your-browser-z1kyz7g.html</guid><description>&lt;h1 id="steam-在浏览器上使用脚本领取游戏">Steam 在浏览器上使用脚本领取游戏
+&lt;/h1>&lt;h3 id="单独激活">单独激活
+&lt;/h3>&lt;ol>
+&lt;li>首先登录网页版Steam 账号。 &lt;a class="link" href="https://store.steampowered.com/" target="_blank" rel="noopener"
+>https://store.steampowered.com/&lt;/a>&lt;/li>
+&lt;li>点击右上角自己账号 &amp;mdash;-账户明细 &amp;mdash;-许可和产品序列号激活&lt;/li>
+&lt;li>获取需要的游戏ID，可前往&lt;a class="link" href="https://steamdb.info" target="_blank" rel="noopener"
+>SteamDB&lt;/a>查询&lt;/li>
+&lt;li>&lt;code>F12&lt;/code>打开控制台&lt;/li>
+&lt;li>输入AddFreeLicense(&lt;code>游戏ID&lt;/code>);&lt;/li>
+&lt;/ol>
+&lt;h3 id="批量激活">批量激活
+&lt;/h3>&lt;ol>
+&lt;li>首先登录网页版Steam 账号。 &lt;a class="link" href="https://store.steampowered.com/" target="_blank" rel="noopener"
+>https://store.steampowered.com/&lt;/a>&lt;/li>
+&lt;li>点击右上角自己账号 &amp;mdash;-账户明细 &amp;mdash;-许可和产品序列号激活&lt;/li>
+&lt;li>获取需要的游戏ID，可前往&lt;a class="link" href="https://steamdb.info" target="_blank" rel="noopener"
+>SteamDB&lt;/a>查询&lt;/li>
+&lt;li>&lt;code>F12&lt;/code>打开控制台&lt;/li>
+&lt;li>右键粘贴代码，在注释下方添加需要添加游戏的游戏ID，之后回车。&lt;/li>
+&lt;/ol>
+&lt;p>添加位置如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-javascript" data-lang="javascript">&lt;span class="line">&lt;span class="cl"> &lt;span class="kd">var&lt;/span> &lt;span class="nx">freePackages&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//格式：请在下面输入游戏id。
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//游戏id,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//游戏id,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="c1">//...,
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="o">--&amp;gt;&lt;/span>&lt;span class="nx">在这里添加游戏ID&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nx">每行结束以&lt;/span>&lt;span class="sb">`,`&lt;/span>&lt;span class="nx">结尾&lt;/span>&lt;span class="err">。&lt;/span>&lt;span class="o">&amp;lt;--&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">--&amp;gt;&lt;/span>&lt;span class="nx">不要把直接把ID粘贴在这&lt;/span>&lt;span class="err">，&lt;/span>&lt;span class="nx">需要粘贴在下方完整代码对应位置中&lt;/span>&lt;span class="o">&amp;lt;--&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>完整代码如下&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="p">(&lt;/span>&lt;span class="n">function&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">location&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">href&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="o">/^&lt;/span>&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>\&lt;span class="o">/&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">store&lt;/span>\&lt;span class="o">.&lt;/span>&lt;span class="n">steampowered&lt;/span>\&lt;span class="o">.&lt;/span>&lt;span class="n">com&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">account&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="n">licenses&lt;/span>\&lt;span class="o">/&lt;/span>&lt;span class="err">?&lt;/span>&lt;span class="o">$/&lt;/span> &lt;span class="p">)&lt;/span> &lt;span class="o">===&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">alert&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;请在Steam帐号明细页面运行这些代码: https://store.steampowered.com/account/licenses/&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">window&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">location&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;https://store.steampowered.com/account/licenses/&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">freePackages&lt;/span> &lt;span class="o">=&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">格式：请在下面输入游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="err">。&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//&lt;/span>&lt;span class="err">游戏&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">//...&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">ownedPackages&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">jQuery&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;.account_table a&amp;#39;&lt;/span> &lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">each&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">function&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">el&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">el&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">href&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="n">javascript&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">RemoveFreeLicense&lt;/span>\&lt;span class="p">(&lt;/span> &lt;span class="p">([&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">+&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s1">&amp;#39;/ );&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">match&lt;/span> &lt;span class="o">!==&lt;/span> &lt;span class="n">null&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">ownedPackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="o">+&lt;/span>&lt;span class="n">match&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="mi">1&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="bp">true&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">var&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">package&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">total&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">freePackages&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">length&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ShowBlockingWaitDialog&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;努力执行中...&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;请耐心等待，如果有错误请无视，请耐心等待脚本加载完毕&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">total&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">package&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">freePackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">ownedPackages&lt;/span>&lt;span class="p">[&lt;/span> &lt;span class="n">package&lt;/span> &lt;span class="p">]&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">continue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">jQuery&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">post&lt;/span>&lt;span class="p">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;//store.steampowered.com/checkout/addfreelicense&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">action&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s1">&amp;#39;add_to_cart&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">sessionid&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">g_sessionID&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">subid&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">package&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">always&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">function&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">loaded&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Dismiss&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="n">loaded&lt;/span> &lt;span class="o">&amp;gt;=&lt;/span> &lt;span class="n">total&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">location&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reload&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">else&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modal&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ShowBlockingWaitDialog&lt;/span>&lt;span class="p">(&lt;/span> &lt;span class="s1">&amp;#39;执行中...&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;加载至 &amp;lt;b&amp;gt;&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">loaded&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;&amp;lt;/b&amp;gt;/&amp;#39;&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">total&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="s1">&amp;#39;.&amp;#39;&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}());&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

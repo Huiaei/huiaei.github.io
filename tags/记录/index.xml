@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>记录 on Huiaei's Notebook</title><link>https://huiaei.eu.org/tags/%E8%AE%B0%E5%BD%95/</link><description>Recent content in 记录 on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:28:48 +0800</lastBuildDate><atom:link href="https://huiaei.eu.org/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml"/><item><title>常见站长平台连接</title><link>https://huiaei.eu.org/post/common-webmaster-platform-connections-2mperu.html</link><pubDate>Sat, 02 Mar 2024 22:12:03 +0800</pubDate><guid>https://huiaei.eu.org/post/common-webmaster-platform-connections-2mperu.html</guid><description>&lt;h1 id="常见站长平台连接">常见站长平台连接
+&lt;/h1>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">提供商&lt;/th>
+&lt;th>链接&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">谷歌&lt;/td>
+&lt;td>&lt;a class="link" href="http://www.google.com/webmasters/sitemaps/" target="_blank" rel="noopener"
+>http://www.google.com/webmasters/sitemaps/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">百度&lt;/td>
+&lt;td>&lt;a class="link" href="https://ziyuan.baidu.com/" target="_blank" rel="noopener"
+>https://ziyuan.baidu.com/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">必应&lt;/td>
+&lt;td>&lt;a class="link" href="https://www.bing.com/toolbox/webmaster/" target="_blank" rel="noopener"
+>https://www.bing.com/toolbox/webmaster/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">搜狗&lt;/td>
+&lt;td>&lt;a class="link" href="http://zhanzhang.sogou.com/" target="_blank" rel="noopener"
+>http://zhanzhang.sogou.com/&lt;/a>（实行的邀请制）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">360&lt;/td>
+&lt;td>&lt;a class="link" href="http://zhanzhang.so.com" target="_blank" rel="noopener"
+>http://zhanzhang.so.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;blockquote>
+&lt;p>&lt;a class="link" href="https://blog.csdn.net/DZRYWYBL/java/article/details/83963291" target="_blank" rel="noopener"
+>https://blog.csdn.net/DZRYWYBL/java/article/details/83963291&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>‍&lt;/p></description></item><item><title>Motorola Edge s Pro 刷机折腾记录</title><link>https://huiaei.eu.org/post/motorola-edge-s-pro-flashing-record-1flhrg.html</link><pubDate>Sat, 02 Mar 2024 22:10:04 +0800</pubDate><guid>https://huiaei.eu.org/post/motorola-edge-s-pro-flashing-record-1flhrg.html</guid><description>&lt;h1 id="motorola-edge-s-pro-刷机折腾记录">Motorola Edge s Pro 刷机折腾记录
+&lt;/h1>&lt;p>此文非教程，只记录本人的折腾之旅，只提供思路，不要照抄。 请保证你有相应的能力水平。&lt;/p>
+&lt;h2 id="本人手机简述">本人手机简述
+&lt;/h2>&lt;p>Motorola Edge s Pro&lt;/p>
+&lt;ul>
+&lt;li>SOC ：高通骁龙870&lt;/li>
+&lt;li>内存 ：8GB&lt;/li>
+&lt;li>储存 ：256GB&lt;/li>
+&lt;li>型号 ：XT2153-1&lt;/li>
+&lt;li>代号 ：pstart&lt;/li>
+&lt;/ul>
+&lt;h2 id="解锁bootloader">解锁BootLoader
+&lt;/h2>&lt;h3 id="需要工具">需要工具：
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+>Tiny Fastboot Script&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://mirrors.lolinet.com/software/windows/Motorola/Drivers/" target="_blank" rel="noopener"
+>Motorola USB Driver&lt;/a>&lt;/li>
+&lt;li>Motorola用户账号（用于获取解锁码）&lt;/li>
+&lt;li>还算过关的英语水平或者会使用翻译工具&lt;/li>
+&lt;/ul>
+&lt;h3 id="操作">操作
+&lt;/h3>&lt;ol>
+&lt;li>打开“开发者选项”
+&lt;ol>
+&lt;li>打开手机系统&lt;code>设置&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>关于手机&lt;/code>&lt;/li>
+&lt;li>连续点击&lt;code>版本号&lt;/code>直到提示进入了&lt;code>开发者模式&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>打开“OEM解锁”
+&lt;ol>
+&lt;li>打开手机系统&lt;code>设置&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>系统&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>高级&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>开发者选项&lt;/code>&lt;/li>
+&lt;li>找到&lt;code>OEM解锁&lt;/code>打开开关&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>重启到“Fastboot”
+&lt;ol>
+&lt;li>长按&lt;code>电源键&lt;/code>&lt;/li>
+&lt;li>点击&lt;code>重启&lt;/code>&lt;/li>
+&lt;li>点击完后立即按住&lt;code>音量减键&lt;/code>&lt;/li>
+&lt;li>进入&lt;code>Fastboot&lt;/code>&lt;/li>
+&lt;li>解压安装&lt;code>Motorola USB Driver&lt;/code>&lt;/li>
+&lt;li>解压使用&lt;code>Tiny Fastboot Script&lt;/code>,请先阅读&lt;code>请先阅读我&lt;/code>文本，按照提示指引使用。
+&lt;ol>
+&lt;li>双击&lt;code>flash.bat&lt;/code>&lt;/li>
+&lt;li>使用数据线将手机和电脑连接&lt;/li>
+&lt;li>按照提示输入数字并回车，例如&lt;code>[8] 解锁设备的 Bootloader&lt;/code>,输入&lt;code>8&lt;/code>回车&lt;/li>
+&lt;li>获取解锁请求码
+&lt;ol>
+&lt;li>按照提示选择&lt;code>[3] 获取解锁请求码&lt;/code>&lt;/li>
+&lt;li>进入后会给予一串代码，复制下来（命令行中使用鼠标左键选中，然后单机鼠标右键即可复制出来）&lt;/li>
+&lt;li>前往网页&lt;a class="link" href="https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b" target="_blank" rel="noopener"
+>unlock-your-device&lt;/a>,或者按照提示选择&lt;code>[1] 打开 Motorola 解锁官网&lt;/code>&lt;/li>
+&lt;li>登录&lt;code>Motorola账号&lt;/code>&lt;/li>
+&lt;li>将代码贴进文本框查询是否能解锁，通过即可继续往下，同意协议后即可获取解锁码，解锁码会发送到&lt;code>Motorola账户&lt;/code>的注册邮箱中。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>复制解锁码，按照提示返回，然后选择&lt;code>[2] 解锁普通 Motorola 设备的 Bootloader（需要解锁码）&lt;/code>，按照要求复制进去即可（复制好后点击命令行窗口然后鼠标右键即可复制）&lt;/li>
+&lt;li>可能会弹出警告，请自行阅读并理解风险后自行决定。&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="刷入其他的发行版本或者第三方rom">刷入其他的发行版本或者第三方ROM
+&lt;/h2>&lt;p>同样使用&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+>Tiny Fastboot Script&lt;/a>工具，按照提示即可。&lt;/p>
+&lt;p>推荐几个网页： &lt;a class="link" href="https://mirrors.lolinet.com/firmware/motorola/pstar/" target="_blank" rel="noopener"
+>由lolinet.com提供的手机系统镜像&lt;/a> &lt;a class="link" href="https://bbs.ixmoe.com/t/topic/22491" target="_blank" rel="noopener"
+>Motorola 软件通道介绍，如何找到合适的官方固件&lt;/a> &lt;a class="link" href="https://bbs.ixmoe.com/" target="_blank" rel="noopener"
+>汐梦社区&lt;/a>&lt;/p>
+&lt;h2 id="刷入magisk-root">刷入Magisk Root
+&lt;/h2>&lt;ol>
+&lt;li>下载对应的最新的官方固件&lt;/li>
+&lt;li>解压提取&lt;code>boot.img&lt;/code>&lt;/li>
+&lt;li>传入手机中&lt;/li>
+&lt;li>手机安装&lt;code>Magisk Manager&lt;/code>&lt;/li>
+&lt;li>选择安装修补&lt;/li>
+&lt;li>选择传入手机的&lt;code>boot.img&lt;/code>&lt;/li>
+&lt;li>修补完成后，查看日志，找到修补过的boot.img文件位置&lt;/li>
+&lt;li>将修补的&lt;code>boot.img&lt;/code>传到电脑使用&lt;code>Tiny Fastboot Script&lt;/code>刷入&lt;code>Boot&lt;/code>分区&lt;/li>
+&lt;li>重启手机&lt;/li>
+&lt;/ol>
+&lt;h2 id="鸣谢">鸣谢
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://bbs.ixmoe.com/" target="_blank" rel="noopener"
+>汐梦社区&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://mirrors.lolinet.com" target="_blank" rel="noopener"
+>lolinet.com&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://bbs.ixmoe.com/u/chenchen" target="_blank" rel="noopener"
+>chenchen&lt;/a>的&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+>Tiny Fastboot Script&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener"
+>Magisk&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://forum.xda-developers.com/t/guide-root-motorola-with-magisk-unlocked-bootloader-non-twrp-method.4222583/" target="_blank" rel="noopener"
+>[Guide] Root Motorola with Magisk (UnLocked Bootloader)(Non-TWRP method)&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
