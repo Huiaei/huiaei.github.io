@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://huiaei.eu.org"
+baseurl = "https://note.huiaei.eu.org"
 languageCode = "zh-cn"
 title = "Huiaei's Notebook"
 
