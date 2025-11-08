@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>手机 on Huiaei's Notebook</title><link>https://note.huiaei.eu.org/tags/%E6%89%8B%E6%9C%BA/</link><description>Recent content in 手机 on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:25:01 +0800</lastBuildDate><atom:link href="https://note.huiaei.eu.org/tags/%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml"/><item><title>Motorola Edge s Pro 刷机折腾记录</title><link>https://note.huiaei.eu.org/post/motorola-edge-s-pro-flashing-record-1flhrg.html</link><pubDate>Sat, 02 Mar 2024 22:10:04 +0800</pubDate><guid>https://note.huiaei.eu.org/post/motorola-edge-s-pro-flashing-record-1flhrg.html</guid><description>&lt;h1 id="motorola-edge-s-pro-刷机折腾记录"&gt;Motorola Edge s Pro 刷机折腾记录
+&lt;/h1&gt;&lt;p&gt;此文非教程，只记录本人的折腾之旅，只提供思路，不要照抄。 请保证你有相应的能力水平。&lt;/p&gt;
+&lt;h2 id="本人手机简述"&gt;本人手机简述
+&lt;/h2&gt;&lt;p&gt;Motorola Edge s Pro&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SOC ：高通骁龙870&lt;/li&gt;
+&lt;li&gt;内存 ：8GB&lt;/li&gt;
+&lt;li&gt;储存 ：256GB&lt;/li&gt;
+&lt;li&gt;型号 ：XT2153-1&lt;/li&gt;
+&lt;li&gt;代号 ：pstart&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="解锁bootloader"&gt;解锁BootLoader
+&lt;/h2&gt;&lt;h3 id="需要工具"&gt;需要工具：
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+&gt;Tiny Fastboot Script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://mirrors.lolinet.com/software/windows/Motorola/Drivers/" target="_blank" rel="noopener"
+&gt;Motorola USB Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Motorola用户账号（用于获取解锁码）&lt;/li&gt;
+&lt;li&gt;还算过关的英语水平或者会使用翻译工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="操作"&gt;操作
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;打开“开发者选项”
+&lt;ol&gt;
+&lt;li&gt;打开手机系统&lt;code&gt;设置&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;关于手机&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;连续点击&lt;code&gt;版本号&lt;/code&gt;直到提示进入了&lt;code&gt;开发者模式&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;打开“OEM解锁”
+&lt;ol&gt;
+&lt;li&gt;打开手机系统&lt;code&gt;设置&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;系统&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;高级&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;开发者选项&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;找到&lt;code&gt;OEM解锁&lt;/code&gt;打开开关&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;重启到“Fastboot”
+&lt;ol&gt;
+&lt;li&gt;长按&lt;code&gt;电源键&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;重启&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击完后立即按住&lt;code&gt;音量减键&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;进入&lt;code&gt;Fastboot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;解压安装&lt;code&gt;Motorola USB Driver&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;解压使用&lt;code&gt;Tiny Fastboot Script&lt;/code&gt;,请先阅读&lt;code&gt;请先阅读我&lt;/code&gt;文本，按照提示指引使用。
+&lt;ol&gt;
+&lt;li&gt;双击&lt;code&gt;flash.bat&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用数据线将手机和电脑连接&lt;/li&gt;
+&lt;li&gt;按照提示输入数字并回车，例如&lt;code&gt;[8] 解锁设备的 Bootloader&lt;/code&gt;,输入&lt;code&gt;8&lt;/code&gt;回车&lt;/li&gt;
+&lt;li&gt;获取解锁请求码
+&lt;ol&gt;
+&lt;li&gt;按照提示选择&lt;code&gt;[3] 获取解锁请求码&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;进入后会给予一串代码，复制下来（命令行中使用鼠标左键选中，然后单机鼠标右键即可复制出来）&lt;/li&gt;
+&lt;li&gt;前往网页&lt;a class="link" href="https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-b" target="_blank" rel="noopener"
+&gt;unlock-your-device&lt;/a&gt;,或者按照提示选择&lt;code&gt;[1] 打开 Motorola 解锁官网&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;登录&lt;code&gt;Motorola账号&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;将代码贴进文本框查询是否能解锁，通过即可继续往下，同意协议后即可获取解锁码，解锁码会发送到&lt;code&gt;Motorola账户&lt;/code&gt;的注册邮箱中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;复制解锁码，按照提示返回，然后选择&lt;code&gt;[2] 解锁普通 Motorola 设备的 Bootloader（需要解锁码）&lt;/code&gt;，按照要求复制进去即可（复制好后点击命令行窗口然后鼠标右键即可复制）&lt;/li&gt;
+&lt;li&gt;可能会弹出警告，请自行阅读并理解风险后自行决定。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="刷入其他的发行版本或者第三方rom"&gt;刷入其他的发行版本或者第三方ROM
+&lt;/h2&gt;&lt;p&gt;同样使用&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+&gt;Tiny Fastboot Script&lt;/a&gt;工具，按照提示即可。&lt;/p&gt;
+&lt;p&gt;推荐几个网页： &lt;a class="link" href="https://mirrors.lolinet.com/firmware/motorola/pstar/" target="_blank" rel="noopener"
+&gt;由lolinet.com提供的手机系统镜像&lt;/a&gt; &lt;a class="link" href="https://bbs.ixmoe.com/t/topic/22491" target="_blank" rel="noopener"
+&gt;Motorola 软件通道介绍，如何找到合适的官方固件&lt;/a&gt; &lt;a class="link" href="https://bbs.ixmoe.com/" target="_blank" rel="noopener"
+&gt;汐梦社区&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="刷入magisk-root"&gt;刷入Magisk Root
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;下载对应的最新的官方固件&lt;/li&gt;
+&lt;li&gt;解压提取&lt;code&gt;boot.img&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;传入手机中&lt;/li&gt;
+&lt;li&gt;手机安装&lt;code&gt;Magisk Manager&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;选择安装修补&lt;/li&gt;
+&lt;li&gt;选择传入手机的&lt;code&gt;boot.img&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;修补完成后，查看日志，找到修补过的boot.img文件位置&lt;/li&gt;
+&lt;li&gt;将修补的&lt;code&gt;boot.img&lt;/code&gt;传到电脑使用&lt;code&gt;Tiny Fastboot Script&lt;/code&gt;刷入&lt;code&gt;Boot&lt;/code&gt;分区&lt;/li&gt;
+&lt;li&gt;重启手机&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="鸣谢"&gt;鸣谢
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://bbs.ixmoe.com/" target="_blank" rel="noopener"
+&gt;汐梦社区&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://mirrors.lolinet.com" target="_blank" rel="noopener"
+&gt;lolinet.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://bbs.ixmoe.com/u/chenchen" target="_blank" rel="noopener"
+&gt;chenchen&lt;/a&gt;的&lt;a class="link" href="https://bbs.ixmoe.com/t/topic/17646" target="_blank" rel="noopener"
+&gt;Tiny Fastboot Script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener"
+&gt;Magisk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://forum.xda-developers.com/t/guide-root-motorola-with-magisk-unlocked-bootloader-non-twrp-method.4222583/" target="_blank" rel="noopener"
+&gt;[Guide] Root Motorola with Magisk (UnLocked Bootloader)(Non-TWRP method)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

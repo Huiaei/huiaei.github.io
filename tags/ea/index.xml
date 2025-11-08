@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EA on Huiaei's Notebook</title><link>https://note.huiaei.eu.org/tags/ea/</link><description>Recent content in EA on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:27:15 +0800</lastBuildDate><atom:link href="https://note.huiaei.eu.org/tags/ea/index.xml" rel="self" type="application/rss+xml"/><item><title>Origin （EA游戏平台）主程序离线安装包下载连接</title><link>https://note.huiaei.eu.org/post/origin-ea-game-platform-main-program-offline-installation-package-download-connection-1qr85o.html</link><pubDate>Sat, 02 Mar 2024 22:12:05 +0800</pubDate><guid>https://note.huiaei.eu.org/post/origin-ea-game-platform-main-program-offline-installation-package-download-connection-1qr85o.html</guid><description>&lt;h1 id="origin-ea游戏平台主程序离线安装包下载连接"&gt;Origin （EA游戏平台）主程序离线安装包下载连接
+&lt;/h1&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;推荐使用多线程工具下载
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://download.dm.origin.com/origin/live/OriginSetup.exe" target="_blank" rel="noopener"
+&gt;https://download.dm.origin.com/origin/live/OriginSetup.exe&lt;/a&gt;&lt;/p&gt;</description></item><item><title>获取EA Desktop客户端离线安装包的办法</title><link>https://note.huiaei.eu.org/post/how-to-get-offline-installation-package-of-ea-desktop-client-1dcskp.html</link><pubDate>Sat, 02 Mar 2024 22:11:00 +0800</pubDate><guid>https://note.huiaei.eu.org/post/how-to-get-offline-installation-package-of-ea-desktop-client-1dcskp.html</guid><description>&lt;h1 id="获取ea-desktop客户端离线安装包的办法"&gt;获取EA Desktop客户端离线安装包的办法
+&lt;/h1&gt;&lt;h2 id="方法"&gt;方法
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先获取最新的在线安装包 &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EADesktopInstaller.exe" target="_blank" rel="noopener"
+&gt;EA Desktop Installer&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用压缩工具打开&lt;code&gt;EAappInstaller.exe&lt;/code&gt;，得到类似下方的目录&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;u0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;u1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;u2
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用文本编辑工具打开第一个文件： &lt;code&gt;0&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用搜索功能或者翻阅的方式找到类似于下方的链接（使用换行后大约在整体的中间部分）&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.150.5030-639.msi&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用下载工具下载该链接即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;请注意有些依赖文件，如果没有是需要下载安装的，推荐直接下载安装一遍，下载地址在发现此链接位置的附近。&lt;/p&gt;
+&lt;p&gt;提供一个当前&lt;code&gt;12.0.150.5030&lt;/code&gt;版本的所有下载列表，顺便说一句，下载的&lt;code&gt;EAapp.msi&lt;/code&gt;安装时是可以选安装位置的。&lt;/p&gt;
+&lt;p&gt;依赖安装完记得&lt;strong&gt;重启计算机&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;vcredist10.x86.exe : &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc" target="_blank" rel="noopener"
+&gt;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc&lt;/a&gt;_redist-10.0.40219.x86.exe&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;vcredist14.x86.exe ：https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc_redist-14.28.29325.x86.exe&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;vcredist14.x64.exe : &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc" target="_blank" rel="noopener"
+&gt;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/vc&lt;/a&gt;_redist-14.28.29325.x64.exe&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;EAapp.msi : &lt;a class="link" href="https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.150.5030-639.msi" target="_blank" rel="noopener"
+&gt;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAapp-12.0.150.5030-639.msi&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="本人使用的工具"&gt;本人使用的工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;压缩工具：&lt;a class="link" href="https://www.7-zip.org/" target="_blank" rel="noopener"
+&gt;7zip&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;文本编辑工具：&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载工具推荐使用多线程下载工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="其他的说明"&gt;其他的说明
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Q：什么时候发现的？&lt;/p&gt;
+&lt;p&gt;A：在2021年10月28日23时左右（UTC+8），方法可能具有时效性。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：第一步的下载的是&lt;code&gt;EA Desktop Installer&lt;/code&gt;，为什么第二步是&lt;code&gt;EAappInstaller.exe&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;A：EA的下载链接跳转到EAappInstaller.exe，现在EA Desktop还处于开放测试阶段，不清楚之后会不会修改。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Q：为什么我找到的离线完整包是&lt;code&gt;EADesktop-xx.x.xxx.xxxx&lt;/code&gt;结尾的？&lt;/p&gt;
+&lt;p&gt;A：早期的链接的确是这个结尾，后面EA可能修改文件名了，将新版本链接中的的&lt;code&gt;EAapp&lt;/code&gt;修改为&lt;code&gt;EADesktop&lt;/code&gt;测试是无法获取到资源的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;到此正文已经结束，下面是找到这个链接的过程，仅记录，不对方法有任何补充说明&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="折腾步骤"&gt;折腾步骤
+&lt;/h2&gt;&lt;h3 id="1-找规律"&gt;1. 找规律
+&lt;/h3&gt;&lt;p&gt;一开始从网上收集了一下各位网友发布的离线完整包下载地址，我将链接收集保存下来并发现规律。&lt;/p&gt;
+&lt;p&gt;完整包的链接样式为&lt;code&gt;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EADesktop-{version}.msi&lt;/code&gt;，这个在后来挖掘文件的时候也发现了这个样式。在第二步中的&lt;code&gt;u0&lt;/code&gt;中也发现类似的，使用压缩工具打开，进入&lt;code&gt;u0/.rsrc/EAX_CONFIG/&lt;/code&gt;文件夹中的&lt;code&gt;INTEGRATION.CFG&lt;/code&gt;，也发现了下面的内容&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;updater&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;https://autopatch-integration.juno.ea.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;installer&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;downloadurl&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller-{version}.exe&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;telemetry&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;ratt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;https://ratt-dev.juno.ea.com/ratt/telm&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;pin&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;url&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;https://pin-river-test.data.ea.com/pinEvents&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;machine&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;updateBucket&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;999&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;可以发现&lt;code&gt;[installer]&lt;/code&gt;处有个“格式化”的链接，但是到后面发现这个并不是，只要你带入版本号去下载，其实下载的还是在线安装包，不过EA可能也保存了之前老版本的安装器，毕竟能下载，不过这点没有去验证。&lt;/p&gt;
+&lt;p&gt;已经知道了链接的方式，那么我从收集来的下载链接中提取出版本号，也就是&lt;code&gt;{version}&lt;/code&gt;的内容，并形成一张表（最后一行是最后加的）。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: center"&gt;xx&lt;/th&gt;
+&lt;th style="text-align: center"&gt;.x&lt;/th&gt;
+&lt;th style="text-align: center"&gt;.xxx&lt;/th&gt;
+&lt;th style="text-align: center"&gt;.xxxx&lt;/th&gt;
+&lt;th style="text-align: center"&gt;-xxx&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;12&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;38&lt;/td&gt;
+&lt;td style="text-align: center"&gt;4820&lt;/td&gt;
+&lt;td style="text-align: center"&gt;153&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;12&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;100&lt;/td&gt;
+&lt;td style="text-align: center"&gt;4941&lt;/td&gt;
+&lt;td style="text-align: center"&gt;417&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;12&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;113&lt;/td&gt;
+&lt;td style="text-align: center"&gt;4970&lt;/td&gt;
+&lt;td style="text-align: center"&gt;474&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: center"&gt;12&lt;/td&gt;
+&lt;td style="text-align: center"&gt;0&lt;/td&gt;
+&lt;td style="text-align: center"&gt;150&lt;/td&gt;
+&lt;td style="text-align: center"&gt;5030&lt;/td&gt;
+&lt;td style="text-align: center"&gt;639&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;那么最新的版本号从哪里来？当时我也是突发想法，查看了&lt;code&gt;EAappInstaller.exe&lt;/code&gt;的属性，查看这个文件的版本号，得到了&lt;code&gt;12.0.150.5030&lt;/code&gt;，最后找到的结果也证实了确实是这个。&lt;/p&gt;
+&lt;p&gt;但是通过收集的链接会发现还有小尾巴 &lt;code&gt;-xxx&lt;/code&gt;，如何得到？我当时通过表格企图找到规律，但是这个值不是简单的规律，只能知道&lt;code&gt;xx.x.xxx.xxxx&lt;/code&gt;越大&lt;code&gt;-xxx&lt;/code&gt;也越大。&lt;/p&gt;
+&lt;h3 id="2-获取在线安装器的临时配置文件"&gt;2. 获取在线安装器的临时配置文件
+&lt;/h3&gt;&lt;p&gt;参考&lt;a class="link" href="https://answers.ea.com/t5/Bug-Reports-Technical-Issues/Can-t-install-reinstall-EA-Desktop/td-p/9805968" target="_blank" rel="noopener"
+&gt;Can&amp;rsquo;t install/reinstall EA Desktop - EA问答&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;按照方法，的确获取到了下载的链接。不过需要运行在线安装器，生成临时的配置文件。&lt;/p&gt;
+&lt;h3 id="3-网络抓包"&gt;3. 网络抓包
+&lt;/h3&gt;&lt;p&gt;当时想着&lt;code&gt;{version}&lt;/code&gt;会不会是通过网络获取的，而这个安装器是一个“通用”的安装器。（这个最后思考了下是不可能的，如果是通用的安装器，那么为什么程序的签名时间是最近的时间）&lt;/p&gt;
+&lt;p&gt;安装&lt;code&gt;fiddler&lt;/code&gt;进行抓包，使用签名获取的版本号进行搜索，复现正常安装流程到下载文件阶段。&lt;/p&gt;
+&lt;p&gt;发现只有两个匹配的网络请求，最早出现版本号的位置再向更早的时间摸索，并没有发现有请求已经返回版本号的存在，所以当时判断不来源在线。&lt;/p&gt;
+&lt;h3 id="4-挖掘文件"&gt;4. 挖掘文件
+&lt;/h3&gt;&lt;p&gt;其实之前就一直在翻文件内容，只不过当时没有注意到没有换行，第二步发现的&lt;code&gt;0&lt;/code&gt;其实也打开了不止三次，只是最后才更加注意了，发现是个长的单行，当时就打开自动换行功能，发现了链接位置。&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;(其实一直开着搜索版本号把文件都打开了一遍，发现这里有匹配项而已)&lt;/del&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>镜像 on Huiaei's Notebook</title><link>https://note.huiaei.eu.org/tags/%E9%95%9C%E5%83%8F/</link><description>Recent content in 镜像 on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:27:49 +0800</lastBuildDate><atom:link href="https://note.huiaei.eu.org/tags/%E9%95%9C%E5%83%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>npm镜像</title><link>https://note.huiaei.eu.org/post/npm-mirror-lk9eg.html</link><pubDate>Sat, 02 Mar 2024 22:11:54 +0800</pubDate><guid>https://note.huiaei.eu.org/post/npm-mirror-lk9eg.html</guid><description>&lt;h1 id="npm镜像"&gt;npm镜像
+&lt;/h1&gt;&lt;h3 id="使用方式"&gt;使用方式
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;临时使用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm --registry [镜像服务url] install [安装目标]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;永久设置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm config set registry [镜像服务url]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="常用大陆镜像服务url"&gt;常用大陆镜像服务URL
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;欢迎补充&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名称&lt;/th&gt;
+&lt;th&gt;url&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;淘宝&lt;/td&gt;
+&lt;td&gt;&lt;a class="link" href="https://registry.npm.taobao.org/" target="_blank" rel="noopener"
+&gt;https://registry.npm.taobao.org/&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cnpmjs&lt;/td&gt;
+&lt;td&gt;&lt;a class="link" href="https://r.cnpmjs.org/" target="_blank" rel="noopener"
+&gt;https://r.cnpmjs.org/&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item></channel></rss>

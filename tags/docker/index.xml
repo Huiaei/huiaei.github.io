@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on Huiaei's Notebook</title><link>https://note.huiaei.eu.org/tags/docker/</link><description>Recent content in Docker on Huiaei's Notebook</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 19 May 2025 00:29:00 +0800</lastBuildDate><atom:link href="https://note.huiaei.eu.org/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker容器中无法运行二进制文件并出现：xxx not found</title><link>https://note.huiaei.eu.org/post/the-binary-file-cannot-be-run-in-the-docker-container-and-appears-xxx-not-found-zoxfh6.html</link><pubDate>Sat, 02 Mar 2024 22:11:52 +0800</pubDate><guid>https://note.huiaei.eu.org/post/the-binary-file-cannot-be-run-in-the-docker-container-and-appears-xxx-not-found-zoxfh6.html</guid><description>&lt;h1 id="docker容器中无法运行二进制文件并出现xxx-not-found"&gt;Docker容器中无法运行二进制文件并出现：xxx not found
+&lt;/h1&gt;&lt;h2 id="问题"&gt;问题
+&lt;/h2&gt;&lt;p&gt;在Docker容器中，运行二进制文件出现 &lt;code&gt;/bin/sh: xxx not found&lt;/code&gt; ，使用 Chmod 赋予执行权限依旧出现此问题。&lt;/p&gt;
+&lt;h2 id="解决"&gt;解决
+&lt;/h2&gt;&lt;p&gt;容器内执行 &lt;code&gt;mkdir /lib64 &amp;amp;&amp;amp; ln -s /lib/libc.musl-x86_64.so.1 /lib64/ld-linux-x86-64.so.2&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="原因"&gt;原因
+&lt;/h2&gt;&lt;p&gt;镜像可能使用的是以alpine镜像为基础的项目，可能出现动态链接库位置错误问题。&lt;/p&gt;
+&lt;p&gt;一般二进制文件在linux系统下编译，动态链接库是到/lib64目录下的，而在alpine镜像内无/lib64目录(&lt;a class="link" href="https://github.com/gliderlabs/docker-alpine/issues/11" target="_blank" rel="noopener"
+&gt;参考&lt;/a&gt;)。&lt;/p&gt;
+&lt;p&gt;alpine镜像使用的是musl libc而不是gun libc，因而动态链接库的位置不一致。&lt;/p&gt;
+&lt;h2 id="参考"&gt;参考
+&lt;/h2&gt;&lt;p&gt;&lt;a class="link" href="https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker" target="_blank" rel="noopener"
+&gt;https://stackoverflow.com/questions/34729748/installed-go-binary-not-found-in-path-on-alpine-linux-docker&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/docker-library/openjdk/issues/77" target="_blank" rel="noopener"
+&gt;https://github.com/docker-library/openjdk/issues/77&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/gliderlabs/docker-alpine/issues/11" target="_blank" rel="noopener"
+&gt;https://github.com/gliderlabs/docker-alpine/issues/11&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://github.com/sgerrand/alpine-pkg-glibc/releases" target="_blank" rel="noopener"
+&gt;https://github.com/sgerrand/alpine-pkg-glibc/releases&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;引用自：&lt;a class="link" href="https://blog.51cto.com/welcomeweb/2652026" target="_blank" rel="noopener"
+&gt;alpine镜像启动的容器内运行二进制文件出现：/bin/sh: xxx not found&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
